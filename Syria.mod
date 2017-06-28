@@ -1,4 +1,4 @@
-name="Syria"
+﻿name="Syria"
 path="mod/Syria/"
 tags={
 	"Map"
