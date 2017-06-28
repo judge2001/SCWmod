@@ -1,2 +1,2 @@
 # SCWmod
-Files for the Syrain Civil War mod for Hoi4
+Files for the Syrian Civil War mod for Hoi4
