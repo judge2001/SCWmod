@@ -76,6 +76,10 @@ TNC = {
 	color = rgb { 54 117 136 }
 	color_ui = rgb { 94 157 176 }
 }
+BRI = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
 
 # Vanilla
 
