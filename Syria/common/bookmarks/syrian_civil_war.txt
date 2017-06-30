@@ -57,6 +57,90 @@ bookmarks = {
 			history = "OTHER_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
 		}
 		
+		"KRD"={
+			minor = yes
+			history = "KRD_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"PLE"={
+			minor = yes
+			history = "PLE_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"LBN"={
+			minor = yes
+			history = "LBN_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"ISL"={
+			minor = yes
+			history = "ISL_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"JRD"={
+			minor = yes
+			history = "JRD_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"KUW"={
+			minor = yes
+			history = "KUW_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"ARA"={
+			minor = yes
+			history = "ARA_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"TRK"={
+			minor = yes
+			history = "TRK_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"IRN"={
+			minor = yes
+			history = "IRN_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"EGT"={
+			minor = yes
+			history = "EGT_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"CYP"={
+			minor = yes
+			history = "CYP_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"TNC"={
+			minor = yes
+			history = "TNC_SYRIAN_CIVIL_WAR_BOOKMARK_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
 		
 		effect = {
 			randomize_weather = 41325 # <- Obligatory in every bookmark !
