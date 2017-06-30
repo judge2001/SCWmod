@@ -9,8 +9,8 @@ KRD = {
 	color_ui = rgb { 237 237 156 }
 }
 ISI = {
-	color = rgb { 180 178 174 }
-	color_ui = rgb { 210 208 204 }
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 80 80 80 }
 }
 IRA = {
 	color = rgb { 178 114 99 }
