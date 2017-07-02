@@ -10,27 +10,15 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		democratic = { 
-			popularity = 0
-		}
-
-		fascism = {
+		sunni_islamism = {
 			popularity = 100
-		}
-		
-		communism = {
-			popularity = 0
-		}
-		
-		neutrality = {
-			popularity = 0
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = sunni_islamism
 	last_election = "1933.4.26"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
@@ -58,6 +46,6 @@ create_country_leader = {
 	name = "Abū Bakr al-Baghdadi"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
-	ideology = fascism_ideology
+	ideology = sunni_islamism_1
 	traits = {}
 }

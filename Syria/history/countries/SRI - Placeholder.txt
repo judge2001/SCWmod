@@ -10,24 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 25
-		}
-		
-		communism = {
-			popularity = 25
-		}
-		
-		neutrality = {
-			popularity = 25
+		baathism = { 
+			popularity = 100
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = baathism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -37,7 +25,7 @@ create_country_leader = {
 	name = "Communist Leader"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
-	ideology = stalinism
+	ideology = syrian_baathism
 	traits = {}
 }
 create_country_leader = {
