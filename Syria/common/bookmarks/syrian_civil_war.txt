@@ -40,14 +40,14 @@ bookmarks = {
 			ideas = {}     # For a later time
 			focuses = {}   # For a later time
 		}
-		"RUS"={
-			history = "RUS_SCW_DESC"
+		"KRD"={
+			history = "KRD_SCW_DESC"
 			ideology = neutrality
 			ideas = {}     # For a later time
 			focuses = {}   # For a later time
 		}
-		"UNI"={
-			history = "UNI_SCW_DESC"
+		"ALN"={
+			history = "ALN_SCW_DESC"
 			ideology = neutrality
 			ideas = {}     # For a later time
 			focuses = {}   # For a later time
@@ -57,9 +57,16 @@ bookmarks = {
 			history = "OTHER_SCW_DESC"
 		}
 		
-		"KRD"={
+		"RUS"={
 			minor = yes
-			history = "KRD_SCW_DESC"
+			history = "RUS_SCW_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"UNI"={
+			minor = yes
+			history = "UNI_SCW_DESC"
 			ideology = neutrality
 			ideas = {}     # For a later time
 			focuses = {}   # For a later time
@@ -144,6 +151,13 @@ bookmarks = {
 		"BRI"={
 			minor = yes
 			history = "BRI_SCW_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
+		"HEZ"={
+			minor = yes
+			history = "HEZ_SCW_DESC"
 			ideology = neutrality
 			ideas = {}     # For a later time
 			focuses = {}   # For a later time

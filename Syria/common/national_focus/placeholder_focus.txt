@@ -27,6 +27,8 @@ focus_tree = {
 				tag = CYP
 				tag = TNC
 				tag = BRI
+				tag = ALN
+				tag = HEZ
 			}
 		}
 	}

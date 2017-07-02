@@ -1,0 +1,63 @@
+﻿# This whole file is a placeholder.
+
+capital = 1
+oob = "empty"
+set_research_slots = 2
+set_convoys = 500
+set_national_unity = 0.75
+
+set_technology = {}
+
+set_politics = {
+	parties = {
+		democratic = { 
+			popularity = 25
+		}
+
+		fascism = {
+			popularity = 25
+		}
+		
+		communism = {
+			popularity = 25
+		}
+		
+		neutrality = {
+			popularity = 25
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Communist Leader"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
+	ideology = stalinism
+	traits = {}
+}
+create_country_leader = {
+	name = "Democratic Leader"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
+	ideology = liberalism
+	traits = {}
+}
+create_country_leader = {
+	name = "Non-Aligned Leader"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
+	ideology = despotism
+	traits = {}
+}
+create_country_leader = {
+	name = "Fascist Leader"
+	desc = ""
+	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
+	ideology = fascism_ideology
+	traits = {}
+}
