@@ -4,9 +4,12 @@ ISI = "countries/SCV/Islamic State.txt"
 IRA = "countries/SCV/Iraq.txt"
 SRI = "countries/SCV/Syria.txt"
 SNC = "countries/SCV/Syrian Opposition.txt"
+ALN = "countries/SCV/Al-Nusra.txt"
+HEZ = "countries/SCV/Hezbollah.txt"
 
 RUS = "countries/SCV/Russia.txt"
 UNI = "countries/SCV/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
+BRI = "countries/SCV/Britain.txt"
 
 LBN = "countries/SCV/Lebanon.txt"
 PLE = "countries/SCV/Palestine.txt"

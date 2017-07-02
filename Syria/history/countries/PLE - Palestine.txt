@@ -1,0 +1,30 @@
+﻿# This whole file is a placeholder.
+
+capital = 1
+oob = "empty"
+set_research_slots = 2
+set_convoys = 500
+set_national_unity = 0.75
+
+set_technology = {}
+
+set_politics = {
+	parties = {
+		neutrality = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = neutrality
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Mahmoud Abbas"
+	desc = ""
+	picture = "gfx/leaders/PLE/PLE_Mahmoud_Abbas.jpg"
+	ideology = despotism
+	traits = {}
+}

@@ -1,0 +1,37 @@
+focus_tree = {
+	id = generic_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			OR = {
+				tag = ROJ
+				tag = KRD
+				tag = ISI
+				tag = IRA
+				tag = SRI
+				tag = SNC
+				tag = RUS
+				tag = UNI
+				tag = LBN
+				tag = PLE
+				tag = ISL
+				tag = JRD
+				tag = KUW
+				tag = ARA
+				tag = TRK
+				tag = IRN
+				tag = EGT
+				tag = CYP
+				tag = TNC
+				tag = BRI
+				tag = ALN
+				tag = HEZ
+			}
+		}
+	}
+	
+	default = no
+}
