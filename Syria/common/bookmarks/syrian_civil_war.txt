@@ -8,7 +8,6 @@ bookmarks = {
 		date = 2013.1.1.12                       # Subject to change
 		picture = "GFX_select_date_1936"
 		default_country = "ISI"
-		default = yes
 		
 		"SNC"={
 			history = "SNC_SCW_DESC"
