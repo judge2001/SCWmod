@@ -1,0 +1,132 @@
+ideologies = {
+
+	baathism = {
+		
+		types = {
+			iraqi_baathism = {}
+			syrian_baathism = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_BAATHISM_1"
+			"FACTION_NAME_BAATHISM_2"
+			"FACTION_NAME_BAATHISM_3"
+			"FACTION_NAME_BAATHISM_4"
+			"FACTION_NAME_BAATHISM_5"
+		}
+		
+		color = { 100 100 150 } # This is the color of vanilla Syria, feel free to tweak it
+		
+		rules = { # Placeholder
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.2
+		
+		modifiers = {}
+		faction_modifiers = {}
+		
+		ai_neutral = yes # Placeholder
+
+	}
+	
+	sunni_islamism = {
+		
+		types = {
+			sunni_islamism_1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SUNNI_ISLAMISM_1"
+			"FACTION_NAME_SUNNI_ISLAMISM_2"
+			"FACTION_NAME_SUNNI_ISLAMISM_3"
+			"FACTION_NAME_SUNNI_ISLAMISM_4"
+			"FACTION_NAME_SUNNI_ISLAMISM_5"
+		}
+		
+		color = { 0 30 0 }
+		
+		rules = { # Placeholder
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		war_impact_on_world_tension = 1.0			#evil!
+		faction_impact_on_world_tension = 1.0
+		
+		modifiers = {}
+		faction_modifiers = {}
+		
+		ai_fascist = yes
+
+	}
+	
+	shia_islamism = {
+		
+		types = {
+			shia_islamism_1 = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SHIA_ISLAMISM_1"
+			"FACTION_NAME_SHIA_ISLAMISM_2"
+			"FACTION_NAME_SHIA_ISLAMISM_3"
+			"FACTION_NAME_SHIA_ISLAMISM_4"
+			"FACTION_NAME_SHIA_ISLAMISM_5"
+		}
+		
+		color = { 0 90 0 }
+		
+		rules = { # Placeholder
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+
+		war_impact_on_world_tension = 0.75			#evil..? (placeholder)
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = {}
+		faction_modifiers = {}
+		
+		ai_fascist = yes # Placeholder
+
+	}
+	
+	monarchism = {
+	
+		types = {
+			monarchism_1 = {}
+		}
+
+		dynamic_faction_names = {
+			"FACTION_NAME_MONARCHISM_1"
+			"FACTION_NAME_MONARCHISM_2"
+			"FACTION_NAME_MONARCHISM_3"
+			"FACTION_NAME_MONARCHISM_4"
+			"FACTION_NAME_MONARCHISM_5"
+		}
+		
+		color = { 0 0 124 }
+		
+		
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.1
+		
+		rules = { # Placeholder
+			can_force_government = no
+			can_send_volunteers = yes
+			can_puppet = yes
+		}
+		
+		modifiers = {}
+		faction_modifiers = {}
+
+		ai_neutral = yes # Placeholder
+	}
+
+}
