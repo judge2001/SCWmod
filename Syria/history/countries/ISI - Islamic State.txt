@@ -22,30 +22,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Communist Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
-	ideology = stalinism
-	traits = {}
-}
-create_country_leader = {
-	name = "Democratic Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = liberalism
-	traits = {}
-}
-create_country_leader = {
-	name = "Non-Aligned Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
-	traits = {}
-}
-create_country_leader = {
 	name = "Abū Bakr al-Baghdadi"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
+	picture = "gfx/leaders/ISI/ISI_Abu_Bakr_al-Baghdadi.jpg"
 	ideology = sunni_islamism_1
 	traits = {}
 }

@@ -10,54 +10,29 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		democratic = { 
-			popularity = 25
-		}
-
-		fascism = {
-			popularity = 25
-		}
-		
-		communism = {
-			popularity = 25
-		}
-		
 		neutrality = {
-			popularity = 25
+			popularity = 100
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Communist Leader"
+	name = "David Cameron"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
-	ideology = stalinism
+	picture = "gfx/leaders/BRI/BRI_David_Cameron.jpg"
+	expire = "2016.07.13"
+	ideology = despotism # lol placeholder
 	traits = {}
 }
 create_country_leader = {
-	name = "Democratic Leader"
+	name = "Theresa May"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = liberalism
-	traits = {}
-}
-create_country_leader = {
-	name = "Non-Aligned Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
-	traits = {}
-}
-create_country_leader = {
-	name = "Fascist Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
-	ideology = fascism_ideology
+	picture = "gfx/leaders/BRI/BRI_Theresa_May.jpg"
+	ideology = despotism # lol placeholder
 	traits = {}
 }

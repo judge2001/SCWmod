@@ -22,30 +22,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Communist Leader"
+	name = "Bashar al-Assad"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
+	picture = "gfx/leaders/SRI/SRI_Bashar_al-Assad.jpg"
 	ideology = syrian_baathism
-	traits = {}
-}
-create_country_leader = {
-	name = "Democratic Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = liberalism
-	traits = {}
-}
-create_country_leader = {
-	name = "Non-Aligned Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
-	traits = {}
-}
-create_country_leader = {
-	name = "Fascist Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
-	ideology = fascism_ideology
 	traits = {}
 }
