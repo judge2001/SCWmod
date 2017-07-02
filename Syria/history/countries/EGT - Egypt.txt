@@ -22,17 +22,17 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "David Cameron"
+	name = "Abdel Fattah el-Sisi"
 	desc = ""
-	picture = "gfx/leaders/BRI/BRI_David_Cameron.jpg"
-	expire = "2016.07.13"
-	ideology = despotism # lol placeholder
+	picture = "gfx/leaders/EGT/EGT_Abdel_Fattah_el-Sisi.jpg"
+	ideology = despotism
 	traits = {}
 }
 create_country_leader = {
-	name = "Theresa May"
+	name = "Adly Mansour"
 	desc = ""
-	picture = "gfx/leaders/BRI/BRI_Theresa_May.jpg"
-	ideology = despotism # lol placeholder
+	picture = "gfx/leaders/EGT/EGT_Adly_Mansour.jpg"
+	expire = "2016.6.30"
+	ideology = despotism
 	traits = {}
 }

@@ -24,7 +24,7 @@ set_politics = {
 create_country_leader = {
 	name = "Nicos Anastasiades"
 	desc = ""
-	picture = "gfx/leaders/CYP/CYP_Nicos_ Anastasiades.jpg"
+	picture = "gfx/leaders/CYP/CYP_Nicos_Anastasiades.jpg"
 	ideology = despotism
 	traits = {}
 }

@@ -22,17 +22,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Barack Obama"
+	name = "Benjamin Netanyahu"
 	desc = ""
-	picture = "gfx/leaders/UNI/UNI_Barrack_Obama.jpg"
-	expire = "2017.1.20"
-	ideology = despotism #lol
-	traits = {}
-}
-create_country_leader = {
-	name = "Donald Trump"
-	desc = ""
-	picture = "gfx/leaders/UNI/UNI_Donald_Trump.jpg"
-	ideology = despotism #insert a joke here
+	picture = "gfx/leaders/ISL/ISL_Benjamin_Netanyahu.jpg"
+	ideology = despotism
 	traits = {}
 }

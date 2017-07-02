@@ -11,7 +11,7 @@ set_technology = {}
 set_politics = {
 	parties = {
 		neutrality = {
-			popularity = 100
+			neutrality = 100
 		}
 	}
 	
@@ -22,17 +22,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Abdullah bin Abdulaziz"
+	name = "Sabah al-Ahmad as-Sabah"
 	desc = ""
-	picture = "gfx/leaders/ARA/ARA_Abdullah_bin_Abdulaziz.jpg"
-	expire = "2015.1.23"
-	ideology = despotism
-	traits = {}
-}
-create_country_leader = {
-	name = "Salman bin Abdulaziz"
-	desc = ""
-	picture = "gfx/leaders/ARA/ARA_Salman_bin_Abdulaziz.jpg"
+	picture = "gfx/leaders/KUW/KUW_Sabah_al-Ahmad_as-Sabah.jpg"
 	ideology = despotism
 	traits = {}
 }

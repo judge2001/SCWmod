@@ -22,9 +22,17 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Benjamin Netanyahu"
+	name = "Theresa May"
 	desc = ""
-	picture = "gfx/leaders/ISL/ISL_Benjamin_ Netanyahu.jpg"
-	ideology = despotism
+	picture = "gfx/leaders/BRI/BRI_Theresa_May.jpg"
+	ideology = despotism # lol placeholder
+	traits = {}
+}
+create_country_leader = {
+	name = "David Cameron"
+	desc = ""
+	picture = "gfx/leaders/BRI/BRI_David_Cameron.jpg"
+	expire = "2016.07.13"
+	ideology = despotism # lol placeholder
 	traits = {}
 }

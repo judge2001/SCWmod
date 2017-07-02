@@ -22,17 +22,17 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jalal Talabani"
+	name = "Donald Trump"
 	desc = ""
-	picture = "gfx/leaders/IRA/IRA_Jalal_Talabani.jpg"
-	expire = "2014.07.24"
-	ideology = despotism
+	picture = "gfx/leaders/UNI/UNI_Donald_Trump.jpg"
+	ideology = despotism #insert a joke here
 	traits = {}
 }
 create_country_leader = {
-	name = "Muhammad Fuad Masum"
+	name = "Barack Obama"
 	desc = ""
-	picture = "gfx/leaders/IRA/IRA_Fuad_Masum.jpg"
-	ideology = despotism
+	picture = "gfx/leaders/UNI/UNI_Barack_Obama.jpg"
+	expire = "2017.1.20"
+	ideology = despotism #lol
 	traits = {}
 }
