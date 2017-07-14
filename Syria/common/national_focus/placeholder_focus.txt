@@ -29,6 +29,7 @@ focus_tree = {
 				tag = BRI
 				tag = ALN
 				tag = HEZ
+				tag = GRC
 			}
 		}
 	}

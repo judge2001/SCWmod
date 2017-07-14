@@ -161,6 +161,13 @@ bookmarks = {
 			ideas = {}     # For a later time
 			focuses = {}   # For a later time
 		}
+		"GRC"={
+			minor = yes
+			history = "GRC_SCW_DESC"
+			ideology = neutrality
+			ideas = {}     # For a later time
+			focuses = {}   # For a later time
+		}
 		
 		effect = {
 			randomize_weather = 41325 # <- Obligatory in every bookmark !
