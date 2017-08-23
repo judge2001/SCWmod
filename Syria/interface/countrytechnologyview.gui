@@ -1,0 +1,40 @@
+guiTypes = {
+	containerWindowType = {
+	name = "techtree_medical_folder_item"
+	position = {x=0 y=5}
+	size = {width = 204 height = 72}
+	clipping = no
+
+	background = {
+		name = "Background"
+		quadTextureSprite = "GFX_technology_unavailible_item_bg"
+		}
+
+	iconType = {
+		name = "Icon"
+		position = {x=34 y=35}
+		spriteType = "GFX_technology_medium"
+		centerposition = yes
+		alwaystransparent = yes
+	}
+
+	iconType = {
+		name = "Icon"
+		position = {x=3 y=22}
+		spriteType = "GFX_tech_bonus"
+	}
+
+	instantTextBoxType = {
+	name = "bonus"
+	position = {x = 17 y = -22}
+	textureFile=""
+	font="hoi_16mbs"
+	borderSize={x=4 y=4}
+	text = "test"
+	maxWidth = 50
+	maxHeight = 20
+	format = right
+	}
+
+	}
+}
