@@ -1,0 +1,6 @@
+#Main Theme
+music = {
+  name = "mainthemesycw"
+  file = "mainthemesycw.ogg"
+  volume = 0.65
+}
