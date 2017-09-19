@@ -1,0 +1,90 @@
+technologies = { #Defines that we are working on techs.
+  basic_med_packs = {
+
+    field_hospital = { #Adds 10% to the field hospital for casualty trickleback
+      casualty_trickleback = 0.1
+    }
+
+    path = { #Which tech is next
+			leads_to_tech = better_med_packs
+			research_cost_coeff = 1
+		}
+
+    research_cost = 1.5
+		start_year = 2013
+
+    folder = {
+			name = medical_folder
+			position = { x = 2 y = 0 }
+		}
+
+    categories = {
+			support_tech
+			hospital_tech
+		}
+
+    ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+  }
+
+  better_med_packs = {
+    field_hospital = { #Adds 10% to the field hospital for casualty trickleback
+      casualty_trickleback = 0.1
+      }
+
+      path = { #Which tech is next
+        leads_to_tech = improved_med_packs
+        research_cost_coeff = 1
+      }
+
+      research_cost = 1.5
+      start_year = 2013
+
+      folder = {
+        name = medical_folder
+        position = { x = 2 y = 0 }
+        }
+
+      categories = {
+        support_tech
+        hospital_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+
+
+} # Closing Bracket for technologies
