@@ -1,26 +1,8 @@
 # Do not change tags in here without changing every other reference to them.
 # If adding new technology, make sure they are uniquely named.
 
-technology_categories = { #Name for the techs
- 	basic_med_packs
-	better_med_packs
-  #small_blood_bag 
-  #medium_blood_bag
-  #big_blood_bag
-  #small_morphine_syringe
-  #medium_morphine_syringe
-  #large_morphine_syringe
-  #defibrilator
-  #small_plasma_bag
-  #medium_plasma_bag
-  #big_plasma_bag
-  #small_syringes
-  #medium_syringes
-  #big_syringes
-  #headband
-  #small_adrenaline_shot
-  #medium_adrenaline_shot
-  #big_adrenaline_shot
+technology_categories = {
+ 	medical_tech
 }
 
 technology_folders = { #Folders(Tabs at the top)

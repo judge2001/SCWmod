@@ -1,0 +1,8 @@
+spriteTypes = {
+###Medical Folder BackGround
+	spriteType = {
+		name = "GFX_medical_techtree_bg"
+		textureFile = "gfx//loadingscreens//load_1.dds"
+		allwaystransparent = yes
+	}
+}
