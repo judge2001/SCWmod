@@ -1,0 +1,8 @@
+music = {
+	song = "mainthemesycw"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}

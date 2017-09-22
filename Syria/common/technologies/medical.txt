@@ -1,0 +1,991 @@
+technologies = { #Defines that we are working on techs.
+  ##Medical Bags##
+  basic_med_packs = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.05
+    experience_loss_factor = -0.015
+  }
+
+    path = { #Which tech is next
+			leads_to_tech = better_med_packs
+			research_cost_coeff = 1
+		}
+
+    research_cost = 1
+		start_year = 2013
+
+    folder = {
+			name = medical_folder
+			position = { x = 0 y = 0 }
+		}
+
+    categories = {
+			medical_tech
+		}
+
+    ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+  }
+
+  better_med_packs = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.1
+    experience_loss_factor = -0.015
+  }
+
+      path = { #Which tech is next
+        leads_to_tech = improved_med_packs
+        research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2013.5.1
+
+      folder = {
+        name = medical_folder
+        position = { x = 0 y = 1 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+
+  improved_med_packs = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.15
+    experience_loss_factor = -0.015
+  }
+
+      path = { #Which tech is next
+        leads_to_tech = expert_med_packs
+        research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2014
+
+      folder = {
+        name = medical_folder
+        position = { x = 0 y = 2 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+
+  expert_med_packs = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.2
+    experience_loss_factor = -0.015
+  }
+
+      path = { #Which tech is next
+        leads_to_tech = ultimate_med_packs
+        research_cost_coeff = 1
+      }
+
+      path = {
+        leads_to_tech = small_blood_bag
+        research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2014.5.1
+
+      folder = {
+        name = medical_folder
+        position = { x = 0 y = 3 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+
+  ultimate_med_packs = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.25
+    experience_loss_factor = -0.015
+  }
+
+      research_cost = 1
+      start_year = 2015
+
+      folder = {
+        name = medical_folder
+        position = { x = 0 y = 4 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+##Blood Bags##
+  small_blood_bag = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.05
+  }
+
+  path = {
+    leads_to_tech = medium_blood_bag
+    research_cost_coeff = 1
+  }
+
+      research_cost = 1
+      start_year = 2015.5.1
+
+      folder = {
+        name = medical_folder
+        position = { x = 1 y = 4 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+
+  medium_blood_bag = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.1
+  }
+
+  path = {
+    leads_to_tech = large_blood_bag
+    research_cost_coeff = 1
+  }
+
+      research_cost = 1
+      start_year = 2016
+
+      folder = {
+        name = medical_folder
+        position = { x = 1 y = 5 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+
+  large_blood_bag = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.15
+  }
+
+      research_cost = 1
+      start_year = 2016.5.1
+
+      folder = {
+        name = medical_folder
+        position = { x = 1 y = 6 }
+        }
+
+      categories = {
+        medical_tech
+      }
+
+      ai_will_do = {
+        factor = 1
+
+      modifier = {
+        factor = 1.2
+        date > "2014.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2015.1.1"
+      }
+
+      modifier = {
+        factor = 1.2
+        date > "2016.1.1"
+        }
+      } #Ai Will do closing bracket
+  }
+##Headwraps and Bandages Research##
+head_wrap = {
+
+category_all_infantry = {
+  experience_loss_factor = -0.1
+}
+
+path = {
+  leads_to_tech = strechier_head_wrap
+  research_cost_coeff = 1
+}
+
+    research_cost = 1
+    start_year = 2015.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 2 y = 4 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+strechier_head_wrap = {
+
+  category_all_infantry = {
+    experience_loss_factor = -0.15
+    }
+
+    path = {
+      leads_to_tech = extra_strechy_head_wrap
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2016
+
+    folder = {
+      name = medical_folder
+      position = { x = 2 y = 5 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+extra_strechy_head_wrap = {
+
+  category_all_infantry = {
+    experience_loss_factor = -0.15
+    }
+
+      research_cost = 1
+      start_year = 2016.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 2 y = 6 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+small_bandage_roll = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.05
+    }
+
+    path = {
+      leads_to_tech = medium_bandage_roll
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2015.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 3 y = 4 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+medium_bandage_roll = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.1
+    }
+
+    path = {
+      leads_to_tech = large_bandage_roll
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2016
+
+    folder = {
+      name = medical_folder
+      position = { x = 3 y = 5 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+large_bandage_roll = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.15
+    }
+
+      research_cost = 1
+      start_year = 2016.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 3 y = 6 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+##Morphine##
+small_morphine_syringe = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.01
+    }
+
+    path = {
+      leads_to_tech = medium_morphine_syringe
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2015.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 4 y = 4 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+medium_morphine_syringe = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.05
+    }
+
+    path = {
+      leads_to_tech = big_morphine_syringe
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2016
+
+    folder = {
+      name = medical_folder
+      position = { x = 4 y = 5 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+big_morphine_syringe = {
+
+  category_all_infantry = {
+    casualty_trickleback = 0.1
+    }
+
+      research_cost = 1
+      start_year = 2016
+
+    folder = {
+      name = medical_folder
+      position = { x = 4 y = 6 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+cpr_training = {
+
+  category_all_infantry = {
+      experience_loss_factor = -0.01
+    }
+
+    field_hospital = {
+      casualty_trickleback = 0.05
+    }
+
+    path = {
+      leads_to_tech = aed_training
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2013
+
+    folder = {
+      name = medical_folder
+      position = { x = 1 y = 0 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+aed_training = {
+
+  category_all_infantry = {
+      experience_loss_factor = -0.05
+    }
+
+    field_hospital = {
+      casualty_trickleback = 0.05
+    }
+
+    path = {
+      leads_to_tech = aed_cpr_cert
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2014
+
+    folder = {
+      name = medical_folder
+      position = { x = 1 y = 1 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+aed_cpr_cert = {
+
+  category_all_infantry = {
+      experience_loss_factor = -0.05
+    }
+
+    field_hospital = {
+      casualty_trickleback = 0.05
+    }
+
+      research_cost = 1
+      start_year = 2014.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 1 y = 2 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+basic_medical_training = {
+
+  category_all_infantry = {
+      experience_loss_factor = -0.05
+    }
+
+    field_hospital = {
+      casualty_trickleback = 0.05
+    }
+
+    path = {
+      leads_to_tech = first_aid_training
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2013
+
+    folder = {
+      name = medical_folder
+      position = { x = 2 y = 0 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+first_aid_training = {
+
+  category_all_infantry = {
+      experience_loss_factor = -0.05
+    }
+
+    field_hospital = {
+      casualty_trickleback = 0.05
+    }
+
+    path = {
+      leads_to_tech = first_aid_cert
+      research_cost_coeff = 1
+      }
+
+      research_cost = 1
+      start_year = 2014
+
+    folder = {
+      name = medical_folder
+      position = { x = 2 y = 1 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+first_aid_cert = {
+
+  category_all_infantry = {
+      experience_loss_factor = -0.05
+    }
+
+    field_hospital = {
+      casualty_trickleback = 0.05
+    }
+
+      research_cost = 1
+      start_year = 2014.5.1
+
+    folder = {
+      name = medical_folder
+      position = { x = 2 y = 2 }
+      }
+
+    categories = {
+      medical_tech
+    }
+
+    ai_will_do = {
+      factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+      }
+    } #Ai Will do closing bracket
+}
+
+} # Closing Bracket for technologies
