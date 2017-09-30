@@ -1,0 +1,5 @@
+﻿l_english:
+ core_states.1.t:0 "Reunification"
+ core_states.1.d:0 "In the ongoing war [From.GetName] has managed to liberate some territories which are considered part of the [From.GetAdjective] natural expanse, and the people living in the area pledge their allegiance to [From.GetLeader]."
+ core_states.1.a:0 "Good."
+ coreprovs_switch_these:0 "Will now be owned by [From.GetName]."

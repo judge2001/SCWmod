@@ -1,0 +1,41 @@
+﻿add_namespace = core_states
+
+# Flip core states
+
+country_event = {
+	id = core_states.1
+	title = core_states.1.t
+	desc = core_states.1.d
+	picture = GFX_report_event_journalists_speech
+	
+	trigger = { # One or more core states we control is owned by someone else. The people pledge their allegiance to us.
+		any_state = {
+			NOT = {
+				is_owned_by = ROOT
+			}
+			is_controlled_by = ROOT
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 30
+	}
+	
+	option = { # Great.
+		name = core_states.1.a
+		every_state = {
+			limit = {
+				NOT = {
+					is_owned_by = ROOT
+				}
+				is_controlled_by = ROOT
+			}
+			hidden_effect = {
+				ROOT = {
+					transfer_state = PREV
+				}
+			}
+			custom_effect_tooltip = coreprovs_switch_these
+		}
+	}
+}
