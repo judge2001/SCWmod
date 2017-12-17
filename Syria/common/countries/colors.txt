@@ -17,8 +17,8 @@ IRA = {
 	color_ui = rgb { 231 148 129 }
 }
 SRI = {
-	color = rgb { 244 187 184 }
-	color_ui = rgb { 244 187 184 }
+	color = rgb { 226 45 45 }
+	color_ui = rgb { 226 45 45 }
 }
 SNC = {
 	color = rgb { 202 231 196 }
@@ -53,12 +53,12 @@ KUW = {
 	color_ui = rgb { 71 89 178 }
 }
 ARA = {
-	color = rgb { 136 176 133 }
-	color_ui = rgb { 136 176 133 }
+	color = rgb { 114 160 70 }
+	color_ui = rgb { 114 160 70 }
 }
 TRK = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 0 54 136 }
+	color_ui = rgb { 0 54 136 }
 }
 IRN = {
 	color = rgb { 41 80 38 }
