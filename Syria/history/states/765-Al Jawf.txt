@@ -1,0 +1,21 @@
+state={
+	id=765
+	name="STATE_765"
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARA
+
+	}
+
+	provinces={
+		13210
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

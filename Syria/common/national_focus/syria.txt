@@ -1,0 +1,861 @@
+focus_tree = {
+	id = syria_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = SYR
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = SRI
+		}
+	}
+	
+	default = no
+#########################################################################################
+	focus = {
+		id = SRI_reform_the_army
+		icon = GFX_goal_army_doctrines
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 7
+		y = 0
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_seek_foreign_aid
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_reform_the_army }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 7
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_form_new_regiments
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_reform_the_army }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 2
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_deploy_imam_mehdi
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_form_foreign_regiments }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 1
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_form_volunteer_regiments
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_form_new_regiments }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 3
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_form_qalamoun_shield
+		icon = qalamoun_shield_forces
+		prerequisite = { focus = SRI_form_volunteer_regiments }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 3
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_the_new_army
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_reform_the_army }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 13
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_recall_retired_personals
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_the_new_army }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 14
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_Reintroduce_retired_equipment
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_the_new_army }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 12
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_call_old_allies
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_seek_foreign_aid }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 7
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_gain_hez_support
+		icon = align_to_hezbollah
+		prerequisite = { focus = SRI_call_old_allies }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 5
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_gain_russian_support
+		icon = align_to_russia
+		prerequisite = { focus = SRI_call_old_allies }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 10
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_gain_iranian_support
+		icon = align_to_iran
+		prerequisite = { focus = SRI_call_old_allies }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 8
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_request_material_support
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_gain_hez_support }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 5
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_convince_hez_war
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_request_material_support }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 5
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_invite_iranian_experts
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_gain_iranian_support }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 7
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_invite_irgc_officers
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_gain_iranian_support }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 9
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_the_afghan_militia
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_invite_irgc_officers }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 9
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_deploy_fatamiyoun_brigade
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_the_afghan_militia }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 9
+		y = 6
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_deploy_Zeinabioun_brigade
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = SRI_deploy_fatamiyoun_brigade }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
+		x = 9
+		y = 7
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
+			}
+		}
+	}
+#########################################################################################
+	focus = {
+		id = SRI_form_foreign_regiments
+		icon = desert_hawk_brigade
+		prerequisite = { focus = SRI_form_new_regiments }
+		x = 1
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+                completion_reward = {
+			custom_effect_tooltip = SYR_create_unit_desert_hawks_tt
+			hidden_effect = {
+
+				division_template = {
+				name = "Desert Hawks" 
+
+				regiments = {
+						infantry = { x = 0 y = 0 }
+						infantry = { x = 0 y = 1 }
+						infantry = { x = 0 y = 2 }
+		
+		        		        infantry = { x = 1 y = 0 }
+						infantry = { x = 1 y = 1 }
+						infantry = { x = 1 y = 2 }
+
+						infantry = { x = 2 y = 0 }
+						infantry = { x = 2 y = 1 }
+						infantry = { x = 2 y = 2 }
+							}
+						}
+		
+					random_owned_controlled_state = {
+							prioritize = { 439 }
+							create_unit = { 
+								division = "name = \"1. Desert Hawks\" division_template = \"Desert Hawks\" start_experience_factor = 0.5" 
+								owner = SYR
+								}
+		
+					}
+	}
+}

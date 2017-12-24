@@ -1,0 +1,16 @@
+state={
+	id=737
+	name="STATE_737"
+
+	history={
+		owner = AST
+
+	}
+
+	provinces={
+		1286 1361 4332 4352 4421 7251 7324 7339 7352 7412 10166 10206 12222 
+	}
+	manpower=345640
+	buildings_max_level_factor=1
+	state_category="rural"
+}

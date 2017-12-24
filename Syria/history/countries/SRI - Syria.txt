@@ -10,14 +10,14 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		baathism = { 
+		authoritarianism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = baathism
-	last_election = "1933.4.26"
-	election_frequency = 48
+	ruling_party = authoritarianism
+	last_election = "2014.6.3"
+	election_frequency = 84
 	elections_allowed = yes
 }
 
@@ -27,4 +27,36 @@ create_country_leader = {
 	picture = "gfx/leaders/SRI/SRI_Bashar_al-Assad.jpg"
 	ideology = syrian_baathism
 	traits = {}
+}
+
+create_corps_commander = {
+	name = "Issam Zahreddine"
+	picture = ""
+	traits = {}
+	skill = 4
+	id = 1
+}
+
+create_corps_commander = {
+	name = "Maher al-Assad"
+	picture = "gfx/leaders/SRI/SRI_Maher_al-Assad.png"
+	traits = {}
+	skill = 4
+	id = 2
+}
+
+create_corps_commander = {
+	name = "Suheil al-Hassan"
+	picture = "gfx/leaders/SRI/SRI_Suheil_al-Hassan.png"
+	traits = {}
+	skill = 4
+	id = 3
+}
+
+create_corps_commander = {
+	name = "Shafiq Fayadh"
+	picture = ""
+	traits = {}
+	skill = 4
+	id = 4
 }

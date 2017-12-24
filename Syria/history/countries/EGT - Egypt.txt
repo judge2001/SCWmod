@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		authotarian = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authotarian
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Abdel Fattah el-Sisi"
 	desc = ""
 	picture = "gfx/leaders/EGT/EGT_Abdel_Fattah_el-Sisi.jpg"
-	ideology = despotism
+	ideology = one_party
 	traits = {}
 }
 create_country_leader = {
@@ -33,6 +33,6 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/EGT/EGT_Adly_Mansour.jpg"
 	expire = "2016.6.30"
-	ideology = despotism
+	ideology = one_party
 	traits = {}
 }

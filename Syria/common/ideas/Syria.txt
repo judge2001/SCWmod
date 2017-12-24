@@ -2,4 +2,30 @@ ideas = {
 	country = {
 	
 	}
+	
+	political_advisor = {
+		
+		mohammed_dib_zaitoun = {
+
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		ali_mamlouk = {
+
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { backroom_backstabber }
+		}
+		
+	}
+
+	
 }

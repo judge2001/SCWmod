@@ -1,0 +1,19 @@
+state= {
+	id=99
+	name="STATE_99"
+	manpower = 1672235
+	resources={
+		aluminium=10
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = DEN
+		add_core_of = DEN
+	}
+	provinces=
+	{
+ 399 3206 6235 6364 	}
+}

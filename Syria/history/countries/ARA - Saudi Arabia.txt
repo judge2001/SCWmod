@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		monarchism = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Salman bin Abdulaziz"
 	desc = ""
 	picture = "gfx/leaders/ARA/ARA_Salman_bin_Abdulaziz.jpg"
-	ideology = despotism
+	ideology = monarchism_1
 	traits = {}
 }
 create_country_leader = {
@@ -33,6 +33,6 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ARA/ARA_Abdullah_bin_Abdulaziz.jpg"
 	expire = "2015.1.23"
-	ideology = despotism
+	ideology = monarchism_1
 	traits = {}
 }
