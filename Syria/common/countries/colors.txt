@@ -4,7 +4,13 @@ ROJ = {
 	color = rgb { 227 217 117 }
 	color_ui = rgb { 255 247 147 }
 }
-KRD = {
+
+HAM = {
+	color = rgb { 0 217 0 }
+	color_ui = rgb { 255 247 147 }
+}
+
+KRG = {
 	color = rgb { 207 207 126 }
 	color_ui = rgb { 237 237 156 }
 }

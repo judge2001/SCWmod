@@ -99,7 +99,7 @@ focus_tree = {
 #########################################################################################
 	focus = {
 		id = IRA_US_trained_pilots
-		icon = GFX_goal_generic_national_unity
+		icon = American_Trained_Pilots
 		prerequisite = { focus = IRA_a_western_army }
 		available = {
 			OR = {
@@ -299,7 +299,7 @@ focus_tree = {
 #########################################################################################
 	focus = {
 		id = IRA_expand_weapons_industry
-		icon = GFX_goal_generic_national_unity
+		icon = Expand_Iraq_Weapons_Industry
 		prerequisite = { focus = IRA_a_western_army }
 		available = {
 			OR = {
@@ -339,7 +339,7 @@ focus_tree = {
 #########################################################################################
 	focus = {
 		id = IRA_purchase_US_equipment
-		icon = GFX_goal_generic_national_unity
+		icon = Iraqi_Cash
 		prerequisite = { focus = IRA_expand_weapons_industry }
 		available = {
 			OR = {
@@ -579,7 +579,7 @@ focus_tree = {
 #########################################################################################
 	focus = {
 		id = IRA_closer_relation_with_Russia
-		icon = GFX_goal_generic_national_unity
+		icon = Russian_Deal
 		prerequisite = { focus = IRA_Foreign_policy }
 		available = {
 			OR = {
@@ -619,7 +619,7 @@ focus_tree = {
 #########################################################################################
 	focus = {
 		id = IRA_closer_relations_with_US
-		icon = GFX_goal_generic_national_unity
+		icon = American_Deal
 		prerequisite = { focus = IRA_Foreign_policy }
 		available = {
 			OR = {

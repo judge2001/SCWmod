@@ -1,0 +1,21 @@
+state={
+	id=839
+	name="STATE_839"
+
+	history={
+		owner = SAA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SAA
+
+	}
+
+	provinces={
+		13724
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -31,7 +31,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Issam Zahreddine"
-	picture = ""
+	picture = "gfx/leaders/SRI/SRI_Issam_Zahreddine.png"
 	traits = {}
 	skill = 4
 	id = 1
