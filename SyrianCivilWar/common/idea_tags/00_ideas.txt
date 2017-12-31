@@ -26,6 +26,30 @@ idea_categories = {
 		removal_cost = 0
 	}
 	
+	military_policy = {
+		slot = unit_training
+		slot = conscription
+		slot = politics_in_war
+		slot = women_in_war
+		slot = army_focus
+		slot = air_focus
+
+		cost = 150			
+		removal_cost = 0
+	}
+	
+	budget = {
+		slot = military_expend
+		slot = security_expend
+		slot = rebuild_expend
+		slot = health_expend
+		slot = investment
+		slot = taxes
+
+		cost = 150
+		removal_cost = 0
+	}
+	
 	government = {
 		slot = second_in_command
 		slot = defence_minister

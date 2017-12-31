@@ -1,0 +1,117 @@
+ideas = {
+	unit_training = {
+		law = yes
+		
+		SCW_training_elite_force = {
+			
+			removal_cost = -1
+			level = 1
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.00
+			}
+			
+			ai_will_do = {
+			}
+		}
+		
+		SCW_training_skilled_force = {
+			
+			removal_cost = -1
+			level = 2
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.30
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_training_trained_force = {
+			
+			removal_cost = -1
+			level = 3
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.50
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_training_average_force = {
+			
+			removal_cost = -1
+			level = 4
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.70
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_traning_poor_force = {
+			
+			removal_cost = -1
+			level = 5
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.80
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_training_bare_minimum = {
+			
+			removal_cost = -1
+			level = 6
+			
+			on_add = {
+			}
+			
+			modifier = {
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_training_no_training = {
+			
+			removal_cost = -1
+			level = 1
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 1.5
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+	}
+}
