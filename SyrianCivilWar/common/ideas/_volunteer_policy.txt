@@ -1,5 +1,5 @@
 ideas = {
-	military_expend = {
+	volunteer_policy = {
 		law = yes
 		
 		SCW_volpolicy_all_help_needed = {

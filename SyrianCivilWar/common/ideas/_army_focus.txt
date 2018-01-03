@@ -1,5 +1,5 @@
 ideas = {
-	military_expend = {
+	army_focus = {
 		law = yes
 		
 		SCW_armyfocus_not_one_step_back = {

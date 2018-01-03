@@ -1,8 +1,8 @@
 ideas = {
-	conscription = {
+	political_law = {
 		law = yes
 		
-		SCW_conscription_all_can_serve = {
+		SCW_pollaw_zero_tolerance = {
 			
 			removal_cost = -1
 			level = 1
@@ -12,13 +12,14 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.00
+				training_time_factor = -0.98
 			}
 			
 			ai_will_do = {
 			}
 		}
 		
-		SCW_conscription_every_adult = {
+		SCW_pollaw_one_party_state = {
 			
 			removal_cost = -1
 			level = 2
@@ -34,7 +35,7 @@ ideas = {
 			}
 		}
 	
-		SCW_conscription_every_male_adult = {
+		SCW_pollaw_token_opposition = {
 			
 			removal_cost = -1
 			level = 3
@@ -50,7 +51,7 @@ ideas = {
 			}
 		}
 	
-		SCW_conscription_most_male_adult = {
+		SCW_pollaw_moderate_opposition = {
 			
 			removal_cost = -1
 			level = 4
@@ -66,7 +67,7 @@ ideas = {
 			}
 		}
 	
-		SCW_conscription_unmarried_male = {
+		SCW_pollaw_flawed_democracy = {
 			
 			removal_cost = -1
 			level = 5
@@ -82,7 +83,7 @@ ideas = {
 			}
 		}
 	
-		SCW_conscription_low = {
+		SCW_pollaw_full_democracy = {
 			
 			removal_cost = -1
 			level = 6
@@ -91,22 +92,6 @@ ideas = {
 			}
 			
 			modifier = {
-			}
-			
-			ai_will_do = {
-			}
-		}
-	
-		SCW_conscription_volunteers_only = {
-			
-			removal_cost = -1
-			level = 1
-			
-			on_add = {
-			}
-			
-			modifier = {
-				consumer_goods_factor = 1.5
 			}
 			
 			ai_will_do = {

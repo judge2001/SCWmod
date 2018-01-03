@@ -1,5 +1,5 @@
 ideas = {
-	military_expend = {
+	women_in_war = {
 		law = yes
 		
 		SCW_womeninwar_complete_egalitarianism = {

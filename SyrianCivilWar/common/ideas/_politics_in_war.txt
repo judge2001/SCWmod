@@ -1,5 +1,5 @@
 ideas = {
-	military_expend = {
+	politics_in_war = {
 		law = yes
 		
 		SCW_polinwar_party_before_country = {
