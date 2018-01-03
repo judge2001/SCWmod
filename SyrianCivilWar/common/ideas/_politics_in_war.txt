@@ -2,7 +2,7 @@ ideas = {
 	military_expend = {
 		law = yes
 		
-		SCW_milexpend_total_mobilisation = {
+		SCW_polinwar_party_before_country = {
 			
 			removal_cost = -1
 			level = 1
@@ -12,14 +12,13 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.00
-				training_time_factor = -0.98
 			}
 			
 			ai_will_do = {
 			}
 		}
 		
-		SCW_milexpend_semi_mobilisation = {
+		SCW_polinwar_party_soldiers = {
 			
 			removal_cost = -1
 			level = 2
@@ -35,7 +34,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_war_footing = {
+		SCW_polinwar_party_officers = {
 			
 			removal_cost = -1
 			level = 3
@@ -51,7 +50,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_high_spending = {
+		SCW_polinwar_party_commissars = {
 			
 			removal_cost = -1
 			level = 4
@@ -67,7 +66,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_medium_spending = {
+		SCW_polinwar_party_oversight = {
 			
 			removal_cost = -1
 			level = 5
@@ -83,7 +82,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_low_spending = {
+		SCW_polinwar_party_education = {
 			
 			removal_cost = -1
 			level = 6
@@ -98,7 +97,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_no_military = {
+		SCW_polinwar_independent_military = {
 			
 			removal_cost = -1
 			level = 1

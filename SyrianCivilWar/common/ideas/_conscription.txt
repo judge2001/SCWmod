@@ -2,7 +2,7 @@ ideas = {
 	military_expend = {
 		law = yes
 		
-		SCW_milexpend_total_mobilisation = {
+		SCW_conscription_all_can_serve = {
 			
 			removal_cost = -1
 			level = 1
@@ -12,14 +12,13 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.00
-				training_time_factor = -0.98
 			}
 			
 			ai_will_do = {
 			}
 		}
 		
-		SCW_milexpend_semi_mobilisation = {
+		SCW_conscription_every_adult = {
 			
 			removal_cost = -1
 			level = 2
@@ -35,7 +34,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_war_footing = {
+		SCW_conscription_every_male_adult = {
 			
 			removal_cost = -1
 			level = 3
@@ -51,7 +50,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_high_spending = {
+		SCW_conscription_most_male_adult = {
 			
 			removal_cost = -1
 			level = 4
@@ -67,7 +66,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_medium_spending = {
+		SCW_conscription_unmarried_male = {
 			
 			removal_cost = -1
 			level = 5
@@ -83,7 +82,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_low_spending = {
+		SCW_conscription_low = {
 			
 			removal_cost = -1
 			level = 6
@@ -98,7 +97,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_no_military = {
+		SCW_conscription_volunteers_only = {
 			
 			removal_cost = -1
 			level = 1

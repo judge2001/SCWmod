@@ -2,7 +2,7 @@ ideas = {
 	military_expend = {
 		law = yes
 		
-		SCW_milexpend_total_mobilisation = {
+		SCW_womeninwar_complete_egalitarianism = {
 			
 			removal_cost = -1
 			level = 1
@@ -12,14 +12,13 @@ ideas = {
 			
 			modifier = {
 				consumer_goods_factor = 0.00
-				training_time_factor = -0.98
 			}
 			
 			ai_will_do = {
 			}
 		}
 		
-		SCW_milexpend_semi_mobilisation = {
+		SCW_womeninwar_semi_egalitarianism = {
 			
 			removal_cost = -1
 			level = 2
@@ -35,7 +34,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_war_footing = {
+		SCW_womeninwar_support_espionage = {
 			
 			removal_cost = -1
 			level = 3
@@ -51,7 +50,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_high_spending = {
+		SCW_womeninwar_support = {
 			
 			removal_cost = -1
 			level = 4
@@ -67,7 +66,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_medium_spending = {
+		SCW_womeninwar_home_front = {
 			
 			removal_cost = -1
 			level = 5
@@ -83,7 +82,7 @@ ideas = {
 			}
 		}
 	
-		SCW_milexpend_low_spending = {
+		SCW_womeninwar_no_involvement = {
 			
 			removal_cost = -1
 			level = 6
@@ -92,22 +91,6 @@ ideas = {
 			}
 			
 			modifier = {
-			}
-			
-			ai_will_do = {
-			}
-		}
-	
-		SCW_milexpend_no_military = {
-			
-			removal_cost = -1
-			level = 1
-			
-			on_add = {
-			}
-			
-			modifier = {
-				consumer_goods_factor = 1.5
 			}
 			
 			ai_will_do = {
