@@ -12,6 +12,8 @@
  monarchism:0 "Monarchist"
  monarchism_noun:0 "Monarchism"
  
+ ruling_party_123:0 "[SRI.GetName]"
+ 
  libertarianism_desc:0 "Libertarian State "
  democratic_desc:0 "Democratic Government"
  authoritarianism_desc:0 "[Root.GetRulingParty] State"

@@ -5,7 +5,7 @@ state={
 	history={
 		owner = ROJ
 		buildings = {
-			infrastructure = 1
+			infrastructure = 10
 
 		}
 		add_core_of = ROJ
@@ -17,5 +17,5 @@ state={
 	}
 	manpower=230000
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=town
 }

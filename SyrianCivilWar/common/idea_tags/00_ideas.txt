@@ -13,16 +13,28 @@ idea_categories = {
 		cost = 0
 		removal_cost = -1
 	}
+
+	faction_control = {
+		slot = government_cont
+		slot = military_cont
+		slot = intelligence_cont
+		slot = judiciary_cont
+		slot = local_government_cont
+		slot = business_cont
+
+		cost = 250		
+		removal_cost = 0
+	}
 	
 	national_laws = {
-		slot = mobilisation_laws
+		slot = trade_law
 		slot = legal_system
 		slot = economic_law
 		slot = secret_police
 		slot = political_law
 		slot = press_law
 
-		cost = 150			
+		cost = 250		
 		removal_cost = 0
 	}
 	
@@ -32,7 +44,7 @@ idea_categories = {
 		slot = politics_in_war
 		slot = women_in_war
 		slot = army_focus
-		slot = air_focus
+		slot = volunteer_policy
 
 		cost = 150			
 		removal_cost = 0
