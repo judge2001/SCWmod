@@ -1,47 +1,50 @@
-ROJ = "countries/SCV/Rojava.txt"
+ROJ = "countries/Rojava.txt"
 
-KRG = "countries/SCV/KRG.txt"
+KRG = "countries/KRG.txt"
 
-ISI = "countries/SCV/Islamic State.txt"
+ISI = "countries/Islamic State.txt"
 
-IRA = "countries/SCV/Iraq.txt"
+IRA = "countries/Iraq.txt"
 
-SRI = "countries/SCV/Syria.txt"
+SRI = "countries/Syria.txt"
 
-SNC = "countries/SCV/Syrian Opposition.txt"
+SNC = "countries/Syrian Opposition.txt"
 
-ALN = "countries/SCV/Al-Nusra.txt"
+ALN = "countries/Al-Nusra.txt"
 
-HEZ = "countries/SCV/Hezbollah.txt"
+HEZ = "countries/Hezbollah.txt"
 
 
-RUS = "countries/SCV/Russia.txt"
+RUS = "countries/Russia.txt"
 
-UNI = "countries/SCV/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
+UNI = "countries/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
+BRI = "countries/Britain.txt"
 
-BRI = "countries/SCV/Britain.txt"
+LBN = "countries/Lebanon.txt"
 
-LBN = "countries/SCV/Lebanon.txt"
+PLE = "countries/Palestine.txt"
 
-PLE = "countries/SCV/Palestine.txt"
+HAM = "countries/Hamas.txt"
+ISL = "countries/Israel.txt"
 
-HAM = "countries/SCV/Hamas.txt"
-ISL = "countries/SCV/Israel.txt"
+JRD = "countries/Jordan.txt"
 
-JRD = "countries/SCV/Jordan.txt"
+KUW = "countries/Kuwait.txt"
 
-KUW = "countries/SCV/Kuwait.txt"
+ARA = "countries/Saudi Arabia.txt"
 
-ARA = "countries/SCV/Saudi Arabia.txt"
+TRK = "countries/Turkey.txt"
 
-TRK = "countries/SCV/Turkey.txt"
+IRN = "countries/Iran.txt"
 
-IRN = "countries/SCV/Iran.txt"
+EGT = "countries/Egypt.txt"
 
-EGT = "countries/SCV/Egypt.txt"
+CYP = "countries/Cyprus.txt"
 
-CYP = "countries/SCV/Cyprus.txt"
+TNC = "countries/Turkish Northern Cyprus.txt"
 
-TNC = "countries/SCV/Turkish Northern Cyprus.txt"
+GRC = "countries/Greece.txt"
 
-GRC = "countries/SCV/Greece.txt"
+FSA = "countries/FSA.txt"
+AAS = "countries/Ahrar.txt"
+SAS = "countries/Suqour.txt"
