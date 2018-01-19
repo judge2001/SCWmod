@@ -45,6 +45,11 @@ TNC = "countries/Turkish Northern Cyprus.txt"
 
 GRC = "countries/Greece.txt"
 
+EUP = "countries/Euphrates Shield.txt"
 FSA = "countries/FSA.txt"
-AAS = "countries/Ahrar.txt"
-SAS = "countries/Suqour.txt"
+AAS = "countries/Ahrar_al-Sham.txt"
+SAS = "countries/Suqour_al-Sham.txt"
+DFB = "countries/Dawn_of_Freedom_Brigades.txt"
+SMB = "countries/Syrian_Martyrs_Brigades.txt"
+LAT = "countries/Liwa_al-Tawhid.txt"
+ANS = "countries/Ansar_al-Sham.txt"
