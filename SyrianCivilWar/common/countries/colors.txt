@@ -4,6 +4,34 @@ ROJ = {
 	color = rgb { 227 217 117 }
 	color_ui = rgb { 255 247 147 }
 }
+FSA = {
+	color = rgb { 104 198 205 }
+	color_ui = rgb { 134 238 255 }
+}
+ANS = {
+	color = rgb { 210 110 10 }
+	color_ui = rgb { 210 110 10 }
+}
+LAT = {
+	color = rgb { 80 180 200 }
+	color_ui = rgb { 80 180 200 }
+}
+SMB = {
+	color = rgb { 60 160 240 }
+	color_ui = rgb { 60 160 240 }
+}
+DFB = {
+	color = rgb { 99 199 240 }
+	color_ui = rgb { 99 199 240 }
+}
+AAS = {
+	color = rgb { 100 100 215 }
+	color_ui = rgb { 130 130 245 }
+}
+SAS = {
+	color = rgb { 50 50 150 }
+	color_ui = rgb { 80 80 180 }
+}
 KRD = {
 	color = rgb { 207 207 126 }
 	color_ui = rgb { 237 237 156 }

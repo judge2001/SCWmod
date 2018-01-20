@@ -2,8 +2,120 @@ ideas = {
 	country = {
 	
 	}
+
+	navy_chief = {
 	
-	political_advisor = {
+		muhamad_al-ahmad = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	air_chief = {
+	
+		issam_hallaq = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	economy_minister = {
+	
+		mohammad_nidal_al-shaar = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		walid_muallem = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	defence_minister = {
+	
+		fahd_jassem_al-freij = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	domestic_minister = {
+	
+		wael_nader_al-halqi = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		imad_khamis = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	}
+
+	army_chief = {
+	
+		ali_abdullah_ayyoub = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	second_in_command = {
+	
+		najah_al-attar = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	security_minister = {
 		
 		mohammed_dib_zaitoun = {
 
@@ -25,6 +137,38 @@ ideas = {
 			traits = { backroom_backstabber }
 		}
 		
+		mohammad_al-shaar = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	military_intel_chief = {
+	
+		rafiq_shahadah = {
+
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		mohammad_al-shaar = {
+			
+			allowed = {
+				original_tag = SRI
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
 	}
 
 	

@@ -1,13 +1,7 @@
 ﻿l_english:
-##Definition for the medical folder
+  ##Definition for the medical folder
  medical_folder:0 "Medical Upgrades"
  medical_folder_desc:0 "Your researchers can work on these research projects to make your healing more efficient"
- ########################
- ##Titles and Text##
- MEDICAL_BAGS:0 "Medical Bags"
- MEDICAL_EXTRAS:0 "Medical Tools"
- MEDICAL_CERTIFICATIONS:0 "Medical Certifications"
- ########################
  ##Definition for the technologies in the medical folder
  ##Medical Bags Research##
  basic_med_packs:0 "Basic Medical Bags"

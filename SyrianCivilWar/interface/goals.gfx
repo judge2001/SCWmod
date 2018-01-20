@@ -565,8 +565,33 @@ spriteTypes = {
 	}
 
 	SpriteType = {
+		name = "American_Deal"
+		texturefile = "gfx/interface/goals/American_Deal.dds"
+	}
+	
+	SpriteType = {
+		name = "American_Trained_Pilots"
+		texturefile = "gfx/interface/goals/American_Trained_Pilots.dds"
+	}
+	
+	SpriteType = {
+		name = "Expand_Iraq_Weapons_Industry"
+		texturefile = "gfx/interface/goals/Expand_Iraq_Weapons_Industry.dds"
+	}
+	
+	SpriteType = {
+		name = "Iraqi_Cash"
+		texturefile = "gfx/interface/goals/Iraqi_Cash.dds"
+	}
+
+	SpriteType = {
 		name = "align_to_hezbollah"
 		texturefile = "gfx/interface/goals/align_to_hezbollah.dds"
+	}
+	
+	SpriteType = {
+		name = "Russian_Deal"
+		texturefile = "gfx/interface/goals/Russian_Deal.dds"
 	}
 	
 	SpriteType = {

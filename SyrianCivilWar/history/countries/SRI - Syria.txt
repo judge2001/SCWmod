@@ -21,6 +21,15 @@ set_politics = {
 	elections_allowed = yes
 }
 
+
+2011.1.1 = {
+	declare_war_on = {
+		target = ROJ
+		type = annex_everything
+	}
+}
+
+
 create_country_leader = {
 	name = "Bashar al-Assad"
 	desc = ""
@@ -31,7 +40,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Issam Zahreddine"
-	picture = ""
+	picture = "gfx/leaders/SRI/SRI_Issam_Zahreddine.png"
 	traits = {}
 	skill = 4
 	id = 1
