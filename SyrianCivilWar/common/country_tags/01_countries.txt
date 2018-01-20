@@ -1,55 +1,47 @@
-ROJ = "countries/Rojava.txt"
+ROJ = "countries/SCV/Rojava.txt"
 
-KRG = "countries/KRG.txt"
+KRG = "countries/SCV/KRG.txt"
 
-ISI = "countries/Islamic State.txt"
+ISI = "countries/SCV/Islamic State.txt"
 
-IRA = "countries/Iraq.txt"
+IRA = "countries/SCV/Iraq.txt"
 
-SRI = "countries/Syria.txt"
+SRI = "countries/SCV/Syria.txt"
 
-SNC = "countries/Syrian Opposition.txt"
+SNC = "countries/SCV/Syrian Opposition.txt"
 
-ALN = "countries/Al-Nusra.txt"
+ALN = "countries/SCV/Al-Nusra.txt"
 
-HEZ = "countries/Hezbollah.txt"
+HEZ = "countries/SCV/Hezbollah.txt"
 
 
-RUS = "countries/Russia.txt"
+RUS = "countries/SCV/Russia.txt"
 
-UNI = "countries/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
-BRI = "countries/Britain.txt"
+UNI = "countries/SCV/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
 
-LBN = "countries/Lebanon.txt"
+BRI = "countries/SCV/Britain.txt"
 
-PLE = "countries/Palestine.txt"
+LBN = "countries/SCV/Lebanon.txt"
 
-HAM = "countries/Hamas.txt"
-ISL = "countries/Israel.txt"
+PLE = "countries/SCV/Palestine.txt"
 
-JRD = "countries/Jordan.txt"
+HAM = "countries/SCV/Hamas.txt"
+ISL = "countries/SCV/Israel.txt"
 
-KUW = "countries/Kuwait.txt"
+JRD = "countries/SCV/Jordan.txt"
 
-ARA = "countries/Saudi Arabia.txt"
+KUW = "countries/SCV/Kuwait.txt"
 
-TRK = "countries/Turkey.txt"
+ARA = "countries/SCV/Saudi Arabia.txt"
 
-IRN = "countries/Iran.txt"
+TRK = "countries/SCV/Turkey.txt"
 
-EGT = "countries/Egypt.txt"
+IRN = "countries/SCV/Iran.txt"
 
-CYP = "countries/Cyprus.txt"
+EGT = "countries/SCV/Egypt.txt"
 
-TNC = "countries/Turkish Northern Cyprus.txt"
+CYP = "countries/SCV/Cyprus.txt"
 
-GRC = "countries/Greece.txt"
+TNC = "countries/SCV/Turkish Northern Cyprus.txt"
 
-EUP = "countries/Euphrates Shield.txt"
-FSA = "countries/FSA.txt"
-AAS = "countries/Ahrar_al-Sham.txt"
-SAS = "countries/Suqour_al-Sham.txt"
-DFB = "countries/Dawn_of_Freedom_Brigades.txt"
-SMB = "countries/Syrian_Martyrs_Brigades.txt"
-LAT = "countries/Liwa_al-Tawhid.txt"
-ANS = "countries/Ansar_al-Sham.txt"
+GRC = "countries/SCV/Greece.txt"

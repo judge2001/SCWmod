@@ -20,6 +20,24 @@ focus_tree = {
 	focus = {
 		id = SRI_reform_the_army
 		icon = GFX_goal_army_doctrines
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
 		x = 7
 		y = 0
 		cost = 10
@@ -27,9 +45,15 @@ focus_tree = {
 		#	factor = 1
 		#}
 
+		available_if_capitulated = yes
+
 		completion_reward = {
-                        army_experience = 10
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
 			}
+		}
 	}
 #########################################################################################
 	focus = {
@@ -64,13 +88,36 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
 			}
+		}
 	}
 #########################################################################################
 	focus = {
 		id = SRI_form_new_regiments
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = SRI_reform_the_army }
+		available = {
+			OR = {
+				has_war_with = GER
+				has_war_with = JAP
+				has_war_with = ITA
+				has_war_with = SOV
+				has_war_with = FRA
+				has_war_with = ENG
+				any_other_country = {
+					has_offensive_war_with = ROOT
+					strength_ratio = {
+						tag = ROOT
+						ratio > 0.75
+					}
+				}
+				threat > 0.95
+			}
+		}
 		x = 2
 		y = 1
 		cost = 10
@@ -78,10 +125,15 @@ focus_tree = {
 		#	factor = 1
 		#}
 
+		available_if_capitulated = yes
+
 		completion_reward = {
-			add_manpower = 8000
-                        add_equipment_to_stockpile = { type = equipment_1 amount = 500 producer = <SRI> }
+			add_ideas = war_bonds_focus
+			if = {
+				limit = { has_idea = great_depression }
+				remove_ideas = great_depression
 			}
+		}
 	}
 #########################################################################################
 	focus = {
