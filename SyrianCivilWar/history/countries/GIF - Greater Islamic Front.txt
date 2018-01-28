@@ -1,0 +1,30 @@
+﻿# This whole file is a placeholder.
+
+capital = 1
+oob = "empty"
+set_research_slots = 2
+set_convoys = 500
+set_national_unity = 0.75
+
+set_technology = {}
+
+set_politics = {
+	parties = {
+		sunni_islamism = {
+			popularity = 100
+		}
+	}
+	
+	ruling_party = sunni_islamism
+	last_election = "1933.4.26"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Abu Mohammad al-Julani"
+	desc = ""
+	picture = "gfx/leaders/ALN/ALN_Abu_Mohammad_al-Julani.jpg"
+	ideology = sunni_islamism_1
+	traits = {}
+}
