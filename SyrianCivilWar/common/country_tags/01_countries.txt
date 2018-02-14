@@ -8,8 +8,6 @@ IRA = "countries/Iraq.txt"
 
 SRI = "countries/Syria.txt"
 
-SNC = "countries/Syrian Opposition.txt"
-
 ALN = "countries/Al-Nusra.txt"
 
 HEZ = "countries/Hezbollah.txt"
