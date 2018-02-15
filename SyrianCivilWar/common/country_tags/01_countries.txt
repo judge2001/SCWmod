@@ -1,53 +1,35 @@
 ROJ = "countries/Rojava.txt"
-
 KRG = "countries/KRG.txt"
-
 ISI = "countries/Islamic State.txt"
-
 IRA = "countries/Iraq.txt"
-
 SRI = "countries/Syria.txt"
-
-ALN = "countries/Al-Nusra.txt"
-
 HEZ = "countries/Hezbollah.txt"
-
-
-RUS = "countries/Russia.txt"
-
-UNI = "countries/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
-BRI = "countries/Britain.txt"
-
 LBN = "countries/Lebanon.txt"
 
+RUS = "countries/Russia.txt"
+UNI = "countries/USA.txt"
+BRI = "countries/Britain.txt"
 PLE = "countries/Palestine.txt"
-
 HAM = "countries/Hamas.txt"
 ISL = "countries/Israel.txt"
-
 JRD = "countries/Jordan.txt"
-
-KUW = "countries/Kuwait.txt"
-
 ARA = "countries/Saudi Arabia.txt"
-
 TRK = "countries/Turkey.txt"
-
 IRN = "countries/Iran.txt"
-
 EGT = "countries/Egypt.txt"
 
+KUW = "countries/Kuwait.txt"
 CYP = "countries/Cyprus.txt"
-
 TNC = "countries/Turkish Northern Cyprus.txt"
-
 GRC = "countries/Greece.txt"
 
+ALN = "countries/Rebels/Al-Nusra.txt"
+AAS = "countries/Rebels/Ahrar_al-Sham.txt"
+ANS = "countries/Rebels/Ansar_al-Sham.txt"
+DFB = "countries/Rebels/Dawn_of_Freedom_brigades.txt"
+FSA = "countries/Rebels/FSA.txt"
+GIF = "countries/Rebels/GIF.txt"
+LAT = "countries/Rebels/Liwa_al-Tawhid.txt"
+SAS = "countries/Rebels/Suqour_al-Sham.txt"
+SMB = "countries/Rebels/Syrian_Martyrs_brigades.txt"
 EUP = "countries/Euphrates Shield.txt"
-FSA = "countries/FSA.txt"
-AAS = "countries/Ahrar_al-Sham.txt"
-SAS = "countries/Suqour_al-Sham.txt"
-DFB = "countries/Dawn_of_Freedom_Brigades.txt"
-SMB = "countries/Syrian_Martyrs_Brigades.txt"
-LAT = "countries/Liwa_al-Tawhid.txt"
-ANS = "countries/Ansar_al-Sham.txt"
