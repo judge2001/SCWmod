@@ -48,10 +48,6 @@ SRI = {
 	color = rgb { 226 45 45 }
 	color_ui = rgb { 226 45 45 }
 }
-SNC = {
-	color = rgb { 202 231 196 }
-	color_ui = rgb { 242 255 236 }
-}
 RUS = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
