@@ -31,10 +31,6 @@ bookmarks = {
 			history = HEZ_SCW_DESC
 			ideology = authoritarianism		
 		}
-		SNC = {
-			history = SNC_SCW_DESC
-			ideology = authoritarianism		
-		}
 
 		"---"={
 			history = "OTHER_BLITZKRIEG_DESC"
