@@ -1,0 +1,17 @@
+state={
+	id=97
+	name="STATE_97"
+
+	history={
+		owner = KRG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = KRG
+	}
+	provinces={
+		3146 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

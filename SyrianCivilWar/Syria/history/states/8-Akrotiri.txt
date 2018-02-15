@@ -1,0 +1,18 @@
+state={
+	id=8
+	name="STATE_8"
+
+	history={
+		owner = BRI
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = BRI
+	}
+
+	provinces={
+		1782 1799 1800 1826 1839 1860 1891 1905 1910 1926 1927 1941 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

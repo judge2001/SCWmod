@@ -1,0 +1,18 @@
+state={
+	id=4
+	name="STATE_4"
+
+	history={
+		owner = TNC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TNC
+	}
+
+	provinces={
+		2449 2458 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

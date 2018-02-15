@@ -1,0 +1,19 @@
+
+state={
+	id=5
+	name="STATE_5"
+
+	history={
+		owner = TNC
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TNC
+	}
+
+	provinces={
+		2472 2495 2508 2509 2525 2557 2569 2579 2603 2621 2630 2641 2647 2655 2666 2684 2694 2695 2698 2708 2728 2756 2766 2775 2789 2801 2818 2833 2840 2873 2877 2898 2907 2917 2929 2933 2941 2943 2944 2949 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

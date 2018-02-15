@@ -1,0 +1,18 @@
+state={
+	id=64
+	name="STATE_64"
+
+	history={
+		owner = JRD
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = JRD
+	}
+
+	provinces={
+		1004 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

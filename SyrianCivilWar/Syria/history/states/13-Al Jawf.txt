@@ -1,0 +1,18 @@
+state={
+	id=13
+	name="STATE_13"
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARA
+	}
+
+	provinces={
+		24 25 26 27 28 29 86 98 120 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

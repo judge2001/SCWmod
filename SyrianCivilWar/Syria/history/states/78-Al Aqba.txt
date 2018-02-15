@@ -1,0 +1,18 @@
+state={
+	id=78
+	name="STATE_78"
+
+	history={
+		owner = JRD
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = JRD
+	}
+
+	provinces={
+		116 131 132 148 160 163 167 176 177 198 202 209 216 241 244 260 261 273 276 277 288 294 295 302 3538 3540 3541 3555 3556 3557 3561 3562 3563 3566 3567 3574 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
