@@ -1336,9 +1336,6 @@ technologies = {
 			factor = 1
 		}
 	}
-
-	
-
 	
 
 }
