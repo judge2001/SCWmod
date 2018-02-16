@@ -1,0 +1,308 @@
+focus_tree = {
+	id = iraq_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = IRA
+		}
+		
+		modifier = {
+			add = 10
+			original_tag = IRA
+		}
+	}
+	
+	default = no
+#########################################################################################
+	focus = {
+		id = IRA_army_reforms
+		icon = GFX_goal_army_doctrines
+		x = 5
+		y = 0
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_a_western_army
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_army_reforms }
+                mutually_exclusive = { focus = IRA_an_eastern_army }
+		x = 3
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_US_trained_pilots
+		icon = American_Trained_Pilots
+		prerequisite = { focus = IRA_a_western_army }
+		x = 1
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_new_airplanes_for_the_IAF
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_US_trained_pilots }
+		x = 1
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_US_military_advisers
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_a_western_army }
+		x = 3
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_New_competent_officers
+		icon = GFX_goal_army_doctrines
+		prerequisite = { focus = IRA_US_military_advisers }
+		x = 3
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_coordination_with_the_US
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_New_competent_officers }
+		x = 3
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_expand_weapons_industry
+		icon = Expand_Iraq_Weapons_Industry
+		prerequisite = { focus = IRA_a_western_army }
+		available = {
+		x = 6
+		y = 2
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_purchase_US_equipment
+		icon = Iraqi_Cash
+		prerequisite = { focus = IRA_expand_weapons_industry }
+		x = 5
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_purchase_US_heavy_equipment
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_purchase_US_equipment }
+		x = 5
+		y = 4
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_new_tanks_for_the_army
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_purchase_US_heavy_equipment }
+		x = 5
+		y = 5
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_Design_local_variants
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_expand_weapons_industry }
+		x = 7
+		y = 3
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_an_eastern_army
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = IRA_army_reforms }
+                mutually_exclusive = { focus = IRA_a_western_army }
+		x = 8
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_Foreign_policy
+		icon = GFX_goal_army_doctrines
+		x = 11
+		y = 0
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_closer_relation_with_Russia
+		icon = Russian_Deal
+		prerequisite = { focus = IRA_Foreign_policy }
+		x = 12
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+#########################################################################################
+	focus = {
+		id = IRA_closer_relations_with_US
+		icon = American_Deal
+		prerequisite = { focus = IRA_Foreign_policy }
+		x = 10
+		y = 1
+		cost = 10
+		#ai_will_do = {
+		#	factor = 1
+		#}
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+                        army_experience = 10
+			}
+	}
+}
