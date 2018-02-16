@@ -1,0 +1,52 @@
+technologies = {
+@2013 = 0
+@2014 = 2
+@2015 = 4
+@2016 = 6
+@2017 = 8
+@2018 = 10
+@2019 = 12
+@2020 = 14
+@2021 = 16
+@2022 = 18
+@2023 = 20
+
+test = {
+  path = { #Which tech is next
+   # leads_to_tech = dedicated_ic_1
+    #leads_to_tech = organise_into_platoons
+    research_cost_coeff = 1
+  }
+
+  research_cost = 1
+  start_year = 2013
+
+  folder = {
+    name = scwarmy_folder
+    position = { x = 0 y = -1}
+  }
+
+  categories = {
+    scwarmy_tech
+  }
+
+  ai_will_do = {
+    factor = 1
+
+    modifier = {
+      factor = 1.2
+      date > "2014.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2015.1.1"
+    }
+
+    modifier = {
+      factor = 1.2
+      date > "2016.1.1"
+    }
+  }
+}
+}
