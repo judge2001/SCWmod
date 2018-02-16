@@ -1,0 +1,19 @@
+state={
+	id=2
+	name="STATE_2"
+	history={
+		owner = ISL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ISL
+
+	}
+	provinces={
+		204 
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}
