@@ -1,0 +1,21 @@
+state={
+	id=773
+	name="STATE_773"
+
+	history={
+		owner = LBN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBN
+
+	}
+
+	provinces={
+		13545 13544 13547 13549 13550 13553 13556
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,47 @@
+ROJ = "countries/SCV/Rojava.txt"
+
+KRG = "countries/SCV/KRG.txt"
+
+ISI = "countries/SCV/Islamic State.txt"
+
+IRA = "countries/SCV/Iraq.txt"
+
+SRI = "countries/SCV/Syria.txt"
+
+SNC = "countries/SCV/Syrian Opposition.txt"
+
+ALN = "countries/SCV/Al-Nusra.txt"
+
+HEZ = "countries/SCV/Hezbollah.txt"
+
+
+RUS = "countries/SCV/Russia.txt"
+
+UNI = "countries/SCV/USA.txt" # I'm really sorry for these awful tags, but we had to make them different from vanilla
+
+BRI = "countries/SCV/Britain.txt"
+
+LBN = "countries/SCV/Lebanon.txt"
+
+PLE = "countries/SCV/Palestine.txt"
+
+HAM = "countries/SCV/Hamas.txt"
+ISL = "countries/SCV/Israel.txt"
+
+JRD = "countries/SCV/Jordan.txt"
+
+KUW = "countries/SCV/Kuwait.txt"
+
+ARA = "countries/SCV/Saudi Arabia.txt"
+
+TRK = "countries/SCV/Turkey.txt"
+
+IRN = "countries/SCV/Iran.txt"
+
+EGT = "countries/SCV/Egypt.txt"
+
+CYP = "countries/SCV/Cyprus.txt"
+
+TNC = "countries/SCV/Turkish Northern Cyprus.txt"
+
+GRC = "countries/SCV/Greece.txt"

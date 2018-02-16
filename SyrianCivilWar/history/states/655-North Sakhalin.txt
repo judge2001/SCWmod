@@ -1,0 +1,17 @@
+
+state={
+	id=655
+	name="STATE_655"
+	manpower = 94759
+	
+	state_category = pastoral
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = JAP
+	}
+
+	provinces={
+		855 
+	}
+}
