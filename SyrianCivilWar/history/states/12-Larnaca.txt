@@ -1,0 +1,22 @@
+
+state={
+	id=12
+	name="STATE_12"
+
+	history={
+		owner = CYP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CYP
+
+	}
+
+	provinces={
+		2151 2167 2199 2211 2227 2260 2277 2295 2302 2324 2328 2334 2339 2354 2372 2382 2406 2417 2428 2476 2494 2499 
+	}
+	manpower=2300
+	buildings_max_level_factor=1.000
+	state_category=city
+}
