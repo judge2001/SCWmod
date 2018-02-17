@@ -1,0 +1,21 @@
+
+state={
+	id=60
+	name="STATE_60"
+
+	history={
+		owner = PLE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PLE
+
+	}
+
+	provinces={
+		704 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
