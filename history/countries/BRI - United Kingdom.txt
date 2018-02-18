@@ -1,38 +1,62 @@
-﻿# This whole file is a placeholder.
+﻿capital = 1
 
-capital = 1
-oob = "empty"
+oob = ""
+
 set_research_slots = 2
-set_convoys = 500
-set_national_unity = 0.75
 
-set_technology = {}
+set_convoys = 10
+
+set_national_unity = 0.8
+
+
+# Starting tech
+set_technology = {
+}
 
 set_politics = {
+
 	parties = {
-		democratic = {
-			popularity = 100
+		shia_islamism = {
+			popularity = 0
+		}
+
+		communism = {
+			popularity = 2
+		}
+		
+		sunni_islamism = {
+			popularity = 0
+		}
+		
+		authoritarianism = {
+			popularity = 0
+		}
+		
+		democratic = { 
+			popularity = 68
+		}
+
+		libertarianism = {
+			popularity = 25
+		}
+		
+		monarchism = {
+			popularity = 5
 		}
 	}
 	
 	ruling_party = democratic
-	last_election = "1933.4.26"
+	last_election = "2009.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Theresa May"
+	name = "Leader Name"
 	desc = ""
-	picture = "gfx/leaders/BRI/BRI_Theresa_May.jpg"
-	ideology = conservatism # lol placeholder
-	traits = {}
-}
-create_country_leader = {
-	name = "David Cameron"
-	desc = ""
-	picture = "gfx/leaders/BRI/BRI_David_Cameron.jpg"
-	expire = "2016.07.13"
-	ideology = conservatism # lol placeholder
-	traits = {}
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }

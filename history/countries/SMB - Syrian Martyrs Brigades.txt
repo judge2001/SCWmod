@@ -1,30 +1,62 @@
-# This whole file is a placeholder.
-
 capital = 1
-oob = "empty"
-set_research_slots = 2
-set_convoys = 500
-set_national_unity = 0.75
 
-set_technology = {}
+oob = ""
+
+set_research_slots = 2
+
+set_convoys = 10
+
+set_national_unity = 0.8
+
+
+# Starting tech
+set_technology = {
+}
 
 set_politics = {
+
 	parties = {
+		shia_islamism = {
+			popularity = 0
+		}
+
+		communism = {
+			popularity = 0
+		}
+		
 		sunni_islamism = {
+			popularity = 0
+		}
+		
+		authoritarianism = {
+			popularity = 0
+		}
+		
+		democratic = { 
 			popularity = 100
+		}
+
+		libertarianism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
 		}
 	}
 	
-	ruling_party = sunni_islamism
-	last_election = "1933.4.26"
+	ruling_party = democratic
+	last_election = "2009.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Im the leader of Syrian Martyrs Brigades look at me im so cool"
+	name = "Leader Name"
 	desc = ""
-	picture = ""
-	ideology = sunni_islamism_1
-	traits = {}
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }

@@ -1,75 +1,62 @@
-﻿# This whole file is a placeholder.
+﻿capital = 1
 
-capital = 1
-oob = "empty"
+oob = ""
+
 set_research_slots = 2
-set_convoys = 500
-set_national_unity = 0.75
 
-set_technology = {}
+set_convoys = 10
+
+set_national_unity = 0.8
+
+
+# Starting tech
+set_technology = {
+}
 
 set_politics = {
+
 	parties = {
 		shia_islamism = {
-			popularity = 10
+			popularity = 0
 		}
 
 		communism = {
-			popularity = 20
+			popularity = 0
 		}
 		
 		sunni_islamism = {
-			popularity = 10
+			popularity = 0
 		}
 		
 		authoritarianism = {
-			popularity = 10
+			popularity = 0
 		}
 		
 		democratic = { 
-			popularity = 10
+			popularity = 100
 		}
 
 		libertarianism = {
-			popularity = 20
+			popularity = 0
 		}
 		
 		monarchism = {
-			popularity = 20
+			popularity = 0
 		}
 	}
 	
 	ruling_party = democratic
-	last_election = "1933.4.26"
+	last_election = "2009.1.1"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Communist Leader"
+	name = "Leader Name"
 	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
-	ideology = marxism
-	traits = {}
-}
-create_country_leader = {
-	name = "Democratic Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = liberalism
-	traits = {}
-}
-create_country_leader = {
-	name = "Non-Aligned Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = one_party
-	traits = {}
-}
-create_country_leader = {
-	name = "Fascist Leader"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
-	ideology = democratic_confederalism
-	traits = {}
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	ideology = conservatism
+	traits = {
+		#
+	}
 }

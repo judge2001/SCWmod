@@ -1,30 +1,63 @@
-﻿# This whole file is a placeholder.
+﻿capital = 1
 
-capital = 1
-oob = "empty"
+oob = ""
+
 set_research_slots = 2
-set_convoys = 500
-set_national_unity = 0.75
 
-set_technology = {}
+set_convoys = 0
+
+set_national_unity = 0.8
+
+
+# Starting tech
+set_technology = {
+}
 
 set_politics = {
+
 	parties = {
+		shia_islamism = {
+			popularity = 0
+			banned = yes
+		}
+
+		communism = {
+			popularity = 0
+		}
+		
 		sunni_islamism = {
 			popularity = 100
+		}
+		
+		authoritarianism = {
+			popularity = 0
+		}
+		
+		democratic = { 
+			popularity = 0
+		}
+
+		libertarianism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
 		}
 	}
 	
 	ruling_party = sunni_islamism
-	last_election = "1933.4.26"
+	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Abū Bakr al-Baghdadi"
+	name = "Leader Name"
 	desc = ""
-	picture = "gfx/leaders/ISI/ISI_Abu_Bakr_al-Baghdadi.jpg"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	ideology = sunni_islamism_1
-	traits = {}
+	traits = {
+		#
+	}
 }
