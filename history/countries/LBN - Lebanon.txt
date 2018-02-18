@@ -52,9 +52,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
+	name = "Tamman Salam"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/Europe/LBN_Tammam_Salam.jpg"
 	ideology = conservatism
 	traits = {
 		#

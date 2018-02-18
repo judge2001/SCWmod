@@ -48,9 +48,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Benjmain Netanyahu"
+	name = "Benjamin Netanyahu"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/ISL/ISL_Benjamin_Netanyahu.jpg"
 	ideology = conservatism
 	traits = {
 		#

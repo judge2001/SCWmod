@@ -52,9 +52,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
+	name = "Sabadh al-Ahmad as-Sabah"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/KUW/KUW_Sabah_al-Ahmad_as-Sabah.jpg"
 	ideology = conservatism
 	traits = {
 		#

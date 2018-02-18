@@ -52,9 +52,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
+	name = "Donald J. Trump"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/UNI/UNI_Donald_Trump.jpg"
 	ideology = conservatism
 	traits = {
 		#

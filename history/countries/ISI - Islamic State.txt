@@ -53,9 +53,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
+	name = "Abu Bakr al-Baghdadi"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/ISI/ISI_Abu_Bakr_al-Baghdadi.jpg"
 	ideology = sunni_islamism_1
 	traits = {
 		#

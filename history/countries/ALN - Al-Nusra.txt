@@ -52,9 +52,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
+	name = "Abu Mohamed Al-Julani"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/ALN/ALN_Abu_Mohammad_al-Julani.jpg"
 	ideology = sunni_islamism_1
 	traits = {
 		#

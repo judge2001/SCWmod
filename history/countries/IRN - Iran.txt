@@ -56,7 +56,7 @@ set_politics = {
 create_country_leader = {
 	name = "Leader Name"
 	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	picture = "gfx/leaders/IRN/IRN_Hassan_Rouhani.jpg"
 	ideology = shia_islamism_1
 	traits = {
 		#
