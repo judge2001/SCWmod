@@ -51,6 +51,6 @@ create_country_leader = {
 	name = "Saud Malla"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = authoritarianism
+	ideology = syrian_baathism
 	traits = {}
 }

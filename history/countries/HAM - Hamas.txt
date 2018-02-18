@@ -10,7 +10,7 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		shia_islamism = {
 			popularity = 100
 		}
 	}
@@ -25,6 +25,6 @@ create_country_leader = {
 	name = "Im the leader of Hamas look at me im so cool"
 	desc = ""
 	picture = ""
-	ideology = despotism
+	ideology = shia_islamism_1
 	traits = {}
 }

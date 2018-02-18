@@ -17,27 +17,31 @@ set_politics = {
 
 	parties = {
 		shia_islamism = {
-			popularity = 0
+			popularity = 10
+		}
+
+		communism = {
+			popularity = 20
 		}
 		
 		sunni_islamism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		authoritarianism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		democratic = { 
-			popularity = 100
+			popularity = 10
 		}
 
 		libertarianism = {
-			popularity = 0
+			popularity = 20
 		}
 		
 		monarchism = {
-			popularity = 0
+			popularity = 20
 		}
 	}
 	

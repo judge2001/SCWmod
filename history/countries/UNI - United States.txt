@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		democratic = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Donald Trump"
 	desc = ""
 	picture = "gfx/leaders/UNI/UNI_Donald_Trump.jpg"
-	ideology = despotism #insert a joke here
+	ideology = one_party #insert a joke here
 	traits = {}
 }
 create_country_leader = {
@@ -33,6 +33,6 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/UNI/UNI_Barack_Obama.jpg"
 	expire = "2017.1.20"
-	ideology = despotism #lol
+	ideology = sunni_islamism_1 #lol
 	traits = {}
 }

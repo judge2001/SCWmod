@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		authoritarianism = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = authoritarianism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -25,6 +25,6 @@ create_country_leader = {
 	name = "Euphrates Shield Guy"
 	desc = ""
 	picture = "gfx/leaders/EUP/EUP_Recep_Tayyip_Erdogan.jpg"
-	ideology = despotism
+	ideology = one_party
 	traits = {}
 }

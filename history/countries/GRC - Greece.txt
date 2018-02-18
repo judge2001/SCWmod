@@ -10,20 +10,32 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		democratic = { 
-			popularity = 25
+		shia_islamism = {
+			popularity = 10
 		}
 
-		fascism = {
-			popularity = 25
-		}
-		
 		communism = {
-			popularity = 25
+			popularity = 20
 		}
 		
-		neutrality = {
-			popularity = 25
+		sunni_islamism = {
+			popularity = 10
+		}
+		
+		authoritarianism = {
+			popularity = 10
+		}
+		
+		democratic = { 
+			popularity = 10
+		}
+
+		libertarianism = {
+			popularity = 20
+		}
+		
+		monarchism = {
+			popularity = 20
 		}
 	}
 	
@@ -37,7 +49,7 @@ create_country_leader = {
 	name = "Communist Leader"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_1.dds"
-	ideology = stalinism
+	ideology = marxism
 	traits = {}
 }
 create_country_leader = {
@@ -51,13 +63,13 @@ create_country_leader = {
 	name = "Non-Aligned Leader"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_2.dds"
-	ideology = despotism
+	ideology = one_party
 	traits = {}
 }
 create_country_leader = {
 	name = "Fascist Leader"
 	desc = ""
 	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_3.dds"
-	ideology = fascism_ideology
+	ideology = democratic_confederalism
 	traits = {}
 }

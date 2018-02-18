@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		sunni_islamism = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = sunni_islamism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -25,6 +25,6 @@ create_country_leader = {
 	name = "Mahmoud Abbas"
 	desc = ""
 	picture = "gfx/leaders/PLE/PLE_Mahmoud_Abbas.jpg"
-	ideology = despotism
+	ideology = sunni_islamism_1
 	traits = {}
 }

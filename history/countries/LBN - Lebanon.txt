@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		communism = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -25,6 +25,6 @@ create_country_leader = {
 	name = "Tammam Salam"
 	desc = ""
 	picture = "gfx/leaders/LBN/LBN_Tammam_Salam.jpg"
-	ideology = despotism
+	ideology = trotskyism
 	traits = {}
 }

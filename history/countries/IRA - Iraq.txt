@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		democratic = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Muhammad Fuad Masum"
 	desc = ""
 	picture = "gfx/leaders/IRA/IRA_Fuad_Masum.jpg"
-	ideology = despotism
+	ideology = conservatism
 	traits = {}
 }
 create_country_leader = {
@@ -33,6 +33,6 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/IRA/IRA_Jalal_Talabani.jpg"
 	expire = "2014.07.24"
-	ideology = despotism
+	ideology = liberalism
 	traits = {}
 }

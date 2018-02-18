@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		authotarian = {
+		authoritarianism = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = authotarian
+	ruling_party = authoritarianism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes

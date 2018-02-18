@@ -25,7 +25,7 @@ create_country_leader = {
 	name = "Salman bin Abdulaziz"
 	desc = ""
 	picture = "gfx/leaders/ARA/ARA_Salman_bin_Abdulaziz.jpg"
-	ideology = monarchism_1
+	ideology = absolute
 	traits = {}
 }
 create_country_leader = {
@@ -33,6 +33,6 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/ARA/ARA_Abdullah_bin_Abdulaziz.jpg"
 	expire = "2015.1.23"
-	ideology = monarchism_1
+	ideology = absolute
 	traits = {}
 }

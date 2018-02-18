@@ -10,12 +10,12 @@ set_technology = {}
 
 set_politics = {
 	parties = {
-		neutrality = {
+		democratic = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = democratic
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = no
@@ -25,6 +25,6 @@ create_country_leader = {
 	name = "Abdallah II"
 	desc = ""
 	picture = "gfx/leaders/JRD/JRD_Abdallah_II.jpg"
-	ideology = despotism
+	ideology = liberalism
 	traits = {}
 }
