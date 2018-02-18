@@ -1,3 +1,4 @@
+#Main
 ROJ = "countries/Rojava.txt"
 KRG = "countries/KRG.txt"
 ISI = "countries/Islamic State.txt"
@@ -6,6 +7,7 @@ SRI = "countries/Syria.txt"
 HEZ = "countries/Hezbollah.txt"
 LBN = "countries/Lebanon.txt"
 
+#Secondary
 RUS = "countries/Secondary/Russia.txt"
 UNI = "countries/Secondary/USA.txt"
 BRI = "countries/Secondary/Britain.txt"
@@ -18,11 +20,13 @@ TRK = "countries/Secondary/Turkey.txt"
 IRN = "countries/Secondary/Iran.txt"
 EGT = "countries/Secondary/Egypt.txt"
 
+#Other
 KUW = "countries/Other/Kuwait.txt"
 CYP = "countries/Other/Cyprus.txt"
 TNC = "countries/Other/Turkish Northern Cyprus.txt"
 GRC = "countries/Other/Greece.txt"
 
+#Rebels
 ALN = "countries/Rebels/Al-Nusra.txt"
 AAS = "countries/Rebels/Ahrar_al-Sham.txt"
 ANS = "countries/Rebels/Ansar_al-Sham.txt"
