@@ -1,0 +1,21 @@
+
+state={
+	id=127
+	name="STATE_127"
+
+	history={
+		owner = ISL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ISL
+
+	}
+
+	provinces={
+		826 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

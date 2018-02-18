@@ -1,0 +1,22 @@
+
+state={
+	id=2
+	name="STATE_2"
+
+	history={
+		owner = CYP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CYP
+
+	}
+
+	provinces={
+		2466 2481 2495 2501 2510 2519 2534 2544 2551 2574 2575 2584 2589 
+	}
+	manpower=2300
+	buildings_max_level_factor=1.000
+	state_category=city
+}

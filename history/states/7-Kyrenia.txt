@@ -1,0 +1,22 @@
+
+state={
+	id=7
+	name="STATE_7"
+
+	history={
+		owner = TNC
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TNC
+
+	}
+
+	provinces={
+		2838 2839 2845 2851 2856 2864 2865 2870 2871 2878 2893 2897 2898 2908 2920 
+	}
+	manpower=2300
+	buildings_max_level_factor=1.000
+	state_category=city
+}
