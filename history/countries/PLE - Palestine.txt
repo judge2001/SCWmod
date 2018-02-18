@@ -2,11 +2,11 @@
 
 oob = ""
 
-set_research_slots = 2
+set_research_slots = 1
 
 set_convoys = 10
 
-set_national_unity = 0.8
+set_national_unity = 0.9
 
 
 # Starting tech
@@ -17,7 +17,7 @@ set_politics = {
 
 	parties = {
 		shia_islamism = {
-			popularity = 0
+			popularity = 5
 		}
 
 		communism = {
@@ -25,7 +25,7 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 0
+			popularity = 30
 		}
 		
 		authoritarianism = {
@@ -33,7 +33,7 @@ set_politics = {
 		}
 		
 		democratic = { 
-			popularity = 100
+			popularity = 65
 		}
 
 		libertarianism = {
