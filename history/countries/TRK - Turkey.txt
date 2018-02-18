@@ -25,15 +25,15 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 0
+			popularity = 10
 		}
 		
 		authoritarianism = {
-			popularity = 40
+			popularity = 35
 		}
 		
 		democratic = { 
-			popularity = 60
+			popularity = 55
 		}
 
 		libertarianism = {
@@ -52,9 +52,9 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Erdogan"
+	name = "Recep Tayyip Erdogan"
 	desc = ""
-	picture = "gfx/leaders/TRK/TRK_Recep_Tayyip_Erdogan"
+	picture = "gfx/leaders/TRK/TRK_Recep_Tayyip_Erdogan.jpg"
 	ideology = conservatism
 	traits = {
 		#

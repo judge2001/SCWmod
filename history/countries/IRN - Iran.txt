@@ -15,11 +15,9 @@ set_technology = {
 
 set_politics = {
 
-set_politics = {
-
 	parties = {
 		shia_islamism = {
-			popularity = 0
+			popularity = 100
 		}
 
 		communism = {
@@ -34,8 +32,8 @@ set_politics = {
 			popularity = 0
 		}
 		
-		shia_islamism = { 
-			popularity = 100
+		democratic = { 
+			popularity = 0
 		}
 
 		libertarianism = {
@@ -54,7 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
+	name = "Hassan Rouhani"
 	desc = ""
 	picture = "gfx/leaders/IRN/IRN_Hassan_Rouhani.jpg"
 	ideology = shia_islamism_1
