@@ -1,12 +1,12 @@
-capital = 127
+capital = 1
 
 oob = ""
 
 set_research_slots = 2
 
-set_convoys = 25
+set_convoys = 10
 
-set_national_unity = 0.65
+set_national_unity = 0.8
 
 
 # Starting tech
@@ -48,7 +48,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Benjmain Netanyahu"
+	name = "Leader Name"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	ideology = conservatism
