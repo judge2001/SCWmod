@@ -1,7 +1,10 @@
 ﻿name="Syria"
-path="mod/SyrianCivilWar/"
+path="mod/SCWmod/"
 tags={
 	"Map"
+	"Military"
+	"Gameplay"
+	"Historical"
 }
 remote_file_id="699709023"
 supported_version="1.4.*"
