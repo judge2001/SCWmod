@@ -1,0 +1,9 @@
+name="SCWmod"
+path="mod/SCWmod/"
+tags={
+	"Map"
+	"Ideologies"
+	"Military"
+	"Gameplay"
+}
+supported_version="1.4.2"
