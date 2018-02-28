@@ -2,6 +2,17 @@
 state={
 	id=134
 	name="STATE_134"
+
+	history={
+		owner = TRK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = TRK
+
+	}
+
 	provinces={
 		3533 
 	}
