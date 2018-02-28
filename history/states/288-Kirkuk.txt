@@ -1,0 +1,20 @@
+state={
+	id=288
+	name="STATE_288"
+
+	history={
+		owner = IRA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRA
+
+	}
+
+	provinces={
+		2270 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
