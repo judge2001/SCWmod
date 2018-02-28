@@ -2,6 +2,17 @@
 state={
 	id=52
 	name="STATE_52"
+
+	history={
+		owner = KRG
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KRG
+
+	}
+
 	provinces={
 		3427 
 	}
