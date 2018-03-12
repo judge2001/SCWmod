@@ -6,7 +6,7 @@ set_research_slots = 2
 
 set_convoys = 0
 
-set_national_unity = 0.8
+set_stability = 0.8
 
 
 # Starting tech

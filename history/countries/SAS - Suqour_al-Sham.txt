@@ -8,7 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
 # Starting tech
 set_technology = {
 }
@@ -25,11 +24,11 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		authoritarianism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		democratic = { 
@@ -45,18 +44,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = authoritarianism
+	ruling_party = sunni_islamism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Abdel Fattah el-Sisi"
-	desc = ""
-	picture = "gfx/leaders/EGT/EGT_Abdel_Fattah_el-Sisi.jpg"
-	ideology = one_party
-	traits = {
-		#
-	}
+	name = "Ahmed Abu Issa"
+	picture = "AhmedAbuIssa.dds"
+	ideology = sunni_islamism_1
 }
