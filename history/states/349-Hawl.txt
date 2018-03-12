@@ -1,0 +1,20 @@
+state={
+	id=349
+	name="STATE_349"
+
+	history={
+		owner = ROJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ROJ
+
+	}
+
+	provinces={
+		3263 
+	}
+	manpower=14804
+	buildings_max_level_factor=1.000
+}

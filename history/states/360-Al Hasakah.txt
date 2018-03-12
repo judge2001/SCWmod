@@ -1,0 +1,20 @@
+state={
+	id=360
+	name="STATE_360"
+
+	history={
+		owner = ROJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ROJ
+
+	}
+
+	provinces={
+		3270 
+	}
+	manpower=251570
+	buildings_max_level_factor=1.000
+}

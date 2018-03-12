@@ -1,0 +1,20 @@
+state={
+	id=394
+	name="STATE_394"
+
+	history={
+		owner = ISI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ISI
+
+	}
+
+	provinces={
+		2701 2731 2732 2762 2787 2817 2824 2849 2858 2881 2892 2903 2924 2930 2950 
+	}
+	manpower=40236
+	buildings_max_level_factor=1.000
+}

@@ -2,9 +2,20 @@
 state={
 	id=139
 	name="STATE_139"
+
+	history={
+		owner = ARA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARA
+
+	}
+
 	provinces={
 		502 836 836 846 847 
 	}
-	manpower=0
+	manpower=91713
 	buildings_max_level_factor=1.000
 }
