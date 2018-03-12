@@ -1,0 +1,21 @@
+
+state={
+	id=373
+	name="STATE_373"
+
+	history={
+		owner = ALN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ALN
+
+	}
+
+	provinces={
+		2953 3148 
+	}
+	manpower=58727
+	buildings_max_level_factor=1.000
+}

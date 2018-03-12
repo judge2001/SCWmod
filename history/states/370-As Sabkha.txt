@@ -1,0 +1,20 @@
+state={
+	id=370
+	name="STATE_370"
+
+	history={
+		owner = ISI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ISI
+
+	}
+
+	provinces={
+		2906 
+	}
+	manpower=48106
+	buildings_max_level_factor=1.000
+}

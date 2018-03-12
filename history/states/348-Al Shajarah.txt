@@ -1,0 +1,20 @@
+state={
+	id=348
+	name="STATE_348"
+
+	history={
+		owner = STF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = STF
+
+	}
+
+	provinces={
+		1244 1264 1273 1277 1286 1289 1295 1299 1309 1313 1331 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

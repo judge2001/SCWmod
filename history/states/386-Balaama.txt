@@ -1,0 +1,20 @@
+state={
+	id=386
+	name="STATE_386"
+
+	history={
+		owner = JRD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JRD
+
+	}
+
+	provinces={
+		1011 1014 1019 1032 1055 1060 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

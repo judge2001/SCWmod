@@ -1,0 +1,123 @@
+#reload countrycolors
+
+ROJ = {
+	color = rgb { 240 240 0 }
+	color_ui = rgb { 240 240 0 }
+}
+FSA = {
+	color = rgb {  119 224 0  }
+	color_ui = rgb {  119 224 0  }
+}
+ANS = {
+	color = rgb { 210 110 10 }
+	color_ui = rgb { 210 110 10 }
+}
+LAT = {
+	color = rgb { 80 180 200 }
+	color_ui = rgb { 80 180 200 }
+}
+SMB = {
+	color = rgb { 60 160 240 }
+	color_ui = rgb { 60 160 240 }
+}
+DFB = {
+	color = rgb { 99 199 240 }
+	color_ui = rgb { 99 199 240 }
+}
+AAS = {
+	color = rgb { 100 100 215 }
+	color_ui = rgb { 130 130 245 }
+}
+SAS = {
+	color = rgb { 50 50 150 }
+	color_ui = rgb { 80 80 180 }
+}
+KRG = {
+	color = rgb { 219 197 0 }
+	color_ui = rgb { 219 197 0 }
+}
+ISI = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 80 80 80 }
+}
+IRA = {
+	color = rgb { 178 114 99 }
+	color_ui = rgb { 231 148 129 }
+}
+SRI = {
+	color = rgb { 226 45 45 }
+	color_ui = rgb { 226 45 45 }
+}
+RUS = {
+	color = rgb { 125 13 24 }
+	color_ui = rgb { 163 17 31 }
+}
+UNI = {
+	color = rgb { 20 133 237 }
+	color_ui = rgb { 87 160 255 }
+}
+LBN = {
+	color = rgb { 130 150 60 }
+	color_ui = rgb { 130 150 60 }
+}
+PLE = {
+	color = rgb { 170 125 80 }
+	color_ui = rgb { 170 125 80 }
+}
+ISL = {
+	color = rgb { 152 130 191 }
+	color_ui = rgb { 182 160 221 }
+}
+JRD = {
+	color = rgb { 111 55 78 }
+	color_ui = rgb { 111 55 78 }
+}
+KUW = {
+	color = rgb { 31 49 138 }
+	color_ui = rgb { 71 89 178 }
+}
+ARA = {
+	color = rgb { 114 160 70 }
+	color_ui = rgb { 114 160 70 }
+}
+TRK = {
+	color = rgb { 0 54 136 }
+	color_ui = rgb { 0 54 136 }
+}
+IRN = {
+	color = rgb { 41 80 38 }
+	color_ui = rgb { 41 80 38 }
+}
+EGT = {
+	color = rgb { 230 230 70 }
+	color_ui = rgb { 230 230 70 }
+}
+CYP = {
+	color = rgb { 245 200 30 }
+	color_ui = rgb { 255 240 70 }
+}
+TNC = {
+	color = rgb { 54 117 136 }
+	color_ui = rgb { 94 157 176 }
+}
+BRI = {
+	color = rgb { 201 56 93 }
+	color_ui = rgb { 255 73 121 }
+}
+ALN = {
+	color = rgb { 240 240 232 }
+	color_ui = rgb { 240 240 232 }
+}
+HEZ = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
+GRC = {
+	color = rgb { 93 181 227 }
+	color_ui = rgb { 121 235 255 }
+ 
+}
+STF = {
+	color = rgb { 66 182 0  }
+	color_ui = rgb { 66 182 0  }
+}

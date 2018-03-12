@@ -1,0 +1,22 @@
+
+state={
+	id=79
+	name="STATE_79"
+
+	history={
+		owner = JRD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JRD
+
+	}
+
+	provinces={
+		99 100 101 136 140 141 150 170 171 175 185 203 205 219 222 223 236 251 255 256 266 278 280 302 305 308 312 313 316 324 333 334 336 337 340 342 346 352 353 358 365 369 371 372 387 392 393 
+	}
+	manpower=29142
+	buildings_max_level_factor=1.000
+	state_category=city
+}

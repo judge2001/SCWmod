@@ -1,0 +1,62 @@
+﻿capital = 1
+
+oob = ""
+
+set_research_slots = 2
+
+set_convoys = 10
+
+set_national_unity = 0.8
+
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+
+	parties = {
+		shia_islamism = {
+			popularity = 0
+		}
+
+		communism = {
+			popularity = 0
+		}
+		
+		sunni_islamism = {
+			popularity = 0
+		}
+		
+		authoritarianism = {
+			popularity = 0
+		}
+		
+		democratic = { 
+			popularity = 40
+		}
+
+		libertarianism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 60
+		}
+	}
+	
+	ruling_party = monarchism
+	last_election = "2009.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Abdullah II"
+	desc = ""
+	picture = "gfx/leaders/JRD/JRD_Abdallah_II.jpg"
+	ideology = absolute
+	traits = {
+		#
+	}
+}

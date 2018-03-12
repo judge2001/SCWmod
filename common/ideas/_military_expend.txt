@@ -1,0 +1,118 @@
+ideas = {
+	military_expend = {
+		law = yes
+		
+		SCW_milexpend_total_mobilisation = {
+			
+			removal_cost = -1
+			level = 1
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.00
+				training_time_factor = -0.98
+			}
+			
+			ai_will_do = {
+			}
+		}
+		
+		SCW_milexpend_semi_mobilisation = {
+			
+			removal_cost = -1
+			level = 2
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.30
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_milexpend_war_footing = {
+			
+			removal_cost = -1
+			level = 3
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.50
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_milexpend_high_spending = {
+			
+			removal_cost = -1
+			level = 4
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.70
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_milexpend_medium_spending = {
+			
+			removal_cost = -1
+			level = 5
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 0.80
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_milexpend_low_spending = {
+			
+			removal_cost = -1
+			level = 6
+			
+			on_add = {
+			}
+			
+			modifier = {
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+		SCW_milexpend_no_military = {
+			
+			removal_cost = -1
+			level = 1
+			
+			on_add = {
+			}
+			
+			modifier = {
+				consumer_goods_factor = 1.5
+			}
+			
+			ai_will_do = {
+			}
+		}
+	
+	}
+}

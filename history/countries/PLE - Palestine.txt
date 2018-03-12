@@ -1,0 +1,62 @@
+﻿capital = 1
+
+oob = ""
+
+set_research_slots = 1
+
+set_convoys = 10
+
+set_national_unity = 0.9
+
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+
+	parties = {
+		shia_islamism = {
+			popularity = 5
+		}
+
+		communism = {
+			popularity = 0
+		}
+		
+		sunni_islamism = {
+			popularity = 30
+		}
+		
+		authoritarianism = {
+			popularity = 0
+		}
+		
+		democratic = { 
+			popularity = 65
+		}
+
+		libertarianism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "2009.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Mahmoud Abbas"
+	desc = ""
+	picture = "gfx/leaders/PLE/PLE_Mahmoud_Abbas.jpg"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=391
+	name="STATE_391"
+
+	history={
+		owner = ALN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ALN
+
+	}
+
+	provinces={
+		2828 2857 
+	}
+	manpower=28718
+	buildings_max_level_factor=1.000
+}
