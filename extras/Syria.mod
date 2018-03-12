@@ -1,5 +1,5 @@
 ﻿name="Syria"
-path="mod/SCWmod/"
+path="mod/SyrianCivilWar/"
 tags={
 	"Map"
 	"Military"
@@ -7,7 +7,7 @@ tags={
 	"Historical"
 }
 remote_file_id="699709023"
-supported_version="1.4.*"
+supported_version="1.5.*"
 
 replace_path="events"
 replace_path="common/ideas"
