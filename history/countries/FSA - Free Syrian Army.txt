@@ -60,6 +60,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Ahmad Jarba"
-	picture = "gfx/leaders/FSA/FSA_Ahmad_Jarba.jpg"
+	picture = "gfx/leaders/FSA/FSA_Ahmad_Jarba.png"
 	ideology = conservatism
 }
