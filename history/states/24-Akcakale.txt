@@ -2,9 +2,16 @@
 state={
 	id=24
 	name="STATE_24"
+	history={
+		owner = TRK
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TRK
+	}
 	provinces={
 		3373 
 	}
-	manpower=0
+	manpower=91731
 	buildings_max_level_factor=1.000
 }
