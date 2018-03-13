@@ -1,4 +1,4 @@
-capital = 127
+﻿capital = 127
 
 oob = ""
 
