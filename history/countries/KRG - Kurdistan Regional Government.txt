@@ -53,6 +53,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Masoud Barzani"
-	picture = "Masoud_Barzani.png"
+	picture = "Masoud_Barzani.jpg"
 	ideology = conservatism
 }
