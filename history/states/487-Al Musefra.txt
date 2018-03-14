@@ -1,6 +1,6 @@
 state={
-	id=383
-	name="STATE_383"
+	id=487
+	name="STATE_487"
 
 	history={
 		owner = STF
@@ -13,8 +13,8 @@ state={
 	}
 
 	provinces={
-		1121 
+		1167 1202 1203 
 	}
-	manpower=21100
+	manpower=32473
 	buildings_max_level_factor=1.000
 }

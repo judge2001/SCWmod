@@ -10,12 +10,24 @@ state={
 
 		}
 		add_core_of = STF
+                add_core_of = SRI
 
+		2013.1.1 = {
+			SRI = {
+				set_province_controller = 1190
+				set_province_controller = 1175
+				set_province_controller = 1165
+				set_province_controller = 1149
+				set_province_controller = 1135
+				set_province_controller = 1205
+				set_province_controller = 1220
+			}
+		}
 	}
 
 	provinces={
 		1132 1135 1140 1141 1143 1144 1149 1150 1158 1159 1162 1163 1164 1165 1166 1169 1174 1175 1176 1178 1179 1182 1185 1190 1191 1192 1193 1197 1198 1205 1206 1207 1211 1219 1220 1221 1238 1239 1247 
 	}
-	manpower=0
+	manpower=146481
 	buildings_max_level_factor=1.000
 }

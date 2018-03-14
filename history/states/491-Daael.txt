@@ -1,0 +1,34 @@
+state={
+	id=491
+	name="STATE_491"
+
+	history={
+		owner = STF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = STF
+                add_core_of = SRI
+
+		2013.1.1 = {
+			SRI = {
+
+				set_province_controller = 1252
+				set_province_controller = 1256
+				set_province_controller = 1272
+				set_province_controller = 1271
+				set_province_controller = 1280
+				set_province_controller = 1284
+				set_province_controller = 1300
+				set_province_controller = 1307
+			}
+		}
+	}
+
+	provinces={
+		1252 1256 1265 1270 1271 1272 1276 1280 1284 1285 1290 1294 1300 1302 1303 1305 1307 1310 1315 1316 1319 1322 1325 
+	}
+	manpower=43691
+	buildings_max_level_factor=1.000
+}
