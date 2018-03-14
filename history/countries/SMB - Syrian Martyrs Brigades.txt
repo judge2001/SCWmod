@@ -52,11 +52,13 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Jamal Maarouf"
+	picture = "Jamal_Maarouf.png"
 	ideology = conservatism
-	traits = {
-		#
-	}
+}
+
+create_field_marshal = {
+	name = "Jamal Maarouf"
+	portrait_path = "Jamal_Maarouf.png"
+	skill = 3
 }
