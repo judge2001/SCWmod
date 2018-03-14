@@ -14,12 +14,12 @@
  
  ruling_party_123:0 "[SRI.GetName]"
  
- libertarianism_desc:0 "Libertarian State "
+ libertarianism_desc:0 "Libertarian State"
  democratic_desc:0 "Democratic Government"
- authoritarianism_desc:0 "[Root.GetRulingParty] State"
- sunni_islamism_desc:0 "Sunni islamist State"
- shia_islamism_desc:0 "Shi'a islamist State"
- monarchism_desc:0 "[Root.GetRulingParty]"
+ authoritarianism_desc:0 "Authoritarian State"
+ sunni_islamism_desc:0 "Sunni Islamist State"
+ shia_islamism_desc:0 "Shia Islamist State"
+ monarchism_desc:0 "Monarchy"
  
  democratic_confederalism:0 "Democratic Confederalism"
  democratic_confederalism_desc:0 "A libertarian socialist system, democratic confederalism is based on the writings of Abdullah Ocalan, advocating multi cultural, consensus politics direct democracy."
@@ -29,8 +29,8 @@
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
  liberalism:0 "Liberalism"
  liberalism_desc:0 "With a long philosophical tradition of valuing personal liberty, liberalism views safeguarding these rights as the primary function of the state."
- one_party:0 "[Root.GetRulingParty] State"
- one_party_desc:0 "A One Party State in effect only allows 1 party a real chance of power, thus preventing opposition parties gaining power. It is authotarian, and may or may not hold elections."
+ one_party:0 "One-Party State"
+ one_party_desc:0 "A One-Party State in effect only allows 1 party a real chance of power, thus preventing opposition parties gaining power. It is authotarian, and may or may not hold elections."
  iraqi_baathism:0 "Iraqi Ba'athism"
  iraqi_baathism_desc:0 "Iraqi Ba'athism supports the restoratation of the Arab Socialist Ba'ath Pary in Iraq, and is Arab nationalist and authotarian."
  syrian_baathism:0 "Syrian Ba'athism"
