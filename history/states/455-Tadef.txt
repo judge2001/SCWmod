@@ -1,20 +1,20 @@
 state={
-	id=356
-	name="STATE_356"
+	id=455
+	name="STATE_455"
 
 	history={
-		owner = FSA
+		owner = ISI
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = FSA
+		add_core_of = ISI
 
 	}
 
 	provinces={
-		3248 
+		3261 
 	}
-	manpower=121536
+	manpower=41951	
 	buildings_max_level_factor=1.000
 }

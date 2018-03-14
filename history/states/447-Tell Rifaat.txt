@@ -1,6 +1,6 @@
 state={
-	id=356
-	name="STATE_356"
+	id=447
+	name="STATE_447"
 
 	history={
 		owner = FSA
@@ -13,8 +13,8 @@ state={
 	}
 
 	provinces={
-		3248 
+		3280 
 	}
-	manpower=121536
+	manpower=43781
 	buildings_max_level_factor=1.000
 }

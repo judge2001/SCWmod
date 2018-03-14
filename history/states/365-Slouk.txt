@@ -1,6 +1,17 @@
 state={
 	id=365
 	name="STATE_365"
+
+	history={
+		owner = FSA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = FSA
+
+	}
+
 	provinces={
 		3165 
 	}
