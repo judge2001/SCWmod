@@ -60,5 +60,5 @@ create_country_leader = {
 create_field_marshal = {
 	name = "Jamal Maarouf"
 	portrait_path = "Jamal_Maarouf.png"
-	skill = 3
+	skill = 2
 }
