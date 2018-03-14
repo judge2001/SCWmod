@@ -8,14 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-2011.1.1 = {
-	declare_war_on = {
-		target = FSA
-		type = annex_everything
-	}
-}
-
-
 # Starting tech
 set_technology = {
 }
