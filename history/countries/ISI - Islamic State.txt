@@ -54,10 +54,15 @@ set_politics = {
 
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
-	desc = ""
 	picture = "gfx/leaders/ISI/ISI_Abu_Bakr_al-Baghdadi.jpg"
 	ideology = sunni_islamism_1
 	traits = {
 		#
 	}
+}
+
+create_corps_commander = {
+	name = "Abu Muslim al-Turkmani"
+	picture = "Abu_Muslim_Al_Turkmani.png"
+	skill = 4
 }
