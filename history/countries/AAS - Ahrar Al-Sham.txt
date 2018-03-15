@@ -52,6 +52,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Abu Abdullah al-Hamawi"
-	picture = "AbuAbdullahAlHamawi.dds"
+	picture = "Abu_Abdullah_Al_Hamawi.png"
 	ideology = sunni_islamism_1
 }
