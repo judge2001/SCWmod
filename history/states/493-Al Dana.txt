@@ -1,20 +1,20 @@
 state={
-	id=472
-	name="STATE_472"
+	id=493
+	name="STATE_493"
 
 	history={
-		owner = SRI
+		owner = FSA
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = SRI
+		add_core_of = FSA
 
 	}
 
 	provinces={
-		1407 
+		3211 
 	}
-	manpower=45233
+	manpower=60058
 	buildings_max_level_factor=1.000
 }
