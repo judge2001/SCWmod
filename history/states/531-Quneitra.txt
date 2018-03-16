@@ -1,0 +1,20 @@
+state={
+	id=531
+	name="STATE_531"
+
+	history={
+		owner = STF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = STF
+
+	}
+
+	provinces={
+		    1428 1418 1421 1400 1397 1382 1384 1350
+	}
+	manpower=90000
+	buildings_max_level_factor=1.000
+}
