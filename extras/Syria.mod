@@ -1,5 +1,5 @@
 ﻿name="Syria"
-path="mod/SyrianCivilWar/"
+path="mod/SCWmod/"
 tags={
 	"Map"
 	"Military"
