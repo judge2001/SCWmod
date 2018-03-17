@@ -1,3 +1,4 @@
+
 state={
 	id=218
 	name="STATE_218"
@@ -6,12 +7,14 @@ state={
 		owner = IRN
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = IRN
+
 	}
 
 	provinces={
-		3675 
+		207 
 	}
 	manpower=35549
 	buildings_max_level_factor=1.000
