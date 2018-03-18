@@ -4,62 +4,62 @@ spriteTypes = {
 	
 	#Made for Scw
 	SpriteType = {
-        name = "GFX_small_bandage_roll_medium"
+        name = "GFX_small_bandage_roll"
         texturefile = "gfx/interface/technologies/tech_bandage_roll.dds"
     }
 
     SpriteType = {
-        name = "GFX_medium_bandage_roll_medium"
+        name = "GFX_medium_bandage_roll"
         texturefile = "gfx/interface/technologies/tech_bandage_roll2.dds"
     }
 
     SpriteType = {
-        name = "GFX_large_bandage_roll_medium"
+        name = "GFX_large_bandage_roll"
         texturefile = "gfx/interface/technologies/tech_bandage_roll3.dds"
     }
 
     SpriteType = {
-        name = "GFX_head_wrap_medium"
+        name = "GFX_head_wrap"
         texturefile = "gfx/interface/technologies/tech_head_bandage.dds"
     }
 
     SpriteType = {
-        name = "GFX_strechier_head_wrap_medium"
+        name = "GFX_strechier_head_wrap"
         texturefile = "gfx/interface/technologies/tech_head_bandage2.dds"
     }
 
     SpriteType = {
-        name = "GFX_extra_strechy_head_wrap_medium"
+        name = "GFX_extra_strechy_head_wrap"
         texturefile = "gfx/interface/technologies/tech_head_bandage3.dds"
     }
 
     SpriteType = {
-        name = "GFX_small_morphine_syringe_medium"
+        name = "GFX_small_morphine_syringe"
         texturefile = "gfx/interface/technologies/tech_morphine_syringe.dds"
     }
 
     SpriteType = {
-        name = "GFX_medium_morphine_syringe_medium"
+        name = "GFX_medium_morphine_syringe"
         texturefile = "gfx/interface/technologies/tech_morphine_syringe2.dds"
     }
 
     SpriteType = {
-        name = "GFX_big_morphine_syringe_medium"
+        name = "GFX_big_morphine_syringe"
         texturefile = "gfx/interface/technologies/tech_morphine_syringe3.dds"
     }
 
     SpriteType = {
-        name = "GFX_small_blood_bag_medium"
+        name = "GFX_small_blood_bag"
         texturefile = "gfx/interface/technologies/tech_blood_syringe.dds"
     }
 
     SpriteType = {
-        name = "GFX_medium_blood_bag_medium"
+        name = "GFX_medium_blood_bag"
         texturefile = "gfx/interface/technologies/tech_blood_syringe2.dds"
     }
 
     SpriteType = {
-        name = "GFX_large_blood_bag_medium"
+        name = "GFX_large_blood_bag"
         texturefile = "gfx/interface/technologies/tech_blood_syringe3.dds"
     }	
 	#Generic
