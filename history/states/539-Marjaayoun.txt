@@ -1,9 +1,20 @@
 state={
 	id=539
 	name="STATE_539"
+
+	history={
+		owner = HEZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = HEZ
+
+	}
+
 	provinces={
 		1396 4177 4184 4188 4193 4195 4197 4205 4208 4879 
 	}
-	manpower=0
+	manpower=41000
 	buildings_max_level_factor=1.000
 }

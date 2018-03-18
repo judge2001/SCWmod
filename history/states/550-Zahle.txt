@@ -1,9 +1,20 @@
 state={
 	id=550
 	name="STATE_550"
+
+	history={
+		owner = LBN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBN
+
+	}
+
 	provinces={
 		4313 4321 4323 4324 4329 4330 4331 4342 4359 4549 4550 4892 4905 4920 4922 
 	}
-	manpower=0
+	manpower=300000
 	buildings_max_level_factor=1.000
 }

@@ -1,9 +1,21 @@
+
 state={
 	id=541
 	name="STATE_541"
-	provinces={
-		4237 4240 4243 4255 4257 4260 4266 4267 4276 4284 4290 4544 4545 4611 4615 4617 4888 4889 4890 
+
+	history={
+		owner = LBN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBN
+
 	}
-	manpower=0
+
+	provinces={
+		4237 4240 4243 4255 4257 4260 4266 4267 4276 4284 4290 4544 4545 4611 4615 4617 4888 4889 4890 4940 
+	}
+	manpower=50000
 	buildings_max_level_factor=1.000
 }

@@ -1,0 +1,20 @@
+state={
+	id=555
+	name="STATE_555"
+
+	history={
+		owner = LBN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = LBN
+
+	}
+
+	provinces={
+		4316 4376 4377 4379 4380 4381 4383 4385 4386 4387 4390 4404 4527 4528 4887 4937 4938 
+	}
+	manpower=123600
+	buildings_max_level_factor=1.000
+}
