@@ -9,24 +9,24 @@ music = {
 # General Peace:
 music = {
 	name = "general_peace_1"
-	file = "general_peace_heartsofmen.ogg"
+	file = "nasheed1.ogg"
 	volume = 0.65
 }
 music = {
 	name = "general_peace_2"
-	file = "thewarends.ogg"
+	file = "nasheed2.ogg"
 	volume = 0.65
 }
 music = {
 	name = "general_peace_3"
-	file = "asongforthechildrenofww2.ogg"
+	file = "nasheed3.ogg"
 	volume = 0.65
 }
 
 # General war:
 music = {
 	name = "general_war_1"
-	file = "general_war_bringforththetanks.ogg"
+	file = "nasheed4.ogg"
 	volume = 0.65
 }
 music = {
