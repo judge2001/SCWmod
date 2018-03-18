@@ -352,6 +352,16 @@ spriteTypes = {
 	}
 	
 	spriteType = {
+		name = "GFX_ideology_sunni_islamism_group"
+		texturefile = "gfx/interface/ideologies/sunni.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_shia_islamism_group"
+		texturefile = "gfx/interface/ideologies/shia.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_unknown"
 		texturefile = "gfx/interface/ideologies/unknown.dds"
 		legacy_lazy_load = no
