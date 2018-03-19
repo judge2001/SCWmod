@@ -17,7 +17,7 @@ set_politics = {
 
 	parties = {
 		shia_islamism = {
-			popularity = 100
+			popularity = 0
 		}
 
 		communism = {
@@ -25,7 +25,7 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		authoritarianism = {
@@ -45,18 +45,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = shia_islamism
+	ruling_party = sunni_islamism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader Name"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = shia_islamism_1
-	traits = {
-		#
-	}
+	name = "Ismail Haniyeh"
+	picture = "Ismail_Haniyeh.png"
+	ideology = sunni_islamism_1
 }

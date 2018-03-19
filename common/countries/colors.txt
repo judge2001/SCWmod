@@ -128,3 +128,7 @@ JIS = {
 	color = rgb { 255 255 255 }
 	color_ui = rgb { 255 255 255 }
 }
+HAM = {
+	color = rgb { 0 131 0 }
+	color_ui = rgb { 0 131 0 }
+}

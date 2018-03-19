@@ -4,13 +4,13 @@ state={
 	name="STATE_60"
 
 	history={
-		owner = PLE
+		owner = HAM
 		buildings = {
 			infrastructure = 1
 
 		}
+		add_core_of = HAM
 		add_core_of = PLE
-
 	}
 
 	provinces={
