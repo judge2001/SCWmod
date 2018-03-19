@@ -120,7 +120,11 @@ STF = {
 	color = rgb { 66 182 0  }
 	color_ui = rgb { 66 182 0  }
 }
-JIS = {
+RMN = {
 	color = rgb { 0 128 0 }
 	color_ui = rgb { 0 128 0 }
+}
+JIS = {
+	color = rgb { 255 255 255 }
+	color_ui = rgb { 255 255 255 }
 }
