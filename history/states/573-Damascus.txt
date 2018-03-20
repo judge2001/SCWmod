@@ -1,0 +1,26 @@
+state={
+	id=573
+	name="STATE_573"
+
+	history={
+		owner = SRI
+		buildings = {
+			infrastructure = 1
+
+		}
+                add_core_of = SRI
+
+		2013.1.1 = {
+			RMN = {
+				set_province_controller = 1492
+				set_province_controller = 1478
+			}
+		}
+	}
+
+	provinces={
+		1462 1463 1467 1468 1469 1472 1474 1475 1477 1478 1481 1482 1483 1487 1488 1492 
+	}
+	manpower=1711000
+	buildings_max_level_factor=1.000
+}
