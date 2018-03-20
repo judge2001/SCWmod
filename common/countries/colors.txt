@@ -57,8 +57,8 @@ UNI = {
 	color_ui = rgb { 87 160 255 }
 }
 LBN = {
-	color = rgb { 130 150 60 }
-	color_ui = rgb { 130 150 60 }
+	color = rgb { 255 102 0 }
+	color_ui = rgb { 255 102 0 }
 }
 PLE = {
 	color = rgb { 170 125 80 }
