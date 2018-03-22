@@ -1,0 +1,20 @@
+state={
+	id=600
+	name="STATE_600"
+
+	history={
+		owner = SRI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SRI
+
+	}
+
+	provinces={
+		2435 
+	}
+	manpower=64271
+	buildings_max_level_factor=1.000
+}
