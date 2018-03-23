@@ -1,6 +1,17 @@
 state={
 	id=300
 	name="STATE_300"
+
+	history={
+		owner = IRA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRA
+
+	}
+
 	provinces={
 		42 
 	}
