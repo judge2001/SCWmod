@@ -1,8 +1,9 @@
+
 strategic_region={
 	id=58
 	name="STRATEGICREGION_58"
 	provinces={
-		3742 3774 
+		3742 3774 4845 
 	}
 	weather={
 	}

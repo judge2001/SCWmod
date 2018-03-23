@@ -1,0 +1,18 @@
+state={
+	id=611
+	name="STATE_611"
+	history={
+		owner = JRD
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JRD
+
+	}
+	provinces={
+		1130 1181 1188 1189 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

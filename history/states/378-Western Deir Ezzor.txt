@@ -11,6 +11,30 @@ state={
 		}
 		add_core_of = SRI
 
+		2013.1.1 = {
+			FSA = {
+				set_province_controller = 2990
+				set_province_controller = 2999
+				set_province_controller = 2992
+				set_province_controller = 2989
+				set_province_controller = 2980
+				set_province_controller = 2943
+				set_province_controller = 2936
+				set_province_controller = 2935
+				set_province_controller = 2929
+				set_province_controller = 3005
+				set_province_controller = 3025
+				set_province_controller = 3027
+				set_province_controller = 3000
+				set_province_controller = 3043
+				set_province_controller = 3034
+				set_province_controller = 3051
+				set_province_controller = 3010
+				set_province_controller = 2958
+				set_province_controller = 2949
+				set_province_controller = 2883
+			}
+		}
 	}
 
 	provinces={

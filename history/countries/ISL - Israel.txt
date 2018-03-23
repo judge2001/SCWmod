@@ -56,3 +56,33 @@ create_country_leader = {
 		#
 	}
 }
+create_field_marshal = {
+	name = "Herzl Halevi"
+	portrait_path = "gfx/leaders/ISL/ISL_Herzl_Halevi.jpg"
+	traits = { }
+	skill = 4
+    attack_skill = 1
+    defense_skill = 2
+    planning_skill = 5
+    logistics_skill = 3
+}
+create_field_marshal = {
+	name = "Yitzhak Turgeman"
+	portrait_path = "gfx/leaders/ISL/ISL_Yitzhak_Turgeman.jpg"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Ofek Buchris"
+	portrait_path = "gfx/leaders/ISL/ISL_Ofek_Buchris.jpg"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}

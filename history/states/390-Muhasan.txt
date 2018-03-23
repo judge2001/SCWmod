@@ -10,6 +10,17 @@ state={
 		}
 		add_core_of = ALN
 
+		2013.1.1 = {
+			SRI = {
+				set_province_controller = 2718
+				set_province_controller = 2725
+				set_province_controller = 2736
+				set_province_controller = 2766
+				set_province_controller = 2760
+				set_province_controller = 2782
+				set_province_controller = 2773
+			}
+		}
 	}
 
 	provinces={
