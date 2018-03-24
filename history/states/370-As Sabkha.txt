@@ -1,19 +1,22 @@
+
 state={
 	id=370
 	name="STATE_370"
 
 	history={
-		owner = ISI
+		owner = FSA
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = ISI
-
+			ISI = {
+				set_province_controller = 5192
+			}
 	}
 
 	provinces={
-		2906 
+		2906 5192 
 	}
 	manpower=48106
 	buildings_max_level_factor=1.000

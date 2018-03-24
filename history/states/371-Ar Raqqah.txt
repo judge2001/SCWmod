@@ -1,8 +1,30 @@
+
 state={
 	id=371
 	name="STATE_371"
+
+	history={
+		owner = FSA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = FSA
+		2013.1.1 = {
+			SRI = {
+				set_province_controller = 5198
+				set_province_controller = 5197
+			}
+			ISI = {
+				set_province_controller = 5193
+				set_province_controller = 5195
+				set_province_controller = 5196
+			}
+		}
+	}
+
 	provinces={
-		3154 
+		3154 5193 5195 5196 5197 5198 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

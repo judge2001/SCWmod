@@ -1,3 +1,4 @@
+
 state={
 	id=368
 	name="STATE_368"
@@ -9,11 +10,14 @@ state={
 
 		}
 		add_core_of = FSA
+			ISI = {
+				set_province_controller = 5191
 
+			}
 	}
 
 	provinces={
-		3132 
+		3132 5191 
 	}
 	manpower=74429
 	buildings_max_level_factor=1.000
