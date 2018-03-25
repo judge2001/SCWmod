@@ -1,0 +1,20 @@
+state={
+	id=676
+	name="STATE_676"
+
+	history={
+		owner = IRN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRN
+
+	}
+
+	provinces={
+		3796 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}

@@ -1,19 +1,27 @@
 
 state={
 	id=492
-	name="STATE_492"	
+	name="STATE_492"
+
 	history={
-		owner = STF
+		owner = SRI
 		buildings = {
 			infrastructure = 1
 
 		}
 		add_core_of = STF
-                add_core_of = SRI
+		add_core_of = SRI
+		2013.1.1 = {
+			STF = {
+				set_province_controller = 1317
+
+			}
+	}
 
 	}
+
 	provinces={
-		1317 5217 5224 5227 5230 5245 
+		1317 5217 5224 5227 5230 5245 5261 5262 
 	}
 	manpower=0
 	buildings_max_level_factor=1.000

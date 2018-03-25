@@ -18,7 +18,15 @@ state={
 				set_province_controller = 2766
 				set_province_controller = 2760
 				set_province_controller = 2782
-				set_province_controller = 2773
+				set_province_controller = 2773*
+				set_province_controller = 2797
+				set_province_controller = 2814
+				set_province_controller = 2843
+				set_province_controller = 2815
+				set_province_controller = 2854
+				set_province_controller = 2869
+				set_province_controller = 2891
+				set_province_controller = 2912
 			}
 		}
 	}

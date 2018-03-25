@@ -2,6 +2,20 @@
 state={
 	id=483
 	name="STATE_483"
+	history={
+		owner = SRI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SRI
+		2013.1.1 = {
+			STF = {
+				set_province_controller = 5246
+				set_province_controller = 5247
+			}
+		}
+	}
 	provinces={
 		1359 5244 5246 5247 5250 5252 5253 
 	}
