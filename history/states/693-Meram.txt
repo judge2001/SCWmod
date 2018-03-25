@@ -1,0 +1,17 @@
+
+state={
+	id=693
+	name="STATE_693"
+	history={
+		owner = TRK
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = TRK
+	}
+	provinces={
+		 3674
+	}
+	manpower=326444
+	buildings_max_level_factor=1.000
+}
