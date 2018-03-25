@@ -56,3 +56,46 @@ create_country_leader = {
 	picture = "Executive_Council.png"
 	ideology = conservatism
 }
+
+create_field_marshal = {
+	name = "Bahjat Abdo"
+	portrait_path = "Bahjat_Abdo.png"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Rojda Felat"
+	portrait_path = "Rojda_Felat.png"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Ciwan Ibrahim"
+	portrait_path = "Ciwan_Ibrahim.png"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Polat Can"
+	picture = "Polat_Can.png"
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Lewend Rojava"
+	picture = "Lewend_Rojava.png"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Hebun Sinya"
+	picture = "Hebun_Sinya.png"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Meryem Kobani"
+	picture = "Meryem_Kobani.png"
+	skill = 1
+}
+
