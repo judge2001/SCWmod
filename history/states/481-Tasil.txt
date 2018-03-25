@@ -9,7 +9,11 @@ state={
 
 		}
 		add_core_of = STF
-
+		2013.1.1 = {
+			SRI = {
+				set_province_controller = 1335
+			}
+		}
 	}
 
 	provinces={

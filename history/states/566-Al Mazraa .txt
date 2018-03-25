@@ -11,6 +11,20 @@ state={
 		}
 		add_core_of = SRI
 
+		2013.1.1 = {
+			STF = {
+				set_province_controller = 5219
+				set_province_controller = 5225
+				set_province_controller = 5223
+				set_province_controller = 5211
+				set_province_controller = 5221
+				set_province_controller = 5215
+				set_province_controller = 5212
+				set_province_controller = 5208
+				set_province_controller = 5207
+				set_province_controller = 5204
+			}
+		}
 	}
 
 	provinces={

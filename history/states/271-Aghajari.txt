@@ -1,6 +1,17 @@
 state={
 	id=271
 	name="STATE_271"
+
+	history={
+		owner = IRN
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = IRN
+
+	}
+
 	provinces={
 		561 
 	}

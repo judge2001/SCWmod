@@ -1,6 +1,6 @@
 state={
-	id=278
-	name="STATE_278"
+	id=649
+	name="STATE_649"
 
 	history={
 		owner = IRN
@@ -13,8 +13,8 @@ state={
 	}
 
 	provinces={
-		3688 
+		5181 
 	}
-	manpower=0
+	manpower=210820
 	buildings_max_level_factor=1.000
 }

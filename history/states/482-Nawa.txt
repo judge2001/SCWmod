@@ -1,7 +1,32 @@
 
 state={
 	id=482
-	name="STATE_482"
+	name="STATE_482"	
+	history={
+		owner = STF
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = STF
+		2013.1.1 = {
+			SRI = {
+				set_province_controller = 5222
+				set_province_controller = 5220
+				set_province_controller = 5216
+				set_province_controller = 5226
+				set_province_controller = 5228
+				set_province_controller = 5231
+				set_province_controller = 5229
+				set_province_controller = 5233
+				set_province_controller = 5234
+				set_province_controller = 5235
+				set_province_controller = 5239
+				set_province_controller = 5237
+				set_province_controller = 5240
+			}
+		}
+	}
 	provinces={
 		1320 5210 5216 5220 5222 5226 5228 5229 5231 5233 5234 5235 5237 5238 5239 5240 
 	}

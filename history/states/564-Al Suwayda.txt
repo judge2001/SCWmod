@@ -1,6 +1,7 @@
 state={
 	id=564
 	name="STATE_564"
+
 	history={
 		owner = SRI
 		buildings = {
@@ -8,8 +9,13 @@ state={
 
 		}
 		add_core_of = SRI
+		2013.1.1 = {
+			STF = {
+				set_province_controller = 1259
 
+			}
 	}
+}
 	provinces={
 		1147 1199 1215 1229 1245 1259 
 	}
