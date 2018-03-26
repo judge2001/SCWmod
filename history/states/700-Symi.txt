@@ -1,7 +1,7 @@
 
 state={
-	id=128
-	name="STATE_128"
+	id=700
+	name="STATE_700"
 	history={
 		owner = GRC
 		buildings = {
@@ -10,8 +10,8 @@ state={
 		add_core_of = GRC
 	}
 	provinces={
-		3145 
+		 3290
 	}
-	manpower=115490
+	manpower=2590
 	buildings_max_level_factor=1.000
 }

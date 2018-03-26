@@ -52,11 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Leader Name"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+	name = "Karolos Papoulias"
+	picture = "Karolos_Papoulias.png"
 	ideology = conservatism
-	traits = {
-		#
-	}
 }
