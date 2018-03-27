@@ -92,6 +92,11 @@ spriteTypes = {
 		noOfFrames = 2
 	}
 
+	SpriteType = {
+		name = "GFX_medical_folder_tab"
+		texturefile = "gfx/interface/techtree/techtree_medical_tab.dds"
+	}
+
 	spriteType = {
 		name = "GFX_techtree_tank_tab"
 		textureFile = "gfx/interface/techtree_tank_tab.dds"
