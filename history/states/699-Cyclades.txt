@@ -2,15 +2,19 @@
 state={
 	id=699
 	name="STATE_699"
+
 	history={
 		owner = GRC
 		buildings = {
 			infrastructure = 1
+
 		}
 		add_core_of = GRC
+
 	}
+
 	provinces={
-		 3184 3329
+		3133 3184 3329 
 	}
 	manpower=119549
 	buildings_max_level_factor=1.000

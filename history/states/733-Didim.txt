@@ -1,7 +1,7 @@
 
 state={
-	id=159
-	name="STATE_159"
+	id=733
+	name="STATE_733"
 	history={
 		owner = TRK
 		buildings = {
@@ -10,8 +10,8 @@ state={
 		add_core_of = TRK
 	}
 	provinces={
-		3648 
+		 3647
 	}
-	manpower=11008
+	manpower=59939
 	buildings_max_level_factor=1.000
 }
