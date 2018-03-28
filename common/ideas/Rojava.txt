@@ -2,4 +2,247 @@ ideas = {
 	country = {
 	
 	}
+
+	economy_minister = {
+	
+		SCW_eliya_sidi = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_emziye_muhammed = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_remezan_eli = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		SCW_sileman_ceefer = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_abdulkarim_omer = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_ibrahim_kurdo = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	defence_minister = {
+	
+		SCW_ismet_sex_hesen = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_abdulkarim_sarokhan = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_ebdo_ibrahim = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	domestic_minister = {
+	
+		SCW_kanaan_barakat = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_ehmed_osman_dadili = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_hesen_beyrem = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	army_chief = {
+	
+		SCW_sipan_hemo = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_nuri_mahmoud = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	second_in_command = {
+	
+		SCW_berivan_hesen = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_xalid_birgil = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_elizabeth_gawrie = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_hussein_taza_al_azam = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_hevi_ibrahim_mustefa = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	security_minister = {
+		
+		SCW_kanaan_barakat = {
+
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_ciwan_ibrahim = {
+
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { backroom_backstabber }
+		}
+		
+	}
+	
+	military_intel_chief = {
+	
+		SCW_rojda_felat = {
+
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		SCW_polat_can = {
+			
+			allowed = {
+				original_tag = ROJ
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
 }
