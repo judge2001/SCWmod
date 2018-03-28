@@ -11,6 +11,8 @@
  shia_islamism_noun:0 "Shi'a Islamism"
  monarchism:0 "Monarchist"
  monarchism_noun:0 "Monarchism"
+ communism:0 "Communist"
+ communism_noun:0 "Communism"
  
  ruling_party_123:0 "[SRI.GetName]"
  
@@ -20,10 +22,11 @@
  sunni_islamism_desc:0 "Sunni Islamist State"
  shia_islamism_desc:0 "Shia Islamist State"
  monarchism_desc:0 "Monarchy"
+ communism_desc:0 "Communist State"
  
  democratic_confederalism:0 "Democratic Confederalism"
  democratic_confederalism_desc:0 "A libertarian socialist system, democratic confederalism is based on the writings of Abdullah Ocalan, advocating multi cultural, consensus politics direct democracy."
- anarchism:0 "Ararchism"
+ anarchism:0 "Anarchism"
  anarchism_desc:0 "Anarchism adheres to a vision of self governing societies based on free association and non-hierarchy. They beleive the state is unhelpful, unecessary and harmful."
  conservatism:0 "Conservatism"
  conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values."
@@ -41,6 +44,15 @@
  shia_islamism_1_desc:0 "Shiite Islamism is an Islamist, Jihadist ideology that believes Shia Islam to be the one true religion, and that all others are heretical."
  monarchism_1:0 "Monarchism"
  monarchism_1_desc:0 "Monarchism holds that the best form of governance is that of a monarch, and that this position should be handed down by inheritance."
+ anarcho_communism:0 "Anarcho Communism"
+ anarcho_communism_desc:0 "Anarcho communists beleive in the abolition of the state and capitalism in favour of common ownership of the means of production, organised horizontally in accordance with anarchist principles."
+ trotskyism:0 "Trotskyism"
+ trotyskyism_desc:0 "Tortskyists follow Trotsky's belief in Permanant Revolution as opposed to the Stalinist Socialism in One Country concept, believing that the revolution needed to be continued internationally."
+ marxism:0 "Marxism"
+ marxism_desc:0 "Marxist follow Karl Marx, author of the Communist Manifesto, in their political leanings. They believe that the means of production should be controlled by the worker, and the ending of the exploitation of labour."
+ 
+ 
+ 
  
  FACTION_NAME_LIBERTARIANISM_1:0 "Popular Union for Democracy"
  FACTION_NAME_LIBERTARIANISM_2:0 "People's Democratic Front"

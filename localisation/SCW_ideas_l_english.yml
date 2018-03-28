@@ -1,0 +1,24 @@
+﻿l_english:
+ 
+ national_laws:0 "National Law"
+ mobilisation_laws:0 "Conscription Law"
+ legal_system:0 "Legal System"
+ economic_law:0 "Economic System"
+ secret_police:0 "Secret Police"
+ political_law:0 "Political Law"
+ press_law:0 "Press Law"
+ 
+ government:0 "Cabinet"
+ second_in_command:0 "Second in Command"
+ defence_minister:0 "Defence Minister"
+ foreign_minister:0 "Foreign Minister"
+ security_minister:0 "Security Minister"
+ domestic_minister:0 "Minister of the Interior"
+ economy_minister:0 "Minister for the Economy"
+ 
+ army_chief:0 "Army Chief"
+ navy_chief:0 "Navy Chief"
+ air_chief:0 "air Chief"
+ military_intel_chief:0 "Military Intelligence Chief"
+ high_command:0 "High Command"
+ high_command:0 "High Command"
