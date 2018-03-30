@@ -1,20 +1,17 @@
-state={
-	id=658
-	name="STATE_658"
 
+state={
+	id=748
+	name="STATE_748"
 	history={
 		owner = SRI
 		buildings = {
 			infrastructure = 1
-
 		}
 		add_core_of = SRI
-
 	}
-
 	provinces={
-		1601 
+		 2325
 	}
-	manpower=11064
+	manpower=15727
 	buildings_max_level_factor=1.000
 }
