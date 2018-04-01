@@ -21,7 +21,7 @@ set_politics = {
 		}
 
 		communism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		sunni_islamism = {
@@ -33,7 +33,7 @@ set_politics = {
 		}
 		
 		democratic = { 
-			popularity = 100
+			popularity = 0
 		}
 
 		libertarianism = {
@@ -45,18 +45,20 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Nicos Anastasiades"
-	desc = ""
-	picture = "gfx/leaders/CYP/CYP_Nicos_Anastasiades.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	name = "Cemal Bayik"
+	picture = "Cemal_Bayik.png"
+	ideology = pkk
+}
+
+create_field_marshal = {
+	name = "Murat Karayilan"
+	picture = "Murat_Karayilan.png"
+	skill = 4
 }
