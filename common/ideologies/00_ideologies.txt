@@ -7,7 +7,7 @@ ideologies = {
 			anarcho_communism = {}
 			trotskyism = {}
 			marxism = {}
-		
+		    pkk = {}
 		}
 		
 		dynamic_faction_names = {
