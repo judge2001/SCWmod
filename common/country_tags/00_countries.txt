@@ -25,6 +25,7 @@ KUW = "countries/Other/Kuwait.txt"
 CYP = "countries/Other/Cyprus.txt"
 TNC = "countries/Other/Turkish Northern Cyprus.txt"
 GRC = "countries/Other/Greece.txt"
+PKK = "countries/Kurdistan Workers Party.txt"
 
 #Rebels
 ALN = "countries/Rebels/Al-Nusra.txt"

@@ -1,0 +1,17 @@
+
+state={
+	id=759
+	name="STATE_759"
+	history={
+		owner = FSA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = FSA
+	}
+	provinces={
+		 3177
+	}
+	manpower=76873
+	buildings_max_level_factor=1.000
+}

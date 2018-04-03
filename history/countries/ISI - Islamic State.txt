@@ -56,13 +56,76 @@ create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	picture = "gfx/leaders/ISI/ISI_Abu_Bakr_al-Baghdadi.jpg"
 	ideology = sunni_islamism_1
-	traits = {
-		#
-	}
+}
+
+create_field_marshal = {
+	name = "Abu Mohammad al-Adnani"
+	portrait_path = "Abu_Mohammad_al_Adnani.png"
+	skill = 4
+}
+
+create_field_marshal = {
+	name = "Abu Muslim al-Turkmani"
+	picture = "Abu_Muslim_Al_Turkmani.png"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Abu Jandal Al-Kuwaiti"
+	picture = "Abu_Jandal_al_Kuwaiti.png"
+	skill = 3
+}
+
+create_field_marshal = {
+	name = "Abu Abdulrahman al-Bilawi"
+	portrait_path = "Abu_Abdulrahman_al_Bilawi.png"
+	skill = 2
+}
+
+create_field_marshal = {
+	name = "Abu Ahmad al-Alwani"
+	portrait_path = "Abu_Ahmad_al_Alwani.png"
+	skill = 1
 }
 
 create_corps_commander = {
-	name = "Abu Muslim al-Turkmani"
-	picture = "Abu_Muslim_Al_Turkmani.png"
-	skill = 4
+	name = "Abu Omar Al-Shishani"
+	picture = "Abu_Omar_al_Shishani.png"
+	skill = 5
+}
+
+create_corps_commander = {
+	name = "Abu Khattab al-Tunisi"
+	picture = "Abu_Khattab_al_Tunisi.png"
+	skill = 3
+}
+
+create_corps_commander = {
+	name = "Abu Waheeb"
+	picture = "Abu_Waheeb.png"
+	skill = 2
+}
+
+create_corps_commander = {
+	name = "Abu Abdullah al-Kosova"
+	picture = "Abu_Abdullah_al_Kosova.png"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Bajro Ikanovic"
+	picture = "Bajro_Ikanovic.png"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Abu Muqatil al-Kosovi"
+	picture = "Abu_Muqatil_al_Kosovi.png"
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Abu Zayr al-Tunisi"
+	picture = "Abu_Zayr_al_Tunisi.png"
+	skill = 1
 }

@@ -132,3 +132,7 @@ HAM = {
 	color = rgb { 0 131 0 }
 	color_ui = rgb { 0 131 0 }
 }
+PKK = {
+	color = rgb { 191 0 0 }
+	color_ui = rgb { 191 0 0 }
+}
