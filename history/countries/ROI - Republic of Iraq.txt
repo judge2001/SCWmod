@@ -1,0 +1,62 @@
+﻿capital = 1
+
+oob = ""
+
+set_research_slots = 2
+
+set_convoys = 10
+
+set_stability = 0.8
+
+
+# Starting tech
+set_technology = {
+}
+
+set_politics = {
+
+	parties = {
+		shia_islamism = {
+			popularity = 0
+		}
+
+		communism = {
+			popularity = 0
+		}
+		
+		sunni_islamism = {
+			popularity = 0
+		}
+		
+		authoritarianism = {
+			popularity = 0
+		}
+		
+		shia_islamism = { 
+			popularity = 100
+		}
+
+		libertarianism = {
+			popularity = 0
+		}
+		
+		monarchism = {
+			popularity = 0
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "2009.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Jala Talabani"
+	desc = ""
+	picture = "gfx/leaders/IRA/IRA_Jalal_Talabani.jpg"
+	ideology = conservatism
+	traits = {
+		#
+	}
+}

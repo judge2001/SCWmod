@@ -41,3 +41,8 @@ EUP = "countries/Euphrates Shield.txt"
 STF = "countries/Southern Front.txt"
 JIS = "countries/Jaysh al-Islam.txt"
 RMN = "countries/Faylaq al-Rahman.txt"
+
+#Iraqi
+IRI = "countries/Iraq/Islamic_republic_Iraq.txt"
+BAI = "countries/Iraq/Baathist_Iraq.txt"
+ROI = "countries/Iraq/Republic_of_Iraq.txt"
