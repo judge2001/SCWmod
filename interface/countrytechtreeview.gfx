@@ -1238,7 +1238,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_medical_folder_tab"
-		textureFile = "gfx/interface/techtree_society_tab.dds"
+		textureFile = "gfx/interface/techtree/techtree_medical_tab.dds"
 		noOfFrames = 2
 	}
 
@@ -1249,7 +1249,7 @@ spriteTypes = {
 
 	spriteType = {
 		name = "GFX_scwarmy_folder_tab"
-		textureFile = "gfx/interface/techtree_society_tab.dds"
+		textureFile = "gfx/interface/techtree/techtree_medical_tab.dds"
 		noOfFrames = 2
 	}
 }

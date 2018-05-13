@@ -80,6 +80,7 @@ technology_categories = {
 	maintenance_company_tech
 	medical_tech
 	scwarmy_tech
+	excavation_tech
 }
 
 technology_folders = {
