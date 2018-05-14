@@ -52,7 +52,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Jala Talabani"
+	name = "Jalal Talabani"
 	desc = ""
 	picture = "gfx/leaders/IRA/IRA_Jalal_Talabani.jpg"
 	ideology = shia_islamism_1

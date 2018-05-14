@@ -33,11 +33,11 @@ set_politics = {
 		}
 		
 		democratic = { 
-			popularity = 100
+			popularity = 0
 		}
 
 		libertarianism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		monarchism = {
@@ -45,7 +45,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = libertarianism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,24 +54,24 @@ set_politics = {
 create_country_leader = {
 	name = "Executive Council"
 	picture = "Executive_Council.png"
-	ideology = conservatism
+	ideology = democratic_confederalism
 }
 
 create_field_marshal = {
 	name = "Bahjat Abdo"
-	portrait_path = "Bahjat_Abdo.png"
+	picture = "Bahjat_Abdo.png"
 	skill = 3
 }
 
 create_field_marshal = {
 	name = "Rojda Felat"
-	portrait_path = "Rojda_Felat.png"
+	picture = "Rojda_Felat.png"
 	skill = 2
 }
 
 create_field_marshal = {
 	name = "Ciwan Ibrahim"
-	portrait_path = "Ciwan_Ibrahim.png"
+	picture = "Ciwan_Ibrahim.png"
 	skill = 1
 }
 

@@ -65,7 +65,7 @@ ideologies = {
 			"FACTION_NAME_LIBERTARIANISM_5"
 		}
 		
-		color = { 0 255 0 }
+		color = { 225 215 0 }
 		
 		rules = {
 			can_declare_war_on_same_ideology = no
