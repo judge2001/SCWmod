@@ -46,17 +46,13 @@ set_politics = {
 	}
 	
 	ruling_party = democratic
-	last_election = "2009.1.1"
+	last_election = "2012.11.6"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Donald J. Trump"
-	desc = ""
-	picture = "gfx/leaders/UNI/UNI_Donald_Trump.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	name = "Barack Obama"
+	picture = "UNI_Barack_Obama.jpg"
+	ideology = liberalism
 }
