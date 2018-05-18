@@ -59,15 +59,19 @@ set_politics = {
 
 create_country_leader = {
 	name = "Bashar al-Assad"
-	desc = ""
-	picture = "gfx/leaders/SRI/SRI_Bashar_al-Assad.jpg"
+	picture = "SRI_Bashar_al-Assad.jpg"
 	ideology = syrian_baathism
-	traits = {}
+}
+
+create_country_leader = {
+	name = "Assaad Hardan"
+	picture = "Assaad_Hardan.jpg"
+	ideology = shia_islamism_1
 }
 
 create_corps_commander = {
 	name = "Issam Zahreddine"
-	picture = "gfx/leaders/SRI/SRI_Issam_Zahreddine.png"
+	picture = "SRI_Issam_Zahreddine.png"
 	traits = {}
 	skill = 4
 	id = 1
@@ -75,7 +79,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Maher al-Assad"
-	picture = "gfx/leaders/SRI/SRI_Maher_al-Assad.png"
+	picture = "SRI_Maher_al-Assad.png"
 	traits = {}
 	skill = 4
 	id = 2
