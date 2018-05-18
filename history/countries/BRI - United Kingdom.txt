@@ -53,21 +53,14 @@ set_politics = {
 
 create_country_leader = {
 	name = "David Cameroon"
-	desc = ""
-	picture = "gfx/leaders/BRI/BRI_David_Cameron.jpg"
-	expire = "2016.7.13"
+	picture = "BRI_David_Cameron.jpg"
 	ideology = conservatism
-	traits = {
-		#
-	}
 }
 
-create_country_leader = {
-	name = "Theresa May"
-	desc = ""
-	picture = "gfx/leaders/BRI/BRI_Theresa_May.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+2016.7.13 = {
+    create_country_leader = {
+	    name = "Theresa May"
+	    picture = "BRI_Theresa_May.jpg"
+	    ideology = conservatism
+    }
 }
