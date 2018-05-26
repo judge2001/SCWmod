@@ -3,11 +3,11 @@ state={
 	id=748
 	name="STATE_748"
 	history={
-		owner = SRI
+		owner = FSA
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = SRI
+		add_core_of = FSA
 	}
 	provinces={
 		 2325

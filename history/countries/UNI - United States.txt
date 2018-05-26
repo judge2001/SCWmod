@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
-			popularity = 100
+		conservatism = { 
+			popularity = 47
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 53
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -45,7 +47,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = liberalism
 	last_election = "2012.11.6"
 	election_frequency = 48
 	elections_allowed = yes
@@ -54,5 +56,11 @@ set_politics = {
 create_country_leader = {
 	name = "Barack Obama"
 	picture = "UNI_Barack_Obama.jpg"
-	ideology = liberalism
+	ideology = social_liberal
+}
+
+create_country_leader = {
+	name = "Donald Trump"
+	picture = "UNI_Donald_Trump.jpg"
+	ideology = conservative
 }

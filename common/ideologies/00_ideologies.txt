@@ -1,107 +1,10 @@
 ideologies = {
 
-	communism = {
+    conservatism = {
 	
 		types = {
-			
-			anarcho_communism = {}
-			trotskyism = {}
-			marxism = {}
-		    pkk = {}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_COMMUNISM_1"
-			"FACTION_NAME_COMMUNISM_2"
-			"FACTION_NAME_COMMUNISM_3"
-			"FACTION_NAME_COMMUNISM_4"
-			"FACTION_NAME_COMMUNISM_5"
-		}
-		
-		color = { 255 0 0 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = 1.0
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-	}
-
-	libertarianism = {
-	
-		types = {
-			
-			democratic_confederalism = {}
-			anarchism = {}
-		
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_LIBERTARIANISM_1"
-			"FACTION_NAME_LIBERTARIANISM_2"
-			"FACTION_NAME_LIBERTARIANISM_3"
-			"FACTION_NAME_LIBERTARIANISM_4"
-			"FACTION_NAME_LIBERTARIANISM_5"
-		}
-		
-		color = { 225 215 0 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = 1.0
-		faction_impact_on_world_tension = 0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-	}
-
-	democratic = {
-	
-		types = {
-			
-			conservatism = {}
-			liberalism = {}
-		
+			conservative = {}
+			reactionary = {}
 		}
 		
 		dynamic_faction_names = {
@@ -115,30 +18,86 @@ ideologies = {
 		color = { 0 0 255 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
+		
 		}
 		
-		war_impact_on_world_tension = -1.0 #Democracies make world safer when declare war amirite?
+		war_impact_on_world_tension = -1.0
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
+		
 		}
 		
 		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		
+		}
+	}
+
+	liberalism = {
+	
+		types = {
+			social_liberal = {}
+			market_liberal = {}
+			libertarian = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+		}
+		
+		color = { 225 215 0 }
+		
+		rules = {
+		
+		}
+		
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+		
+		}
+	}
+	
+	socialism = {
+	
+		types = {
+			democratic_confederalism = {}
+			democratic_socialism = {}
+			social_democratic = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_DEMOCRATIC_1"
+			"FACTION_NAME_DEMOCRATIC_2"
+			"FACTION_NAME_DEMOCRATIC_3"
+			"FACTION_NAME_DEMOCRATIC_4"
+			"FACTION_NAME_DEMOCRATIC_5"
+		}
+		
+		color = { 250 160 200 }
+		
+		rules = {
+		
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+		
 		}
 	}
 
@@ -158,12 +117,10 @@ ideologies = {
 			"FACTION_NAME_AUTHORITARIANISM_5"
 		}
 		
-		color = { 100 100 150 } # This is the color of vanilla Syria, feel free to tweak it
+		color = { 100 100 150 }
 		
-		rules = { # Placeholder
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
+		rules = {
+		
 		}
 
 		war_impact_on_world_tension = 0.5
@@ -172,14 +129,50 @@ ideologies = {
 		modifiers = {}
 		faction_modifiers = {}
 		
-		ai_neutral = yes # Placeholder
+		ai_neutral = yes
 
+	}
+	
+	communism = {
+	
+		types = {
+			anarcho_communism = {}
+			trotskyism = {}
+			marxism = {}
+		    pkk = {}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_COMMUNISM_1"
+			"FACTION_NAME_COMMUNISM_2"
+			"FACTION_NAME_COMMUNISM_3"
+			"FACTION_NAME_COMMUNISM_4"
+			"FACTION_NAME_COMMUNISM_5"
+		}
+		
+		color = { 255 0 0 }
+		
+		rules = {
+		
+		}
+		
+		war_impact_on_world_tension = 1.0
+		faction_impact_on_world_tension = 0.1
+		
+		modifiers = {
+		
+		}
+		
+		faction_modifiers = {
+		
+		}
 	}
 	
 	sunni_islamism = {
 		
-		types = {
-			sunni_islamism_1 = {}
+	    types = {
+			sunni_islamist = {}
+			islamic_monarchy = {}
 		}
 		
 		dynamic_faction_names = {
@@ -192,13 +185,11 @@ ideologies = {
 		
 		color = { 0 30 0 }
 		
-		rules = { # Placeholder
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
+		rules = { 
+		
 		}
 
-		war_impact_on_world_tension = 1.0			#evil!
+		war_impact_on_world_tension = 1.0
 		faction_impact_on_world_tension = 1.0
 		
 		modifiers = {}
@@ -211,7 +202,7 @@ ideologies = {
 	shia_islamism = {
 		
 		types = {
-			shia_islamism_1 = {}
+			shia_islamist = {}
 		}
 		
 		dynamic_faction_names = {
@@ -224,27 +215,24 @@ ideologies = {
 		
 		color = { 0 90 0 }
 		
-		rules = { # Placeholder
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
+		rules = { 
+		
 		}
 
-		war_impact_on_world_tension = 0.75			#evil..? (placeholder)
+		war_impact_on_world_tension = 0.75
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {}
 		faction_modifiers = {}
 		
-		ai_fascist = yes # Placeholder
+		ai_fascist = yes 
 
 	}
 	
 	monarchism = {
 	
 		types = {
-			absolute = {}
-
+			absolute_monarchist = {}
 		}
 
 		dynamic_faction_names = {
@@ -261,16 +249,14 @@ ideologies = {
 		war_impact_on_world_tension = 0.25
 		faction_impact_on_world_tension = 0.1
 		
-		rules = { # Placeholder
-			can_force_government = no
-			can_send_volunteers = yes
-			can_puppet = yes
+		rules = {
+		
 		}
 		
 		modifiers = {}
 		faction_modifiers = {}
 
-		ai_neutral = yes # Placeholder
+		ai_neutral = yes 
 	}
 
 }

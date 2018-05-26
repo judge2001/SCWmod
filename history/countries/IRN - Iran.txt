@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -53,10 +55,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Hassan Rouhani"
-	desc = ""
-	picture = "gfx/leaders/IRN/IRN_Hassan_Rouhani.jpg"
-	ideology = shia_islamism_1
-	traits = {
-		#
-	}
+	picture = "IRN_Hassan_Rouhani.jpg"
+	ideology = shia_islamist
 }

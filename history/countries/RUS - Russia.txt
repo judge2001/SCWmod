@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 100
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -45,18 +47,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "2009.1.1"
+	ruling_party = conservatism
+	last_election = "2012.3.4"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Vladimir Putin"
-	desc = ""
-	picture = "gfx/leaders/RUS/RUS_Vladimir_Putin.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	picture = "RUS_Vladimir_Putin.jpg"
+	ideology = reactionary
 }

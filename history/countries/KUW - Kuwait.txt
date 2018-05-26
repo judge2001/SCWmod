@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -25,18 +23,22 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 0
+			popularity = 100
 		}
 		
 		authoritarianism = {
 			popularity = 0
 		}
 		
-		democratic = { 
-			popularity = 100
+		conservatism = { 
+			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -45,18 +47,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = sunni_islamism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sabadh al-Ahmad as-Sabah"
-	desc = ""
-	picture = "gfx/leaders/KUW/KUW_Sabah_al-Ahmad_as-Sabah.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	name = "Sabah Al-Ahmad Al-Jaber Al-Sabah"
+	picture = "KUW_Sabah_al-Ahmad_as-Sabah.jpg"
+	ideology = islamic_monarchy
 }

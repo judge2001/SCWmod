@@ -32,11 +32,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 40
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -53,10 +57,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Abdullah II"
-	desc = ""
 	picture = "gfx/leaders/JRD/JRD_Abdallah_II.jpg"
-	ideology = absolute
-	traits = {
-		#
-	}
+	ideology = absolute_monarchist
 }

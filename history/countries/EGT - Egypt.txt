@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 100
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -46,17 +48,13 @@ set_politics = {
 	}
 	
 	ruling_party = authoritarianism
-	last_election = "2009.1.1"
+	last_election = "2012.6.17"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Abdel Fattah el-Sisi"
-	desc = ""
-	picture = "gfx/leaders/EGT/EGT_Abdel_Fattah_el-Sisi.jpg"
+	picture = "EGT_Abdel_Fattah_el-Sisi.jpg"
 	ideology = one_party
-	traits = {
-		#
-	}
 }

@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -52,22 +54,15 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Abdullah Bin Abdulaziz"
-	desc = ""
-	picture = "gfx/leaders/ARA/ARA_Abdullah_bin_Abdulaziz.jpg"
-	expire = "2015.1.23"
-	ideology = sunni_islamism_1
-	traits = {
-		#
-	}
+	name = "Abdullah bin Abdulaziz"
+	picture = "ARA_Abdullah_bin_Abdulaziz.jpg"
+	ideology = islamic_monarchy
 }
 
-create_country_leader = {
-	name = "Salman Bin Abuldaziz"
-	desc = ""
-	picture = "gfx/leaders/ARA/ARA_Salman_bin_Abdulaziz.jpg"
-	ideology = sunni_islamism_1
-	traits = {
-		#
-	}
+2015.1.23 = {
+    create_country_leader = {
+	    name = "Salman bin Abdulaziz"
+	    picture = "ARA_Salman_bin_Abdulaziz.jpg"
+	    ideology = islamic_monarchy
+    }
 }

@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,12 +30,16 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 0
 		}
-
-		libertarianism = {
+		
+		socialism = { 
 			popularity = 100
+		}
+
+		liberalism = {
+			popularity = 0
 		}
 		
 		monarchism = {
@@ -45,8 +47,8 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = libertarianism
-	last_election = "2009.1.1"
+	ruling_party = socialism
+	last_election = "2013.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }

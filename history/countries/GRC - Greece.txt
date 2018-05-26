@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,12 +30,16 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
-			popularity = 100
+		conservatism = { 
+			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
 			popularity = 0
+		}
+		
+		socialism = {
+			popularity = 100
 		}
 		
 		monarchism = {
@@ -45,14 +47,63 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "2009.1.1"
+	ruling_party = socialism
+	last_election = "2010.2.3"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Karolos Papoulias"
 	picture = "Karolos_Papoulias.png"
-	ideology = conservatism
+	ideology = social_democratic
+}
+
+create_country_leader = {
+	name = "Prokopis Pavlopoulos"
+	picture = "Prokopis_Pavlopoulos.png"
+	ideology = conservative
+}
+
+2015.3.13 = {
+    set_politics = {
+
+	    parties = {
+		    shia_islamism = {
+			    popularity = 0
+		    }
+
+		    communism = {
+			    popularity = 0
+		    }
+		
+		    sunni_islamism = {
+			    popularity = 0
+		    }
+		
+		    authoritarianism = {
+			    popularity = 0
+		    }
+		
+		    conservatism = { 
+			    popularity = 100
+		    }
+
+		    liberalism = {
+			    popularity = 0
+		    }
+		
+		    socialism = {
+			    popularity = 0
+		    }
+		
+		    monarchism = {
+			    popularity = 0
+		    }
+	}
+	
+	ruling_party = conservatism
+	last_election = "2015.2.18"
+	election_frequency = 48
+	elections_allowed = yes
 }

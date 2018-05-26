@@ -8,8 +8,6 @@ set_convoys = 0
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -33,11 +31,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+	    socialism = {
 			popularity = 0
 		}
 		
@@ -55,7 +57,7 @@ set_politics = {
 create_country_leader = {
 	name = "Abu Bakr al-Baghdadi"
 	picture = "gfx/leaders/ISI/ISI_Abu_Bakr_al-Baghdadi.jpg"
-	ideology = sunni_islamism_1
+	ideology = sunni_islamist
 }
 
 create_field_marshal = {

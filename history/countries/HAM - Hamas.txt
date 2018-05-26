@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -54,5 +56,5 @@ set_politics = {
 create_country_leader = {
 	name = "Ismail Haniyeh"
 	picture = "Ismail_Haniyeh.png"
-	ideology = sunni_islamism_1
+	ideology = sunni_islamist
 }

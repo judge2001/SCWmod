@@ -8,8 +8,6 @@ set_convoys = 25
 
 set_stability = 0.65
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -28,11 +26,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 100
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -41,21 +43,18 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "2009.1.1"
+	ruling_party = conservatism
+	last_election = "2013.1.22"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Benjamin Netanyahu"
-	desc = ""
 	picture = "gfx/leaders/ISL/ISL_Benjamin_Netanyahu.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	ideology = conservative
 }
+
 create_field_marshal = {
 	name = "Herzl Halevi"
 	portrait_path = "gfx/leaders/ISL/ISL_Herzl_Halevi.jpg"
@@ -66,6 +65,7 @@ create_field_marshal = {
     planning_skill = 5
     logistics_skill = 3
 }
+
 create_field_marshal = {
 	name = "Yitzhak Turgeman"
 	portrait_path = "gfx/leaders/ISL/ISL_Yitzhak_Turgeman.jpg"
@@ -76,6 +76,7 @@ create_field_marshal = {
     planning_skill = 1
     logistics_skill = 1
 }
+
 create_field_marshal = {
 	name = "Ofek Buchris"
 	portrait_path = "gfx/leaders/ISL/ISL_Ofek_Buchris.jpg"

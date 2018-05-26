@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.9
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -17,7 +15,7 @@ set_politics = {
 
 	parties = {
 		shia_islamism = {
-			popularity = 5
+			popularity = 0
 		}
 
 		communism = {
@@ -25,19 +23,23 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 30
+			popularity = 0
 		}
 		
 		authoritarianism = {
 			popularity = 0
 		}
 		
-		democratic = { 
-			popularity = 65
+		conservatism = { 
+			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
 			popularity = 0
+		}
+		
+		socialism = {
+			popularity = 100
 		}
 		
 		monarchism = {
@@ -45,7 +47,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = socialism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -53,10 +55,6 @@ set_politics = {
 
 create_country_leader = {
 	name = "Mahmoud Abbas"
-	desc = ""
-	picture = "gfx/leaders/PLE/PLE_Mahmoud_Abbas.jpg"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	picture = "PLE_Mahmoud_Abbas.jpg"
+	ideology = social_democratic
 }

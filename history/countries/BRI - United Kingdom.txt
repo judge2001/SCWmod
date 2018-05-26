@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -21,7 +19,7 @@ set_politics = {
 		}
 
 		communism = {
-			popularity = 2
+			popularity = 0
 		}
 		
 		sunni_islamism = {
@@ -32,35 +30,39 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
-			popularity = 68
+		conservatism = { 
+			popularity = 50
 		}
 
-		libertarianism = {
-			popularity = 25
+		liberalism = {
+			popularity = 8
+		}
+		
+		socialism = {
+			popularity = 42
 		}
 		
 		monarchism = {
-			popularity = 5
+			popularity = 0
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "2010.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	ruling_party = conservatism
+	last_election = "2010.5.6"
+	election_frequency = 60
+	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "David Cameroon"
+	name = "David Cameron"
 	picture = "BRI_David_Cameron.jpg"
-	ideology = conservatism
+	ideology = conservative
 }
 
 2016.7.13 = {
     create_country_leader = {
 	    name = "Theresa May"
 	    picture = "BRI_Theresa_May.jpg"
-	    ideology = conservatism
+	    ideology = conservative
     }
 }

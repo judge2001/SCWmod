@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -32,11 +30,15 @@ set_politics = {
 			popularity = 0
 		}
 		
-		democratic = { 
+		conservatism = { 
 			popularity = 100
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -45,7 +47,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = conservatism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -54,5 +56,5 @@ set_politics = {
 create_country_leader = {
 	name = "Bashar al-Zoubi"
 	picture = "Bashar_Al_Zoubi.png"
-	ideology = conservatism
+	ideology = conservative
 }

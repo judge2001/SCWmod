@@ -8,15 +8,13 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
 set_politics = {
 
 	parties = {
-		shia_islamism = {
+		conservatism = {
 			popularity = 0
 		}
 
@@ -36,7 +34,11 @@ set_politics = {
 			popularity = 100
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -46,17 +48,13 @@ set_politics = {
 	}
 	
 	ruling_party = shia_islamism
-	last_election = "2009.1.1"
+	last_election = "2010.3.7"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Jalal Talabani"
-	desc = ""
-	picture = "gfx/leaders/IRA/IRA_Jalal_Talabani.jpg"
-	ideology = shia_islamism_1
-	traits = {
-		#
-	}
+	picture = "IRA_Jalal_Talabani.jpg"
+	ideology = shia_islamist
 }
