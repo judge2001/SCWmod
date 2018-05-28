@@ -59,6 +59,34 @@ create_country_leader = {
 	ideology = conservative
 }
 
+create_country_leader = {
+	name = "Ed Miliband"
+	picture = "Ed_Miliband.png"
+	ideology = social_democratic
+}
+
+create_country_leader = {
+	name = "Nick Clegg"
+	picture = "Nick_Clegg.jpg"
+	ideology = classical_liberal
+}
+
+2015.5.8 = {
+    create_country_leader = {
+	    name = "Tim Farron"
+	    picture = "Tim_Farron.jpg"
+	    ideology = classical_liberal
+    }
+}
+
+2015.9.12 = {
+    create_country_leader = {
+	    name = "Jeremy Corbyn"
+	    picture = "Jeremy_Corbyn.png"
+	    ideology = social_democratic
+    }
+}
+
 2016.7.13 = {
     create_country_leader = {
 	    name = "Theresa May"

@@ -37,7 +37,7 @@ ideologies = {
 	
 		types = {
 			social_liberal = {}
-			market_liberal = {}
+			classical_liberal = {}
 			libertarian = {}
 		}
 		
