@@ -67,14 +67,20 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Nick Clegg"
-	picture = "Nick_Clegg.jpg"
+	picture = "Nick_Clegg.png"
 	ideology = classical_liberal
+}
+
+create_country_leader = {
+	name = "Nigel Farage"
+	picture = "Nigel_Farage.png"
+	ideology = one_party
 }
 
 2015.5.8 = {
     create_country_leader = {
 	    name = "Tim Farron"
-	    picture = "Tim_Farron.jpg"
+	    picture = "Tim_Farron.png"
 	    ideology = classical_liberal
     }
 }
@@ -92,5 +98,13 @@ create_country_leader = {
 	    name = "Theresa May"
 	    picture = "BRI_Theresa_May.jpg"
 	    ideology = conservative
+    }
+}
+
+2016.11.28 = {
+    create_country_leader = {
+	    name = "Paul Nuttall"
+	    picture = "Paul_Nuttall.png"
+	    ideology = one_party
     }
 }

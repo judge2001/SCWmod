@@ -23,7 +23,7 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 100
+			popularity = 0
 		}
 		
 		authoritarianism = {
@@ -43,7 +43,7 @@ set_politics = {
 		}
 		
 		monarchism = {
-			popularity = 0
+			popularity = 100
 		}
 	}
 	
