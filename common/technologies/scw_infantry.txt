@@ -1,0 +1,933 @@
+technologies = {
+@2013 = 0
+@2014 = 2
+@2015 = 4
+@2016 = 6
+@2017 = 8
+@2018 = 10
+@2019 = 12
+@2020 = 14
+@2021 = 16
+@2022 = 18
+@2023 = 20
+
+    ##Ar's##
+    assault_rifles_1 = {
+        #enable_equipment = {
+        # assault_rifle_1   
+        #}
+
+        path = {
+            leads_to_tech = assault_rifles_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2013
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 0 y = -1}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    assault_rifles_2 = {
+        #enable_equipment = {
+        # assault_rifle_2   
+        #}
+
+        path = {
+            leads_to_tech = assault_rifles_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2015
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 0 y = 2}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    assault_rifles_3 = {
+        #enable_equipment = {
+        # assault_rifle_3   
+        #}
+
+        path = {
+            leads_to_tech = assault_rifles_4
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2017
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 0 y = 5}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    assault_rifles_4 = {
+        #enable_equipment = {
+        # assault_rifle_4   
+        #}
+
+        path = {
+            leads_to_tech = assault_rifles_5
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2019
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 0 y = 8}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    assault_rifles_5 = {
+        #enable_equipment = {
+        # assault_rifle_5  
+        #}
+
+        research_cost = 1
+		start_year = 2021
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 0 y = 11}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+    ##Snipers##
+    sniper_rifles_1 = {
+        #enable_equipment = {
+        # sniper_rifle_1   
+        #}
+
+        path = {
+            leads_to_tech = sniper_rifles_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2013
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 1 y = -1}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    sniper_rifles_2 = {
+        #enable_equipment = {
+        # sniper_rifle_2   
+        #}
+
+        path = {
+            leads_to_tech = sniper_rifles_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2015
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 1 y = 2}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    sniper_rifles_3 = {
+        #enable_equipment = {
+        # sniper_rifle_3  
+        #}
+
+        path = {
+            leads_to_tech = sniper_rifles_4
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2017
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 1 y = 5}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    sniper_rifles_4 = {
+        #enable_equipment = {
+        # sniper_rifle_4   
+        #}
+
+        research_cost = 1
+		start_year = 2019
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 1 y = 8}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    ##Machine Guns##
+    machine_guns_1 = {
+        #enable_equipment = {
+        # machine_guns_1   
+        #}
+
+        path = {
+            leads_to_tech = machine_guns_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2013
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 2 y = -1}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    machine_guns_2 = {
+        #enable_equipment = {
+        # machine_guns_2   
+        #}
+
+        path = {
+            leads_to_tech = machine_guns_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2015
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 2 y = 2}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    machine_guns_3 = {
+        #enable_equipment = {
+        # machine_guns_3   
+        #}
+
+        path = {
+            leads_to_tech = machine_guns_4
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2017
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 2 y = 5}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    machine_guns_4 = {
+        #enable_equipment = {
+        # machine_guns_4   
+        #}
+
+        research_cost = 1
+		start_year = 2019
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 2 y = 8}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    ##RPG's##
+
+    rpg_1 = {
+        #enable_equipment = {
+        # rpg_1   
+        #}
+
+        path = {
+            leads_to_tech = rpg_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2013
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 3 y = -1}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    rpg_2 = {
+        #enable_equipment = {
+        # rpg_2   
+        #}
+
+        path = {
+            leads_to_tech = rpg_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2015
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 3 y = 2}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    rpg_3 = {
+        #enable_equipment = {
+        # rpg_3   
+        #}
+
+        path = {
+            leads_to_tech = rpg_4
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2017
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 3 y = 5}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    rpg_4 = {
+        #enable_equipment = {
+        # rpg_4   
+        #}
+        research_cost = 1
+		start_year = 2019
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 3 y = 8}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    ##ATGM##
+
+    atgm_1 = {
+        #enable_equipment = {
+        # atgm_1   
+        #}
+
+        path = {
+            leads_to_tech = atgm_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2013
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 4 y = -1}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    atgm_2 = {
+        #enable_equipment = {
+        # atgm_2  
+        #}
+
+        path = {
+            leads_to_tech = atgm_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2015
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 4 y = 2}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    atgm_3 = {
+        #enable_equipment = {
+        # atgm_3   
+        #}
+
+        research_cost = 1
+		start_year = 2017
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 4 y = 5}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    ##Mortars##
+
+    mortar_1 = {
+        #enable_equipment = {
+        # mortar_1   
+        #}
+
+        path = {
+            leads_to_tech = mortar_2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2013
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 5 y = -1}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    mortar_2 = {
+        #enable_equipment = {
+        # mortar_2   
+        #}
+
+        path = {
+            leads_to_tech = mortar_3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 1
+		start_year = 2015
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 5 y = 2}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+
+    mortar_3 = {
+        #enable_equipment = {
+        # mortar_3   
+        #}
+
+        research_cost = 1
+		start_year = 2017
+
+        folder = {
+            name = scwarmy_folder
+            position = { x = 5 y = 5}
+        }
+        categories = {
+			infantry_weapons
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+			modifier = {
+				factor = 1.2
+				date > "2014.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2015.1.1"
+			}
+
+			modifier = {
+				factor = 1.2
+				date > "2016.1.1"
+			}
+		}
+    }
+}
