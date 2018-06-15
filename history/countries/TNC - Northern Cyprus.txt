@@ -31,7 +31,7 @@ set_politics = {
 		}
 		
 		conservatism = { 
-			popularity = 60
+			popularity = 50.38
 		}
 
 		liberalism = {
@@ -39,7 +39,7 @@ set_politics = {
 		}
 		
 		socialism = {
-			popularity = 0
+			popularity = 39.62
 		}
 		
 		monarchism = {
@@ -48,13 +48,19 @@ set_politics = {
 	}
 	
 	ruling_party = conservatism
-	last_election = "2009.1.1"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "2010.4.18"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+create_country_leader = {
+	name = "Dervis Eroglu"
+	picture = "Dervis_Eroglu.png"
+	ideology = conservative
 }
 
 create_country_leader = {
 	name = "Mustafa Akinci"
-	picture = "gfx/leaders/TNC/TNC_Mustafa_Akinci.jpg"
-	ideology = conservative
+	picture = "TNC_Mustafa_Akinci.jpg"
+	ideology = social_democratic
 }
