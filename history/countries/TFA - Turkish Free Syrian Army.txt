@@ -23,7 +23,7 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 100
+			popularity = 12
 		}
 		
 		authoritarianism = {
@@ -31,7 +31,7 @@ set_politics = {
 		}
 		
 		conservatism = { 
-			popularity = 0
+			popularity = 88
 		}
 
 		liberalism = {
@@ -47,22 +47,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = sunni_islamism
+	ruling_party = conservatism
 	last_election = "2009.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Abdul Qader Saleh"
-	picture = "Abdul_Qader_Saleh.png"
-	ideology = sunni_islamist
-}
-
-2013.11.17 = {
-    create_country_leader = {
-	    name = "Adnan Bakkour"
-	    picture = "Adnan_Bakkour.png"
-	    ideology = sunni_islamist
-    }
+	name = "Zekai Aksakalli"
+	picture = "Zekai_Aksakalli.png"
+	ideology = conservatism
 }

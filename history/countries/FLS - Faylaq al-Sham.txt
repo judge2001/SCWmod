@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -25,18 +23,22 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 40
+			popularity = 100
 		}
 		
 		authoritarianism = {
 			popularity = 0
 		}
 		
-		democratic = { 
-			popularity = 60
+		conservatism = { 
+			popularity = 0
 		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -45,18 +47,14 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
-	last_election = "2009.1.1"
+	ruling_party = sunni_islamism
+	last_election = "2013.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Leader Name"
-	desc = ""
-	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = conservatism
-	traits = {
-		#
-	}
+	name = "Mohammad Bakkar"
+	picture = "Mohammad_Bakkar.png"
+	ideology = sunni_islamist
 }

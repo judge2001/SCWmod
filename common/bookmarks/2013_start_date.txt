@@ -1,7 +1,7 @@
 bookmarks = {
 	bookmark = {
-		name = "SCW_NAME"
-		desc = "SCW_DESC"
+		name = "SCW2013_NAME"
+		desc = "SCW2013_DESC"
 		date = 2013.10.30.12
 		picture = "GFX_select_date_1936"
 		default_country = "SRI"
@@ -10,30 +10,29 @@ bookmarks = {
 			history = SRI_SCW_DESC
 			ideology = authoritarianism
 		}
-		IRA= {
-			history = IRA_SCW_DESC
-			ideology = authoritarianism
+		FSA = {
+			history = FSA_SCW_DESC
+			ideology = conservatism
+		}
+		STF = {
+			history = STF_SCW_DESC
+			ideology = conservatism
+		}
+		ALN = {
+			history = ALN_SCW_DESC
+			ideology = sunni_islamism
 		}
 		ISI = {
 			history = ISI_SCW_DESC
-			ideology = authoritarianism
-			
-		}
-		KRG = {
-			history = KRG_SCW_DESC
-			ideology = authoritarianism
+			ideology = sunni_islamism
 		}
 		ROJ = {
 			history = ROJ_SCW_DESC
-			ideology = authoritarianism			
-		}
-		HEZ = {
-			history = HEZ_SCW_DESC
-			ideology = authoritarianism		
+			ideology = socialism		
 		}
 
 		"---"={
-			history = "OTHER_BLITZKRIEG_DESC"
+			history = "OTHER_DESC"
 		}
 
 		# minors from DLC ####
