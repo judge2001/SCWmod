@@ -54,7 +54,7 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Ismail Haniyeh"
-	picture = "Ismail_Haniyeh.png"
+	name = "Khaled Mashal"
+	picture = "Khaled_Mashal.png"
 	ideology = sunni_islamist
 }
