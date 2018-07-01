@@ -172,6 +172,7 @@ ideologies = {
 		
 	    types = {
 			sunni_islamist = {}
+			islamic_monarchy = {}
 		}
 		
 		dynamic_faction_names = {
@@ -232,7 +233,6 @@ ideologies = {
 	
 		types = {
 			absolute_monarchist = {}
-			islamic_monarchy = {}
 		}
 
 		dynamic_faction_names = {

@@ -48,8 +48,8 @@ set_politics = {
 	}
 	
 	ruling_party = conservatism
-	last_election = "2011.6.12"
-	election_frequency = 48
+	last_election = "2007.8.10"
+	election_frequency = 84
 	elections_allowed = yes
 }
 

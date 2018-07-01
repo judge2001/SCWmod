@@ -1,5 +1,86 @@
 ideas = {
 	country = {
-	
+	TAF-PKK_Conflict = {
+
+               picture = socialist_science_focus
+
+               allowed = { 
+                    always = yes 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+
+               modifier = { 
+                     political_power_factor = -0.20
+                     stability_factor = -0.10
+                     division_organizition_factor = -0.25
 	}
+}
+
+	government_distrust = {
+
+               picture = socialist_science_focus
+
+               allowed = { 
+                    always = yes 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+
+               modifier = { 
+			         political_power_cost = +0.2
+                     political_power_factor = -0.1
+                     stability_factor = -0.1
+	}
+  }
+  
+  	severe_scandal = {
+
+               picture = socialist_science_focus
+
+               allowed = { 
+                    always = yes 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+
+               modifier = { 
+			         political_power_cost = +0.3
+                     political_power_factor = -0.2
+                     stability_factor = -0.2
+	}
+  }
+ }
+}
+
+  	soma_mine_disaster = {
+
+               picture = socialist_science_focus
+
+               allowed = { 
+                    always = yes 
+                }
+
+               allowed_civil_war = { 
+                    always = no
+                }
+
+
+               modifier = { 
+			         
+			         political_power_cost = +0.1
+                     stability_factor = -0.1
+					 #must add a consumer factory %10 but cant find the code
+	}
+  }
+ }
 }

@@ -10,7 +10,10 @@ country_event = {
 	is_triggered_only = yes
 	
 	trigger = {
-	    ROOT = { exists = yes }
+	    OR = {
+		    NOT = { original_tag = TRK }
+			date > 2015.1.1
+		}
 	}
 	
 	option = {	#The Ruling Party
