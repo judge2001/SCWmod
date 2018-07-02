@@ -104,7 +104,8 @@ ideologies = {
 	authoritarianism = {
 		
 		types = {
-			one_party = {}
+			autocrat = {}
+			nationalist = {}
 			iraqi_baathism = {}
 			syrian_baathism = {}
 		}
@@ -136,9 +137,9 @@ ideologies = {
 	communism = {
 	
 		types = {
-			anarcho_communism = {}
-			trotskyism = {}
-			marxism = {}
+			anarcho_communist = {}
+			trotskyist = {}
+			marxist_leninist = {}
 		    pkk = {}
 		}
 		

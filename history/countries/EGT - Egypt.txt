@@ -56,5 +56,5 @@ set_politics = {
 create_country_leader = {
 	name = "Abdel Fattah el-Sisi"
 	picture = "EGT_Abdel_Fattah_el-Sisi.jpg"
-	ideology = one_party
+	ideology = autocrat
 }

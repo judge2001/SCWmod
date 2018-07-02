@@ -74,7 +74,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Nigel Farage"
 	picture = "Nigel_Farage.png"
-	ideology = one_party
+	ideology = nationalist
 }
 
 2015.5.8 = {
@@ -105,6 +105,6 @@ create_country_leader = {
     create_country_leader = {
 	    name = "Paul Nuttall"
 	    picture = "Paul_Nuttall.png"
-	    ideology = one_party
+	    ideology = nationalist
     }
 }

@@ -7,7 +7,7 @@ tags={
 	"Historical"
 }
 remote_file_id="699709023"
-supported_version="1.5.3"
+supported_version="1.5.4"
 
 replace_path="events"
 replace_path="common/ideas"

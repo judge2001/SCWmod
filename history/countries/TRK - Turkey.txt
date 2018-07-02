@@ -23,15 +23,15 @@ set_politics = {
 		}
 		
 		sunni_islamism = {
-			popularity = 10
+			popularity = 0
 		}
 		
 		authoritarianism = {
-			popularity = 35
+			popularity = 14.01
 		}
 		
 		conservatism = { 
-			popularity = 55
+			popularity = 49.83
 		}
 
 		liberalism = {
@@ -39,7 +39,7 @@ set_politics = {
 		}
 		
 		socialism = {
-			popularity = 0
+			popularity = 36.16
 		}
 		
 		monarchism = {
@@ -54,7 +54,47 @@ set_politics = {
 }
 
 create_country_leader = {
-	name = "Recep Tayyip Erdogan"
-	picture = "TRK_Recep_Tayyip_Erdogan.jpg"
+	name = "Abdullah Gül"
+	picture = "Abdullah_Gul.jpg"
 	ideology = conservative
+}
+
+create_country_leader = {
+	name = "Mustafa Kamalak"
+	picture = "Mustafa_Kamalak.png"
+	ideology = sunni_islamist
+}
+
+create_country_leader = {
+	name = "Bayezid Osman"
+	picture = "Bayezid_Osman.png"
+	ideology = absolute_monarchist
+}
+
+create_country_leader = {
+	name = "Ekmelledin Ihsanoğlu"
+	picture = "Ekmelledin_Ihsanoglu.png"
+	ideology = social_democratic
+}
+
+create_country_leader = {
+	name = "Ekmelledin Ihsanoğlu"
+	picture = "Ekmelledin_Ihsanoglu.png"
+	ideology = nationalist
+}
+
+2014.8.27 = {
+    create_country_leader = {
+	    name = "Recep Tayyip Erdogan"
+	    picture = "Recep_Tayyip_Erdogan.jpg"
+	    ideology = conservative
+    }
+}
+
+2016.10.30 = {
+    create_country_leader = {
+	    name = "Temel Karamollaoğlu"
+	    picture = "Temel_Karamollaoglu.png"
+	    ideology = sunni_islamist
+    }
 }
