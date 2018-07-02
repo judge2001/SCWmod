@@ -13,7 +13,7 @@ ideas = {
             modifier = { 
                 political_power_factor = -0.20
                 stability_factor = -0.10
-                division_organization_factor = -0.25
+                army_org_factor = -0.25
 	        }
         }
 
@@ -29,7 +29,7 @@ ideas = {
 
 
             modifier = { 
-			    political_power_cost = 0.2
+			    political_power_gain = -0.02
                 political_power_factor = -0.1
                 stability_factor = -0.1
 	        }
@@ -46,7 +46,7 @@ ideas = {
             }
 
             modifier = { 
-			    political_power_cost = 0.3
+			    political_power_gain = -0.03
                 political_power_factor = -0.2
                 stability_factor = -0.2
 	        }
@@ -64,7 +64,7 @@ ideas = {
 
 
             modifier = { 
-			    political_power_cost = 0.1
+			    political_power_gain = -0.01
                 stability_factor = -0.1
 			    consumer_goods_factor = 0.1
 	        }
