@@ -2,4 +2,208 @@ ideas = {
 	country = {
 	
 	}
+
+	economy_minister = {
+	
+		omar_malhas = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		sami_halaseh = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		abdullah_ensour = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		jawad_anani = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		nasser_judeh = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		ayman_safadi = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	defence_minister = {
+	
+		hani_al_mulki_DM = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	domestic_minister = {
+	
+		rida_khawaldeh = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		wajih_owais = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		ibrahim_saif = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	army_chief = {
+	
+		mahmoud_freihat = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		mashal_al_zaben = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	
+	}
+	
+	navy_chief = {
+	
+		ibrahim_salman_al_naimat = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	air_chief = {
+	
+		yousef_al_huneiti = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		mansour_al_jbour = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	second_in_command = {
+	
+		hani_al_mulki = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		abdullah_ensour_PM = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	security_minister = {
+		
+	}
+	
+	military_intel_chief = {
+		
+		adnan_al_jundi = {
+			
+			allowed = {
+				original_tag = JRD
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
 }

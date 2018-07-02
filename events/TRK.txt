@@ -206,7 +206,6 @@ country_event = {
 	}
 		
 	
-	
 	option = {	#MHP
 		name = TRKelection.1.o3
 		ai_chance = {
