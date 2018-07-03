@@ -2,4 +2,338 @@ ideas = {
 	country = {
 	
 	}
+
+	economy_minister = {
+	
+		naftali_bennett = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		aryeh_deri = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		orit_noked = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	foreign_minister = {
+	
+		avigdor_lieberman = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		danny_ayalon = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		zeev_elkin = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	defence_minister = {
+	
+		moshe_yaalon = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		danny_danon = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		ehud_barak = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	domestic_minister = {
+	
+		gideon_saar = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		gilad_erdan_DM = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		yitzhak_aharonovich = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	army_chief = {
+	
+		guy_tzur = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		sami_turgeman = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		avi_mizrahi = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	
+	}
+	
+	navy_chief = {
+	
+		ram_rothberg = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		eli_sharvit = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		eliezer_marom = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	air_chief = {
+	
+		amir_eshel = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		ido_nehoshtan = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		amikam_norkin = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	second_in_command = {
+	
+		ofir_akunis = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	security_minister = {
+		
+		gilad_erdan = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		tzipi_livni = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		yuval_steinitz = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	military_intel_chief = {
+		
+		aviv_kokhavi = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		herzi_halevi = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		amos_yadlin = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
+	high_command = {
+		
+		uzi_moscovitch = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		kobi_barak = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		yaniv_asor = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		guy_bar_lev = {
+			
+			allowed = {
+				original_tag = ISL
+			}
+			
+			traits = { prince_of_terror }
+		}
+	
+	}
+	
 }

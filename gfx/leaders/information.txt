@@ -1,6 +1,0 @@
-#those are leaders for countries
-
-#some of the tags have multiple leaders, because they changed throughout the time
-
-#rojave is still missing, because they have two leaders and I still haven't decided how will we do it
-
