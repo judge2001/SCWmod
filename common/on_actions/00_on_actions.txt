@@ -258,7 +258,8 @@ on_actions = {
 		effect = {
 		    TRK = { country_event =  { id = info.1 }
 			SRI = { country_event =  { id = info.2 } 
-			IRA = { country_event =  { id = info.3 } 
+			IRA = { country_event =  { id = info.3 }
+			STF = { country_event =  { id = info.4 } 
 		}
 	}
 	
