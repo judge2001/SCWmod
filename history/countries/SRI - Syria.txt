@@ -31,11 +31,11 @@ set_politics = {
 		}
 		
 		conservatism = { 
-			popularity = 3
+			popularity = 0
 		}
 
 		liberalism = {
-			popularity = 0
+			popularity = 3
 		}
 		
 		socialism = {
@@ -48,21 +48,41 @@ set_politics = {
 	}
 	
 	ruling_party = authoritarianism
-	last_election = "2007.5.27"
-	election_frequency = 48
+	last_election = "2007.6.3"
+	election_frequency = 84
 	elections_allowed = yes
 }
 
 create_country_leader = {
 	name = "Bashar al-Assad"
-	picture = "SRI_Bashar_al-Assad.jpg"
+	picture = "Bashar_al_Assad.jpg"
 	ideology = syrian_baathism
 }
 
 create_country_leader = {
+	name = "Hassan al-Nouri"
+	picture = "Hassan_al_Nouri.png"
+	ideology = classical_liberal
+}
+
+create_country_leader = {
 	name = "Assaad Hardan"
-	picture = "Assaad_Hardan.jpg"
+	picture = "Assaad_Hardan.png"
 	ideology = shia_islamist
+}
+
+2014.6.3 = {
+    ruling_party = authoritarianism
+	last_election = "2014.6.3"
+	elections_allowed = yes
+}
+
+2016.8.5 = {
+    create_country_leader = {
+	    name = "Ali Qanso"
+	    picture = "Ali_Qanso.png"
+	    ideology = shia_islamist
+    }
 }
 
 create_corps_commander = {

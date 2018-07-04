@@ -12,6 +12,12 @@ country_event = {
 	trigger = {
 	    OR = {
 		    NOT = { original_tag = TRK }
+			NOT = { has_government = conservatism }
+			date > 2015.1.1
+		}
+	    OR = {
+		    NOT = { original_tag = SRI }
+			NOT = { has_government = authoritarianism }
 			date > 2015.1.1
 		}
 	}

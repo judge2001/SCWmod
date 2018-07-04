@@ -1,0 +1,53 @@
+﻿add_namespace = SRI
+add_namespace = SRIelection
+
+country_event = {
+	id = SRIelection.1
+	title = SRIelection.1.t
+	desc = SRIelection.1.d
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	    original_tag = SRI
+		has_government = authoritarianism
+		date > 2014.1.1
+		date < 2015.1.1
+	}
+	
+	option = {	#Ba'ath Party, Bashar al-Assad
+		name = SRIelection.1.o1
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+		    OR = {
+			    AND = {
+			        authoritarianism > 0.50
+				    liberalism < 0.50
+				}
+				AND = {
+			        authoritarianism < 0.50
+				    liberalism < 0.50
+				}
+			}
+		}
+		add_political_power = 20
+	}
+	
+	option = {	#NIACS, Hassan al-Nouri
+		name = SRIelection.1.o2
+		ai_chance = {
+			factor = 1
+		}
+		trigger = {
+			authoritarianism < 0.50
+		    liberalism > 0.50
+		}
+		set_politics = {
+			ruling_party = liberalism
+			elections_allowed = yes
+		}
+	}
+}
