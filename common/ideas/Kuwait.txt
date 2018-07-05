@@ -2,4 +2,175 @@ ideas = {
 	country = {
 	
 	}
+
+	economy_minister = {
+	
+		salem_abdulaziz_al_sabah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		anas_khalid_al_saleh = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	foreign_minister = {
+	
+	    sabah_al_khalid_al_sabah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	defence_minister = {
+	
+        khaled_al_jarrah_al_sabah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	domestic_minister = {
+	
+	    mohammad_khalid_al_hamad_al_sabah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	army_chief = {
+	
+		sheikh_ahmad_al_khaled_al_sabah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		abdul_rahman_mohammed_al_othman = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		mohammed_khaled_al_khadher = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	navy_chief = {
+	
+		khaled_abdullah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		idrees_abdullatif = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	air_chief = {
+	
+		yousif_dawyan_al_otaibi = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		abdullah_al_foudari = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	second_in_command = {
+	
+		jaber_al_mubarak_al_hamad_al_sabah = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+		sabah_al_khalid_al_sabah_PM = {
+			
+			allowed = {
+				original_tag = KUW
+			}
+			
+			traits = { prince_of_terror }
+		}
+		
+	}
+	
+	security_minister = {
+		
+	}
+	
+	military_intel_chief = {
+	
+	}
+	
+	high_command = {
+	
+	}
+	
 }
