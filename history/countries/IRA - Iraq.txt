@@ -48,13 +48,33 @@ set_politics = {
 	}
 	
 	ruling_party = shia_islamism
-	last_election = "2010.3.7"
+	last_election = "2010.4.30"
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 create_country_leader = {
-	name = "Jalal Talabani"
-	picture = "IRA_Jalal_Talabani.jpg"
+	name = "Nouri al-Maliki"
+	picture = "Nouri_al_Maliki.png"
 	ideology = shia_islamist
+}
+
+create_country_leader = {
+	name = "Raid Fahmi"
+	picture = "Raid_Fahmi.png"
+	ideology = marxist_leninist
+}
+
+create_country_leader = {
+	name = "Izzat Ibrahim al-Douri"
+	picture = "Izzat_Ibrahim_al_Douri.png"
+	ideology = iraqi_baathism
+}
+
+2014.9.8 = {
+    create_country_leader = {
+	    name = "Haider al-Abadi"
+	    picture = "Haider_al_Abadi.png"
+	    ideology = shia_islamist
+    }
 }

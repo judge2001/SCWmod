@@ -31,15 +31,15 @@ set_politics = {
 		}
 		
 		conservatism = { 
-			popularity = 100
+			popularity = 58.61
 		}
 
 		liberalism = {
-			popularity = 0
+			popularity = 24.21
 		}
 		
 		socialism = {
-			popularity = 0
+			popularity = 17.18
 		}
 		
 		monarchism = {
@@ -48,7 +48,7 @@ set_politics = {
 	}
 	
 	ruling_party = conservatism
-	last_election = "2009.7.25"
+	last_election = "2013.9.21"
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -61,6 +61,12 @@ create_country_leader = {
 
 create_country_leader = {
 	name = "Jalal Talabani"
-	picture = "gfx/leaders/IRA/IRA_Jalal_Talabani.jpg"
+	picture = "Jalal_Talabani.jpg"
 	ideology = social_democratic
+}
+
+create_country_leader = {
+	name = "Nawshirwan Mustafa"
+	picture = "Nawshirwan_Mustafa.png"
+	ideology = social_liberal
 }
