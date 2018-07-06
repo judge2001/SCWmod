@@ -257,9 +257,11 @@ on_actions = {
 	on_startup = {
 		effect = {
 		    TRK = { country_event =  { id = info.1 }
-			SRI = { country_event =  { id = info.2 } 
+			SRI = { country_event =  { id = info.2 }
 			IRA = { country_event =  { id = info.3 }
-			STF = { country_event =  { id = info.4 } 
+			STF = { country_event =  { id = info.4 }
+			KRG = { country_event =  { id = info.5 }
+			ROJ = { country_event =  { id = info.6 }
 		}
 	}
 	
