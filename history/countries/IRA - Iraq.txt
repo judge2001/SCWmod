@@ -71,6 +71,12 @@ create_country_leader = {
 	ideology = iraqi_baathism
 }
 
+create_country_leader = {
+	name = "Muqtada al-Sadr"
+	picture = "Muqtada_al_Sadr.png"
+	ideology = conservative
+}
+
 2014.9.8 = {
     create_country_leader = {
 	    name = "Haider al-Abadi"

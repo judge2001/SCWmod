@@ -8,8 +8,6 @@ set_convoys = 10
 
 set_stability = 0.8
 
-
-# Starting tech
 set_technology = {
 }
 
@@ -35,8 +33,16 @@ set_politics = {
 		shia_islamism = { 
 			popularity = 0
 		}
+		
+		conservatism = {
+			popularity = 0
+		}
 
-		libertarianism = {
+		liberalism = {
+			popularity = 0
+		}
+		
+		socialism = {
 			popularity = 0
 		}
 		
@@ -46,17 +52,13 @@ set_politics = {
 	}
 	
 	ruling_party = authoritarianism
-	last_election = "2009.1.1"
+	last_election = "2013.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Izzat Al Douri"
-	desc = ""
-	picture = "gfx/leaders/BAI/BAI_Izzat_Al_Douri.jpg"
+	name = "Izzat Ibrahim al-Douri"
+	picture = "gfx/leaders/IRA/Izzat_Ibrahim_al_Douri.png"
 	ideology = iraqi_baathism
-	traits = {
-		#
-	}
 }
