@@ -1,4 +1,4 @@
-﻿name="Syria"
+﻿name="Syrian Civil War Mod"
 path="mod/SCWmod/"
 tags={
 	"Map"
@@ -22,6 +22,7 @@ replace_path="common/ai_templates"
 replace_path="common/scripted_triggers"
 replace_path="common/on_actions"
 replace_path="common/names"
+replace_path="gfx/loadingscreens"
 replace_path="history/states"
 replace_path="history/countries"
 replace_path="history/units"

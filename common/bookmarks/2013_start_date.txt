@@ -3,7 +3,7 @@ bookmarks = {
 		name = "SCW2013_NAME"
 		desc = "SCW2013_DESC"
 		date = 2013.10.30.12
-		picture = "GFX_select_date_1936"
+		picture = "GFX_select_date_2013"
 		default_country = "SRI"
 	
 		SRI = {

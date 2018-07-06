@@ -78,7 +78,7 @@ music = {
 # Axis War:
 music = {
 	name = "Saleel as-Sawarim"
-	file = "Abu Yaseer - Salil Sawarim (Clashing of Swords).ogg"
+	file = "Salil Sawarim.ogg"
 	volume = 0.65
 }
 music = {
