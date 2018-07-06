@@ -51,13 +51,241 @@ set_politics = {
 
 create_country_leader = {
 	name = "Benjamin Netanyahu"
-	picture = "gfx/leaders/ISL/ISL_Benjamin_Netanyahu.jpg"
+	picture = "Benjamin_Netanyahu.jpg"
 	ideology = conservative
+}
+
+create_corps_commander = {
+	name = "Yoav Asor"
+	picture = "Yoav_Asor.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "David Oberman"
+	picture = "David_Oberman.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "David Zini"
+	picture = "David_Zini.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Gal Shuhami"
+	picture = "Gal_Shuhami.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Shimon Edri"
+	picture = "Shimon_Edri.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Ilan Dickstein"
+	picture = "Ilan_Dickstein.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Nadav Lotan"
+	picture = "Nadav_Lotan.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Erez Lev-ran"
+	picture = "Erez_Lev_ran.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Eyal Asraf"
+	picture = "Eyal_Asraf.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Amir Abstein"
+	picture = "Amir_Abstein.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Itzhak Cohen"
+	picture = "Itzhak_Cohen.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Beni Ben-Ari"
+	picture = "Beni_Ben_Ari.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "German Gittelman"
+	picture = "German_Gittelman.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Yoav Mordechai"
+	picture = "Yoav_Mordechai.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Eliezer Toledano"
+	picture = "Eliezer_Toledano.jpg"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Yoav Tilan"
+	picture = "Yoav_Tilan.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Uri Goldin"
+	picture = "Uri_Goldin.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Ofer Winter"
+	picture = "Ofer_Winter.jpg"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Tomer Yifrah"
+	picture = "Tomer_Yifrah.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Tomer Yifrah"
+	picture = "Tomer_Yifrah.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Ohad Najma"
+	picture = "Ohad_Najma.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Guy Hazut"
+	picture = "Guy_Hazut.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Wajdi Sarakhan"
+	picture = "Wajdi_Sarakhan.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Sa'ar Tsur"
+	picture = "Saar_Tsur.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Guy Hason"
+	picture = "Guy_Hason.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Nimrod Aloni"
+	picture = "Nimrod_Aloni.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Yaakov_Dolef"
+	picture = "Yaakov_Dolef.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Amir Hamood"
+	picture = "Amir_Hamood.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Amihai Judenfreund"
+	picture = "Amihai_Judenfreund.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Asher Ben Lulu"
+	picture = "Asher_Ben_Lulu.png"
+	traits = { }
+	skill = 1
+}
+
+create_corps_commander = {
+	name = "Yehuda Fuchs"
+	picture = "Yehuda_Fuchs.png"
+	traits = { }
+	skill = 1
+}
+
+create_field_marshal = {
+	name = "Moti Baruch"
+	picture = "Moti_Baruch.png"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
 }
 
 create_field_marshal = {
 	name = "Herzl Halevi"
-	portrait_path = "gfx/leaders/ISL/ISL_Herzl_Halevi.jpg"
+	picture = "Herzl_Halevi.jpg"
 	traits = { }
 	skill = 4
     attack_skill = 1
@@ -67,8 +295,19 @@ create_field_marshal = {
 }
 
 create_field_marshal = {
+	name = "Mikey Edelstein"
+	picture = "Mikey_Edelstein.jpg"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
 	name = "Yitzhak Turgeman"
-	portrait_path = "gfx/leaders/ISL/ISL_Yitzhak_Turgeman.jpg"
+	picture = "Yitzhak_Turgeman.jpg"
 	traits = { }
 	skill = 1
     attack_skill = 1
@@ -79,7 +318,62 @@ create_field_marshal = {
 
 create_field_marshal = {
 	name = "Ofek Buchris"
-	portrait_path = "gfx/leaders/ISL/ISL_Ofek_Buchris.jpg"
+	picture = "Ofek_Buchris.jpg"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Roy Elkatzav"
+	picture = "Roy_Elkatzav.png"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Amir Baram"
+	picture = "Amir_Baram.jpg"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Roni Numa"
+	picture = "Roni_Numa.jpg"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Yaakov Benjo"
+	picture = "Yaakov_Benjo.png"
+	traits = { }
+	skill = 1
+    attack_skill = 1
+    defense_skill = 1
+    planning_skill = 1
+    logistics_skill = 1
+}
+
+create_field_marshal = {
+	name = "Amir Aboula'fia"
+	picture = "Amir_Aboulafia.jpg"
 	traits = { }
 	skill = 1
     attack_skill = 1

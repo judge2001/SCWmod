@@ -87,7 +87,7 @@ create_country_leader = {
 
 create_corps_commander = {
 	name = "Issam Zahreddine"
-	picture = "SRI_Issam_Zahreddine.png"
+	picture = "Issam_Zahreddine.png"
 	traits = {}
 	skill = 4
 	id = 1
@@ -95,7 +95,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Maher al-Assad"
-	picture = "SRI_Maher_al-Assad.png"
+	picture = "Maher_al-Assad.png"
 	traits = {}
 	skill = 4
 	id = 2
@@ -103,7 +103,7 @@ create_corps_commander = {
 
 create_corps_commander = {
 	name = "Suheil al-Hassan"
-	picture = "gfx/leaders/SRI/SRI_Suheil_al-Hassan.png"
+	picture = "Suheil_al-Hassan.png"
 	traits = {}
 	skill = 4
 	id = 3

@@ -164,39 +164,52 @@ country_event = {
 		date < 2015.1.1
 	}
 	
-	option = {	#AKP
-		name = TRKelection.1.o1
-		ai_chance = {
-			factor = 10
-		}
-		trigger = {
-			OR = {
-				AND = { has_government = conservatism conservatism > 0.50 }
-				AND = { has_government = socialism socialism > 0.50 }
-				AND = { has_government = sunni_islamism sunni_islamism > 0.50 }
-				AND = {
-					conservatism < 0.50
-					socialism < 0.50
-					sunni_islamism < 0.50
-				}
-			}
-		}
-		create_country_leader = {
+	immediate = {
+	   	create_country_leader = {
 	        name = "Recep Tayyip Erdogan"
 	        picture = "Recep_Tayyip_Erdogan.jpg"
 	        ideology = conservative
         }
+	}
+	
+	option = {	#AKP
+		name = TRKelection.1.o1
+		ai_chance = {
+			factor = 1
+			modifier = {
+				is_historical_focus_on = yes
+				factor = 100
+			}
+		}
+		trigger = {
+			OR = {
+				AND = { has_government = conservatism conservatism > 0.50 }
+				AND = {
+					conservatism < 0.50
+					socialism < 0.30
+					authoritarianism < 0.30
+				}
+			}
+		}
 		add_political_power = 20
+		effect_tooltip = {
+		    create_country_leader = {
+	            name = "Recep Tayyip Erdogan"
+	            picture = "Recep_Tayyip_Erdogan.jpg"
+	            ideology = conservative
+            }
+		}
 	}
 	
 	option = {	#CHP
 		name = TRKelection.1.o2
 		ai_chance = {
-			factor = 2
+			factor = 1
 		}
 		trigger = {
 			NOT = { has_government = socialism }
-			socialism > 0.50
+			conservatism < 0.50
+			socialism > 0.30
 		}
 		
 		set_politics = {
@@ -209,14 +222,12 @@ country_event = {
 	option = {	#MHP
 		name = TRKelection.1.o3
 		ai_chance = {
-			factor = 2
+			factor = 1
 		}
 		trigger = {
-			NOT = { has_government = socialism }
 			NOT = { has_government = authoritarianism }
 			conservatism < 0.50
-			socialism > 0.30
-			authoritarianism > 0.20
+			authoritarianism > 0.30
 		}
 		set_politics = {
 			ruling_party = authoritarianism
